@@ -16,23 +16,16 @@ TEAMS_PATH = Path("teams.json")
 OUTPUT_PATH = Path("japanese_players.json")
 OVERRIDES_PATH = Path("japanese_players_overrides.json")
 
-# Free plan: 100 requests/day. Keep a safety margin.
-MAX_REQUESTS_PER_RUN = 90
+# The free plan allows 100 requests/day.
+# Keep a large safety margin for manual tests and other workflows.
+MAX_REQUESTS_PER_RUN = 80
+CLUB_REQUEST_BUDGET = 60
 REQUEST_INTERVAL_SECONDS = 0.8
 
-# The free plan test confirmed season 2024 is available.
-# These league IDs are stable API-Football identifiers.
-BOOTSTRAP_LEAGUES = [
-    {"code": "PL", "name": "Premier League", "id": 39, "season": 2024},
-    {"code": "ELC", "name": "Championship", "id": 40, "season": 2024},
-    {"code": "PD", "name": "La Liga", "id": 140, "season": 2024},
-    {"code": "BL1", "name": "Bundesliga", "id": 78, "season": 2024},
-    {"code": "SA", "name": "Serie A", "id": 135, "season": 2024},
-    {"code": "FL1", "name": "Ligue 1", "id": 61, "season": 2024},
-    {"code": "DED", "name": "Eredivisie", "id": 88, "season": 2024},
-    {"code": "PPL", "name": "Primeira Liga", "id": 94, "season": 2024},
-    {"code": "CL", "name": "UEFA Champions League", "id": 2, "season": 2024},
-]
+# Confirmed by the user's API response:
+# free plans may only request pages 1 through 3.
+MAX_FREE_PAGE = 3
+HISTORY_SEASON = 2024
 
 COMMON_TEAM_WORDS = {
     "fc",
@@ -54,9 +47,14 @@ class ApiClient:
         self.api_key = api_key
         self.max_requests = max_requests
         self.request_count = 0
+        self.reported_remaining = None
 
     def can_request(self) -> bool:
-        return self.request_count < self.max_requests
+        if self.request_count >= self.max_requests:
+            return False
+        if self.reported_remaining is not None and self.reported_remaining <= 2:
+            return False
+        return True
 
     def get(self, endpoint: str) -> dict:
         if not self.can_request():
@@ -67,14 +65,20 @@ class ApiClient:
             url,
             headers={
                 "x-apisports-key": self.api_key,
-                "User-Agent": "soccer-data-updater/1.0",
+                "User-Agent": "soccer-data-updater/2.0",
             },
         )
 
         try:
             with urlopen(request, timeout=45) as response:
                 body = response.read().decode("utf-8")
+                remaining = response.headers.get(
+                    "x-ratelimit-requests-remaining"
+                )
+                if remaining is not None and str(remaining).isdigit():
+                    self.reported_remaining = int(remaining)
         except HTTPError as error:
+            self.request_count += 1
             error_body = error.read().decode("utf-8", errors="replace")
             raise RuntimeError(
                 f"HTTP {error.code}: {error_body}"
@@ -95,7 +99,10 @@ class ApiClient:
         if isinstance(errors, dict) and errors:
             raise RuntimeError(
                 "API error: "
-                + "; ".join(f"{key}: {value}" for key, value in errors.items())
+                + "; ".join(
+                    f"{key}: {value}"
+                    for key, value in errors.items()
+                )
             )
 
         if isinstance(errors, list) and errors:
@@ -129,16 +136,14 @@ def write_json(path: Path, data) -> None:
 
 def default_state() -> dict:
     return {
-        "version": 1,
-        "phase": "bootstrap",
-        "bootstrapLeagueIndex": 0,
-        "bootstrapPage": 1,
-        "bootstrapProgress": {},
-        "playerProfiles": {},
-        "apiTeams": {},
+        "version": 2,
+        "cycleNumber": 1,
+        "clubCursor": 0,
         "teamMap": {},
+        "apiTeams": {},
         "squads": {},
-        "squadCursor": 0,
+        "playerProfiles": {},
+        "teamProgress": {},
         "pendingProfileIds": [],
         "unresolvedTeams": {},
         "lastFullSquadCycleAt": None,
@@ -147,12 +152,45 @@ def default_state() -> dict:
     }
 
 
+def migrate_state(raw_state) -> dict:
+    if not isinstance(raw_state, dict):
+        return default_state()
+
+    if raw_state.get("version") == 2:
+        state = raw_state
+        defaults = default_state()
+        for key, value in defaults.items():
+            state.setdefault(key, value)
+        return state
+
+    # Preserve useful data from the previous version instead of starting over.
+    state = default_state()
+    for key in [
+        "teamMap",
+        "apiTeams",
+        "squads",
+        "playerProfiles",
+        "pendingProfileIds",
+        "unresolvedTeams",
+        "recentErrors",
+    ]:
+        value = raw_state.get(key)
+        if value is not None:
+            state[key] = value
+
+    state["migratedFromVersion"] = raw_state.get("version", 1)
+    state["migratedAt"] = utc_now_iso()
+    return state
+
+
 def normalize_text(value) -> str:
     if value is None:
         return ""
 
     text = unicodedata.normalize("NFKD", str(value))
-    text = "".join(char for char in text if not unicodedata.combining(char))
+    text = "".join(
+        char for char in text if not unicodedata.combining(char)
+    )
     text = text.casefold().replace("&", " and ")
     text = re.sub(r"[^a-z0-9]+", " ", text)
     tokens = [
@@ -161,10 +199,6 @@ def normalize_text(value) -> str:
         if token not in COMMON_TEAM_WORDS
     ]
     return " ".join(tokens).strip()
-
-
-def compact_text(value) -> str:
-    return normalize_text(value).replace(" ", "")
 
 
 def team_match_score(football_team: dict, api_team: dict) -> int:
@@ -225,11 +259,10 @@ def load_club_teams() -> list:
 
         if not isinstance(team_id, int):
             continue
-
         if not isinstance(codes, list):
             continue
 
-        # Exclude World Cup national teams, but retain clubs also in CL.
+        # Exclude World Cup-only national teams.
         if not any(code != "WC" for code in codes):
             continue
 
@@ -237,11 +270,14 @@ def load_club_teams() -> list:
 
     clubs.sort(
         key=lambda team: (
-            str(team.get("shortName") or team.get("name") or "").casefold(),
+            str(
+                team.get("shortName")
+                or team.get("name")
+                or ""
+            ).casefold(),
             team.get("id"),
         )
     )
-
     return clubs
 
 
@@ -291,109 +327,6 @@ def remember_api_team(state: dict, team: dict) -> None:
     state["apiTeams"][str(team_id)] = saved
 
 
-def reconcile_team_map(state: dict, clubs: list) -> None:
-    api_teams = list(state["apiTeams"].values())
-
-    for club in clubs:
-        football_id = str(club["id"])
-
-        if football_id in state["teamMap"]:
-            continue
-
-        scored = [
-            (team_match_score(club, api_team), api_team)
-            for api_team in api_teams
-        ]
-        scored.sort(key=lambda item: item[0], reverse=True)
-
-        if not scored or scored[0][0] < 90:
-            continue
-
-        best_score, best_team = scored[0]
-
-        if len(scored) > 1 and scored[1][0] == best_score:
-            continue
-
-        state["teamMap"][football_id] = best_team["id"]
-
-
-def run_bootstrap(client: ApiClient, state: dict, clubs: list) -> None:
-    while (
-        client.can_request()
-        and state["bootstrapLeagueIndex"] < len(BOOTSTRAP_LEAGUES)
-    ):
-        league = BOOTSTRAP_LEAGUES[state["bootstrapLeagueIndex"]]
-        page = int(state.get("bootstrapPage", 1))
-
-        endpoint = (
-            f"/players?league={league['id']}"
-            f"&season={league['season']}"
-            f"&page={page}"
-        )
-
-        print(
-            f"Bootstrap {league['name']}: "
-            f"page {page}, request {client.request_count + 1}"
-        )
-
-        try:
-            data = client.get(endpoint)
-        except RuntimeError as error:
-            state["recentErrors"].append(
-                {
-                    "at": utc_now_iso(),
-                    "phase": "bootstrap",
-                    "league": league["code"],
-                    "page": page,
-                    "message": str(error),
-                }
-            )
-            print(f"Warning: {error}", file=sys.stderr)
-            break
-
-        response = data.get("response", [])
-        if not isinstance(response, list):
-            response = []
-
-        for item in response:
-            if not isinstance(item, dict):
-                continue
-
-            remember_profile(state, item.get("player"))
-
-            statistics = item.get("statistics", [])
-            if not isinstance(statistics, list):
-                continue
-
-            for statistic in statistics:
-                if not isinstance(statistic, dict):
-                    continue
-                remember_api_team(state, statistic.get("team"))
-
-        paging = data.get("paging", {})
-        total_pages = int(paging.get("total") or 1)
-
-        state["bootstrapProgress"][league["code"]] = {
-            "currentPage": page,
-            "totalPages": total_pages,
-            "completed": page >= total_pages,
-        }
-
-        if page >= total_pages:
-            state["bootstrapLeagueIndex"] += 1
-            state["bootstrapPage"] = 1
-        else:
-            state["bootstrapPage"] = page + 1
-
-        reconcile_team_map(state, clubs)
-
-    if state["bootstrapLeagueIndex"] >= len(BOOTSTRAP_LEAGUES):
-        state["phase"] = "squads"
-        state["bootstrapCompletedAt"] = utc_now_iso()
-        state["squadCursor"] = 0
-        print("Bootstrap completed. Squad scanning will begin.")
-
-
 def choose_search_result(club: dict, response: list):
     candidates = []
 
@@ -411,7 +344,11 @@ def choose_search_result(club: dict, response: list):
         if isinstance(area, dict):
             area_name = normalize_text(area.get("name"))
             country_name = normalize_text(team.get("country"))
-            if area_name and country_name and area_name == country_name:
+            if (
+                area_name
+                and country_name
+                and area_name == country_name
+            ):
                 score += 8
 
         candidates.append((score, team))
@@ -421,7 +358,10 @@ def choose_search_result(club: dict, response: list):
     if not candidates or candidates[0][0] < 75:
         return None
 
-    if len(candidates) > 1 and candidates[0][0] == candidates[1][0]:
+    if (
+        len(candidates) > 1
+        and candidates[0][0] == candidates[1][0]
+    ):
         return None
 
     return candidates[0][1]
@@ -475,7 +415,10 @@ def resolve_team_id(
 
 
 def queue_unknown_profiles(state: dict, players: list) -> None:
-    pending = set(str(value) for value in state["pendingProfileIds"])
+    pending = {
+        str(value)
+        for value in state["pendingProfileIds"]
+    }
     known = state["playerProfiles"]
 
     for player in players:
@@ -536,7 +479,6 @@ def fetch_squad(
 
     api_team = item.get("team")
     players = item.get("players", [])
-
     if not isinstance(players, list):
         players = []
 
@@ -545,7 +487,9 @@ def fetch_squad(
 
     state["squads"][str(club["id"])] = {
         "footballDataTeamId": club["id"],
-        "footballDataTeamName": club.get("shortName") or club.get("name"),
+        "footballDataTeamName": (
+            club.get("shortName") or club.get("name")
+        ),
         "apiFootballTeamId": api_team_id,
         "apiFootballTeamName": (
             api_team.get("name")
@@ -570,7 +514,174 @@ def fetch_squad(
     return True
 
 
-def fetch_pending_profiles(client: ApiClient, state: dict) -> None:
+def fetch_history_page(
+    client: ApiClient,
+    state: dict,
+    api_team_id: int,
+    page: int,
+) -> tuple:
+    endpoint = (
+        f"/players?team={api_team_id}"
+        f"&season={HISTORY_SEASON}"
+        f"&page={page}"
+    )
+
+    data = client.get(endpoint)
+    response = data.get("response", [])
+    if not isinstance(response, list):
+        response = []
+
+    for item in response:
+        if not isinstance(item, dict):
+            continue
+
+        remember_profile(state, item.get("player"))
+
+        statistics = item.get("statistics", [])
+        if isinstance(statistics, list):
+            for statistic in statistics:
+                if isinstance(statistic, dict):
+                    remember_api_team(
+                        state,
+                        statistic.get("team"),
+                    )
+
+    paging = data.get("paging", {})
+    total_pages = int(paging.get("total") or 1)
+    usable_total = min(total_pages, MAX_FREE_PAGE)
+
+    return len(response), usable_total
+
+
+def process_clubs(
+    client: ApiClient,
+    state: dict,
+    clubs: list,
+) -> None:
+    processed_steps = 0
+
+    while (
+        client.can_request()
+        and client.request_count < CLUB_REQUEST_BUDGET
+        and processed_steps < len(clubs) * 5
+    ):
+        processed_steps += 1
+        cursor = int(state.get("clubCursor", 0))
+
+        if cursor >= len(clubs):
+            state["clubCursor"] = 0
+            state["cycleNumber"] = (
+                int(state.get("cycleNumber", 1)) + 1
+            )
+            state["lastFullSquadCycleAt"] = utc_now_iso()
+            cursor = 0
+            print("Completed one full club cycle.")
+
+        club = clubs[cursor]
+        football_id = str(club["id"])
+        progress = state["teamProgress"].setdefault(
+            football_id,
+            {
+                "historyPage": 1,
+                "historyComplete": False,
+                "squadCycle": 0,
+                "updatedAt": None,
+            },
+        )
+
+        api_team_id = resolve_team_id(client, state, club)
+
+        if api_team_id is None:
+            print(
+                "Unresolved team: "
+                f"{club.get('shortName') or club.get('name')}"
+            )
+            state["clubCursor"] = cursor + 1
+            continue
+
+        current_cycle = int(state.get("cycleNumber", 1))
+
+        if int(progress.get("squadCycle", 0)) != current_cycle:
+            if not client.can_request():
+                break
+
+            print(
+                "Squad: "
+                f"{club.get('shortName') or club.get('name')} "
+                f"(API team {api_team_id})"
+            )
+
+            if fetch_squad(
+                client,
+                state,
+                club,
+                api_team_id,
+            ):
+                progress["squadCycle"] = current_cycle
+                progress["updatedAt"] = utc_now_iso()
+            else:
+                state["clubCursor"] = cursor + 1
+                continue
+
+        if not progress.get("historyComplete", False):
+            page = int(progress.get("historyPage", 1))
+            page = max(1, min(page, MAX_FREE_PAGE))
+
+            if not client.can_request():
+                break
+
+            print(
+                "History: "
+                f"{club.get('shortName') or club.get('name')} "
+                f"page {page}"
+            )
+
+            try:
+                _, usable_total = fetch_history_page(
+                    client,
+                    state,
+                    api_team_id,
+                    page,
+                )
+            except RuntimeError as error:
+                state["recentErrors"].append(
+                    {
+                        "at": utc_now_iso(),
+                        "phase": "history",
+                        "footballDataTeamId": club["id"],
+                        "apiFootballTeamId": api_team_id,
+                        "page": page,
+                        "message": str(error),
+                    }
+                )
+                print(f"Warning: {error}", file=sys.stderr)
+                state["clubCursor"] = cursor + 1
+                continue
+
+            if page >= usable_total:
+                progress["historyComplete"] = True
+                progress["historyPage"] = page
+                progress["historyTotalPagesUsed"] = usable_total
+                progress["updatedAt"] = utc_now_iso()
+            else:
+                progress["historyPage"] = page + 1
+                progress["historyTotalPagesUsed"] = usable_total
+                progress["updatedAt"] = utc_now_iso()
+                continue
+
+        squad = state["squads"].get(football_id, {})
+        queue_unknown_profiles(
+            state,
+            squad.get("players", []),
+        )
+
+        state["clubCursor"] = cursor + 1
+
+
+def fetch_pending_profiles(
+    client: ApiClient,
+    state: dict,
+) -> None:
     pending = list(state["pendingProfileIds"])
     remaining = []
 
@@ -582,7 +693,9 @@ def fetch_pending_profiles(client: ApiClient, state: dict) -> None:
         if player_id_text in state["playerProfiles"]:
             continue
 
-        endpoint = f"/players/profiles?player={int(player_id_text)}"
+        endpoint = (
+            f"/players/profiles?player={int(player_id_text)}"
+        )
 
         try:
             data = client.get(endpoint)
@@ -610,50 +723,6 @@ def fetch_pending_profiles(client: ApiClient, state: dict) -> None:
     state["pendingProfileIds"] = remaining
 
 
-def run_squad_scan(client: ApiClient, state: dict, clubs: list) -> None:
-    # Reserve part of the daily budget for newly discovered player profiles.
-    max_squad_requests = min(60, max(0, client.max_requests - 25))
-    squad_requests_at_start = client.request_count
-    processed = 0
-
-    while (
-        client.can_request()
-        and processed < len(clubs)
-        and client.request_count - squad_requests_at_start < max_squad_requests
-    ):
-        cursor = int(state.get("squadCursor", 0))
-
-        if cursor >= len(clubs):
-            state["squadCursor"] = 0
-            state["lastFullSquadCycleAt"] = utc_now_iso()
-            cursor = 0
-            print("Completed one full club squad cycle.")
-
-        club = clubs[cursor]
-        state["squadCursor"] = cursor + 1
-        processed += 1
-
-        api_team_id = resolve_team_id(client, state, club)
-
-        if api_team_id is None:
-            print(
-                f"Unresolved team: "
-                f"{club.get('shortName') or club.get('name')}"
-            )
-            continue
-
-        if not client.can_request():
-            break
-
-        print(
-            f"Squad: {club.get('shortName') or club.get('name')} "
-            f"(API team {api_team_id})"
-        )
-        fetch_squad(client, state, club, api_team_id)
-
-    fetch_pending_profiles(client, state)
-
-
 def load_overrides() -> dict:
     data = load_json(
         OVERRIDES_PATH,
@@ -677,14 +746,19 @@ def load_overrides() -> dict:
 def build_output(state: dict, clubs: list) -> dict:
     profiles = state["playerProfiles"]
     overrides = load_overrides()
+
     remove_ids = {
         int(value)
         for value in overrides.get("removePlayerIds", [])
         if str(value).isdigit()
     }
+
     japanese_names = {
         str(key): value
-        for key, value in overrides.get("japaneseNames", {}).items()
+        for key, value in overrides.get(
+            "japaneseNames",
+            {},
+        ).items()
     }
 
     output_teams = []
@@ -706,7 +780,6 @@ def build_output(state: dict, clubs: list) -> dict:
                 continue
 
             profile = profiles.get(str(player_id))
-
             if not isinstance(profile, dict):
                 unknown_profile_ids.add(player_id)
                 continue
@@ -714,7 +787,10 @@ def build_output(state: dict, clubs: list) -> dict:
             if player_id in remove_ids:
                 continue
 
-            nationality = str(profile.get("nationality") or "").casefold()
+            nationality = str(
+                profile.get("nationality") or ""
+            ).casefold()
+
             if nationality != "japan":
                 continue
 
@@ -729,17 +805,26 @@ def build_output(state: dict, clubs: list) -> dict:
             japanese_players.append(
                 {
                     "id": player_id,
-                    "name": full_name or profile.get("name") or squad_player.get("name"),
-                    "nameJa": japanese_names.get(str(player_id)),
+                    "name": (
+                        full_name
+                        or profile.get("name")
+                        or squad_player.get("name")
+                    ),
+                    "nameJa": japanese_names.get(
+                        str(player_id)
+                    ),
                     "position": squad_player.get("position"),
                     "number": squad_player.get("number"),
                     "nationality": "Japan",
-                    "photo": profile.get("photo") or squad_player.get("photo"),
+                    "photo": (
+                        profile.get("photo")
+                        or squad_player.get("photo")
+                    ),
                 }
             )
 
         japanese_players.sort(
-            key=lambda player: (
+            key=lambda player: str(
                 player.get("nameJa")
                 or player.get("name")
                 or ""
@@ -750,9 +835,17 @@ def build_output(state: dict, clubs: list) -> dict:
             output_teams.append(
                 {
                     "teamId": club["id"],
-                    "teamName": club.get("shortName") or club.get("name"),
-                    "apiFootballTeamId": squad.get("apiFootballTeamId"),
-                    "competitionCodes": club.get("competitionCodes", []),
+                    "teamName": (
+                        club.get("shortName")
+                        or club.get("name")
+                    ),
+                    "apiFootballTeamId": (
+                        squad.get("apiFootballTeamId")
+                    ),
+                    "competitionCodes": club.get(
+                        "competitionCodes",
+                        [],
+                    ),
                     "players": japanese_players,
                     "checkedAt": squad.get("checkedAt"),
                 }
@@ -765,17 +858,27 @@ def build_output(state: dict, clubs: list) -> dict:
         team_id = item.get("teamId")
         player = item.get("player")
 
-        if not isinstance(team_id, int) or not isinstance(player, dict):
+        if not isinstance(team_id, int):
+            continue
+        if not isinstance(player, dict):
             continue
 
         target = next(
-            (team for team in output_teams if team["teamId"] == team_id),
+            (
+                team
+                for team in output_teams
+                if team["teamId"] == team_id
+            ),
             None,
         )
 
         if target is None:
             club = next(
-                (club for club in clubs if club["id"] == team_id),
+                (
+                    club
+                    for club in clubs
+                    if club["id"] == team_id
+                ),
                 None,
             )
             if club is None:
@@ -783,9 +886,17 @@ def build_output(state: dict, clubs: list) -> dict:
 
             target = {
                 "teamId": team_id,
-                "teamName": club.get("shortName") or club.get("name"),
-                "apiFootballTeamId": state["teamMap"].get(str(team_id)),
-                "competitionCodes": club.get("competitionCodes", []),
+                "teamName": (
+                    club.get("shortName")
+                    or club.get("name")
+                ),
+                "apiFootballTeamId": state[
+                    "teamMap"
+                ].get(str(team_id)),
+                "competitionCodes": club.get(
+                    "competitionCodes",
+                    [],
+                ),
                 "players": [],
                 "checkedAt": None,
             }
@@ -794,15 +905,29 @@ def build_output(state: dict, clubs: list) -> dict:
         target["players"].append(player)
 
     output_teams.sort(
-        key=lambda team: str(team.get("teamName") or "").casefold()
+        key=lambda team: str(
+            team.get("teamName") or ""
+        ).casefold()
     )
 
     total_teams = len(clubs)
     mapped_teams = sum(
-        1 for club in clubs if str(club["id"]) in state["teamMap"]
+        1
+        for club in clubs
+        if str(club["id"]) in state["teamMap"]
     )
     teams_with_squads = sum(
-        1 for club in clubs if str(club["id"]) in state["squads"]
+        1
+        for club in clubs
+        if str(club["id"]) in state["squads"]
+    )
+    history_complete_teams = sum(
+        1
+        for club in clubs
+        if state["teamProgress"].get(
+            str(club["id"]),
+            {},
+        ).get("historyComplete", False)
     )
 
     unresolved = [
@@ -810,15 +935,21 @@ def build_output(state: dict, clubs: list) -> dict:
             "teamId": int(team_id),
             **details,
         }
-        for team_id, details in state["unresolvedTeams"].items()
+        for team_id, details in state[
+            "unresolvedTeams"
+        ].items()
         if team_id.isdigit()
     ]
 
-    unresolved.sort(key=lambda item: str(item.get("name") or "").casefold())
+    unresolved.sort(
+        key=lambda item: str(
+            item.get("name") or ""
+        ).casefold()
+    )
 
     coverage_complete = (
-        state.get("phase") == "squads"
-        and teams_with_squads == total_teams
+        teams_with_squads == total_teams
+        and history_complete_teams == total_teams
         and not unresolved
         and not unknown_profile_ids
         and not state.get("pendingProfileIds")
@@ -827,7 +958,6 @@ def build_output(state: dict, clubs: list) -> dict:
     return {
         "updatedAt": utc_now_iso(),
         "source": "API-Football",
-        "phase": state.get("phase"),
         "teamCount": len(output_teams),
         "playerCount": sum(
             len(team.get("players", []))
@@ -837,10 +967,17 @@ def build_output(state: dict, clubs: list) -> dict:
             "totalClubTeams": total_teams,
             "mappedTeams": mapped_teams,
             "teamsWithSquads": teams_with_squads,
+            "historyCompleteTeams": history_complete_teams,
             "unresolvedTeamCount": len(unresolved),
-            "pendingProfileCount": len(state.get("pendingProfileIds", [])),
-            "unknownProfileCount": len(unknown_profile_ids),
-            "lastFullSquadCycleAt": state.get("lastFullSquadCycleAt"),
+            "pendingProfileCount": len(
+                state.get("pendingProfileIds", [])
+            ),
+            "unknownProfileCount": len(
+                unknown_profile_ids
+            ),
+            "lastFullSquadCycleAt": state.get(
+                "lastFullSquadCycleAt"
+            ),
             "isComplete": coverage_complete,
         },
         "unresolvedTeams": unresolved,
@@ -849,35 +986,38 @@ def build_output(state: dict, clubs: list) -> dict:
 
 
 def main() -> None:
-    api_key = os.environ.get("API_FOOTBALL_KEY", "").strip()
+    api_key = os.environ.get(
+        "API_FOOTBALL_KEY",
+        "",
+    ).strip()
 
     if not api_key:
-        print("API_FOOTBALL_KEY is not set.", file=sys.stderr)
+        print(
+            "API_FOOTBALL_KEY is not set.",
+            file=sys.stderr,
+        )
         sys.exit(1)
 
     if not TEAMS_PATH.exists():
-        print("teams.json was not found.", file=sys.stderr)
+        print(
+            "teams.json was not found.",
+            file=sys.stderr,
+        )
         sys.exit(1)
 
-    state = load_json(STATE_PATH, default_state())
-    if not isinstance(state, dict) or state.get("version") != 1:
-        state = default_state()
-
-    # Ensure keys added in later revisions exist.
-    defaults = default_state()
-    for key, value in defaults.items():
-        state.setdefault(key, value)
-
+    raw_state = load_json(STATE_PATH, {})
+    state = migrate_state(raw_state)
     clubs = load_club_teams()
     client = ApiClient(api_key, MAX_REQUESTS_PER_RUN)
 
-    if state["phase"] == "bootstrap":
-        run_bootstrap(client, state, clubs)
+    process_clubs(client, state, clubs)
 
-    if state["phase"] == "squads" and client.can_request():
-        run_squad_scan(client, state, clubs)
+    if client.can_request():
+        fetch_pending_profiles(client, state)
 
-    state["recentErrors"] = state["recentErrors"][-100:]
+    state["recentErrors"] = state[
+        "recentErrors"
+    ][-100:]
     state["updatedAt"] = utc_now_iso()
 
     output = build_output(state, clubs)
@@ -886,18 +1026,34 @@ def main() -> None:
     write_json(OUTPUT_PATH, output)
 
     print("")
-    print(f"API requests used: {client.request_count}/{MAX_REQUESTS_PER_RUN}")
-    print(f"Phase: {state['phase']}")
+    print(
+        f"API requests used: "
+        f"{client.request_count}/"
+        f"{MAX_REQUESTS_PER_RUN}"
+    )
     print(
         "Coverage: "
         f"{output['coverage']['teamsWithSquads']}/"
         f"{output['coverage']['totalClubTeams']} teams"
     )
     print(
-        f"Japanese players: {output['playerCount']} "
+        "History profiles: "
+        f"{output['coverage']['historyCompleteTeams']}/"
+        f"{output['coverage']['totalClubTeams']} teams"
+    )
+    print(
+        "Pending profiles: "
+        f"{output['coverage']['pendingProfileCount']}"
+    )
+    print(
+        f"Japanese players: "
+        f"{output['playerCount']} "
         f"across {output['teamCount']} teams"
     )
-    print(f"Complete: {output['coverage']['isComplete']}")
+    print(
+        f"Complete: "
+        f"{output['coverage']['isComplete']}"
+    )
 
 
 if __name__ == "__main__":
