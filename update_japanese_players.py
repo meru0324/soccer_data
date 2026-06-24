@@ -18,9 +18,11 @@ OVERRIDES_PATH = Path("japanese_players_overrides.json")
 
 # The free plan allows 100 requests/day.
 # Keep a large safety margin for manual tests and other workflows.
-MAX_REQUESTS_PER_RUN = 80
-CLUB_REQUEST_BUDGET = 60
-REQUEST_INTERVAL_SECONDS = 0.8
+MAX_REQUESTS_PER_RUN = 70
+CLUB_REQUEST_BUDGET = 50
+REQUEST_INTERVAL_SECONDS = 7.0
+RATE_LIMIT_RETRY_SECONDS = 65
+MAX_TRANSIENT_RETRIES = 2
 
 # Confirmed by the user's API response:
 # free plans may only request pages 1 through 3.
@@ -42,76 +44,182 @@ COMMON_TEAM_WORDS = {
 }
 
 
+class TransientApiError(RuntimeError):
+    """An API error that should be retried later, not marked as permanent."""
+
+
 class ApiClient:
     def __init__(self, api_key: str, max_requests: int) -> None:
         self.api_key = api_key
         self.max_requests = max_requests
         self.request_count = 0
         self.reported_remaining = None
+        self.last_request_started_at = 0.0
 
     def can_request(self) -> bool:
         if self.request_count >= self.max_requests:
             return False
-        if self.reported_remaining is not None and self.reported_remaining <= 2:
+        if (
+            self.reported_remaining is not None
+            and self.reported_remaining <= 2
+        ):
             return False
         return True
 
-    def get(self, endpoint: str) -> dict:
-        if not self.can_request():
-            raise RuntimeError("Request budget exhausted.")
+    def _wait_for_minimum_interval(self) -> None:
+        elapsed = time.monotonic() - self.last_request_started_at
+        wait_seconds = REQUEST_INTERVAL_SECONDS - elapsed
+        if wait_seconds > 0:
+            time.sleep(wait_seconds)
 
-        url = f"{API_BASE_URL}{endpoint}"
-        request = Request(
-            url,
-            headers={
-                "x-apisports-key": self.api_key,
-                "User-Agent": "soccer-data-updater/2.0",
-            },
+    @staticmethod
+    def _is_rate_limit_message(message: str) -> bool:
+        lowered = message.casefold()
+        return (
+            "429" in lowered
+            or "ratelimit" in lowered
+            or "rate limit" in lowered
+            or "too many requests" in lowered
         )
 
-        try:
-            with urlopen(request, timeout=45) as response:
-                body = response.read().decode("utf-8")
-                remaining = response.headers.get(
-                    "x-ratelimit-requests-remaining"
+    def _wait_before_retry(self, retry_after=None) -> None:
+        wait_seconds = RATE_LIMIT_RETRY_SECONDS
+        if retry_after is not None:
+            try:
+                wait_seconds = max(
+                    wait_seconds,
+                    int(float(retry_after)),
                 )
-                if remaining is not None and str(remaining).isdigit():
-                    self.reported_remaining = int(remaining)
-        except HTTPError as error:
+            except (TypeError, ValueError):
+                pass
+
+        print(
+            f"Temporary API limit reached. "
+            f"Waiting {wait_seconds} seconds before retry..."
+        )
+        time.sleep(wait_seconds)
+
+    def get(self, endpoint: str) -> dict:
+        last_message = "Temporary API error."
+
+        for attempt in range(MAX_TRANSIENT_RETRIES + 1):
+            if not self.can_request():
+                raise TransientApiError(
+                    "Request budget exhausted."
+                )
+
+            self._wait_for_minimum_interval()
+
+            url = f"{API_BASE_URL}{endpoint}"
+            request = Request(
+                url,
+                headers={
+                    "x-apisports-key": self.api_key,
+                    "User-Agent": "soccer-data-updater/3.0",
+                },
+            )
+
+            self.last_request_started_at = time.monotonic()
+
+            try:
+                with urlopen(request, timeout=45) as response:
+                    body = response.read().decode("utf-8")
+                    remaining = response.headers.get(
+                        "x-ratelimit-requests-remaining"
+                    )
+                    if (
+                        remaining is not None
+                        and str(remaining).isdigit()
+                    ):
+                        self.reported_remaining = int(remaining)
+
+            except HTTPError as error:
+                self.request_count += 1
+                error_body = error.read().decode(
+                    "utf-8",
+                    errors="replace",
+                )
+                last_message = (
+                    f"HTTP {error.code}: {error_body}"
+                )
+
+                is_transient = (
+                    error.code == 429
+                    or 500 <= error.code <= 599
+                )
+
+                if (
+                    is_transient
+                    and attempt < MAX_TRANSIENT_RETRIES
+                    and self.can_request()
+                ):
+                    self._wait_before_retry(
+                        error.headers.get("Retry-After")
+                    )
+                    continue
+
+                if is_transient:
+                    raise TransientApiError(
+                        last_message
+                    ) from error
+
+                raise RuntimeError(
+                    last_message
+                ) from error
+
+            except URLError as error:
+                last_message = f"Could not connect: {error}"
+
+                if (
+                    attempt < MAX_TRANSIENT_RETRIES
+                    and self.can_request()
+                ):
+                    self._wait_before_retry()
+                    continue
+
+                raise TransientApiError(
+                    last_message
+                ) from error
+
             self.request_count += 1
-            error_body = error.read().decode("utf-8", errors="replace")
-            raise RuntimeError(
-                f"HTTP {error.code}: {error_body}"
-            ) from error
-        except URLError as error:
-            raise RuntimeError(f"Could not connect: {error}") from error
+            data = json.loads(body)
 
-        self.request_count += 1
-        time.sleep(REQUEST_INTERVAL_SECONDS)
+            if not isinstance(data, dict):
+                raise RuntimeError(
+                    "API response was not a JSON object."
+                )
 
-        data = json.loads(body)
+            errors = data.get("errors")
+            error_message = ""
 
-        if not isinstance(data, dict):
-            raise RuntimeError("API response was not a JSON object.")
-
-        errors = data.get("errors")
-
-        if isinstance(errors, dict) and errors:
-            raise RuntimeError(
-                "API error: "
-                + "; ".join(
+            if isinstance(errors, dict) and errors:
+                error_message = "; ".join(
                     f"{key}: {value}"
                     for key, value in errors.items()
                 )
-            )
+            elif isinstance(errors, list) and errors:
+                error_message = "; ".join(
+                    str(value) for value in errors
+                )
 
-        if isinstance(errors, list) and errors:
-            raise RuntimeError(
-                "API error: " + "; ".join(str(value) for value in errors)
-            )
+            if error_message:
+                last_message = f"API error: {error_message}"
 
-        return data
+                if self._is_rate_limit_message(last_message):
+                    if (
+                        attempt < MAX_TRANSIENT_RETRIES
+                        and self.can_request()
+                    ):
+                        self._wait_before_retry()
+                        continue
 
+                    raise TransientApiError(last_message)
+
+                raise RuntimeError(last_message)
+
+            return data
+
+        raise TransientApiError(last_message)
 
 def utc_now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
@@ -136,7 +244,7 @@ def write_json(path: Path, data) -> None:
 
 def default_state() -> dict:
     return {
-        "version": 2,
+        "version": 3,
         "cycleNumber": 1,
         "clubCursor": 0,
         "teamMap": {},
@@ -156,7 +264,7 @@ def migrate_state(raw_state) -> dict:
     if not isinstance(raw_state, dict):
         return default_state()
 
-    if raw_state.get("version") == 2:
+    if raw_state.get("version") == 3:
         state = raw_state
         defaults = default_state()
         for key, value in defaults.items():
@@ -170,6 +278,7 @@ def migrate_state(raw_state) -> dict:
         "apiTeams",
         "squads",
         "playerProfiles",
+        "teamProgress",
         "pendingProfileIds",
         "unresolvedTeams",
         "recentErrors",
@@ -386,6 +495,8 @@ def resolve_team_id(
 
     try:
         data = client.get(endpoint)
+    except TransientApiError:
+        raise
     except RuntimeError as error:
         state["unresolvedTeams"][football_id] = {
             "name": search_name,
@@ -448,6 +559,8 @@ def fetch_squad(
 
     try:
         data = client.get(endpoint)
+    except TransientApiError:
+        raise
     except RuntimeError as error:
         state["recentErrors"].append(
             {
@@ -589,7 +702,26 @@ def process_clubs(
             },
         )
 
-        api_team_id = resolve_team_id(client, state, club)
+        try:
+            api_team_id = resolve_team_id(
+                client,
+                state,
+                club,
+            )
+        except TransientApiError as error:
+            state["recentErrors"].append(
+                {
+                    "at": utc_now_iso(),
+                    "phase": "temporary",
+                    "footballDataTeamId": club["id"],
+                    "message": str(error),
+                }
+            )
+            print(
+                f"Temporary API error: {error}",
+                file=sys.stderr,
+            )
+            break
 
         if api_team_id is None:
             print(
@@ -611,12 +743,30 @@ def process_clubs(
                 f"(API team {api_team_id})"
             )
 
-            if fetch_squad(
-                client,
-                state,
-                club,
-                api_team_id,
-            ):
+            try:
+                squad_ok = fetch_squad(
+                    client,
+                    state,
+                    club,
+                    api_team_id,
+                )
+            except TransientApiError as error:
+                state["recentErrors"].append(
+                    {
+                        "at": utc_now_iso(),
+                        "phase": "temporary",
+                        "footballDataTeamId": club["id"],
+                        "apiFootballTeamId": api_team_id,
+                        "message": str(error),
+                    }
+                )
+                print(
+                    f"Temporary API error: {error}",
+                    file=sys.stderr,
+                )
+                break
+
+            if squad_ok:
                 progress["squadCycle"] = current_cycle
                 progress["updatedAt"] = utc_now_iso()
             else:
@@ -643,6 +793,22 @@ def process_clubs(
                     api_team_id,
                     page,
                 )
+            except TransientApiError as error:
+                state["recentErrors"].append(
+                    {
+                        "at": utc_now_iso(),
+                        "phase": "temporary",
+                        "footballDataTeamId": club["id"],
+                        "apiFootballTeamId": api_team_id,
+                        "page": page,
+                        "message": str(error),
+                    }
+                )
+                print(
+                    f"Temporary API error: {error}",
+                    file=sys.stderr,
+                )
+                break
             except RuntimeError as error:
                 state["recentErrors"].append(
                     {
@@ -699,6 +865,22 @@ def fetch_pending_profiles(
 
         try:
             data = client.get(endpoint)
+        except TransientApiError as error:
+            current_index = pending.index(player_id_text)
+            remaining.extend(pending[current_index:])
+            state["recentErrors"].append(
+                {
+                    "at": utc_now_iso(),
+                    "phase": "temporary",
+                    "playerId": int(player_id_text),
+                    "message": str(error),
+                }
+            )
+            print(
+                f"Temporary API error: {error}",
+                file=sys.stderr,
+            )
+            break
         except RuntimeError as error:
             state["recentErrors"].append(
                 {
@@ -985,6 +1167,30 @@ def build_output(state: dict, clubs: list) -> dict:
     }
 
 
+
+def clear_transient_unresolved(state: dict) -> None:
+    transient_markers = (
+        "429",
+        "ratelimit",
+        "rate limit",
+        "too many requests",
+        "request budget exhausted",
+    )
+
+    for team_id, details in list(
+        state.get("unresolvedTeams", {}).items()
+    ):
+        message = ""
+        if isinstance(details, dict):
+            message = str(details.get("message") or "")
+        lowered = message.casefold()
+
+        if any(
+            marker in lowered
+            for marker in transient_markers
+        ):
+            state["unresolvedTeams"].pop(team_id, None)
+
 def main() -> None:
     api_key = os.environ.get(
         "API_FOOTBALL_KEY",
@@ -1007,6 +1213,7 @@ def main() -> None:
 
     raw_state = load_json(STATE_PATH, {})
     state = migrate_state(raw_state)
+    clear_transient_unresolved(state)
     clubs = load_club_teams()
     client = ApiClient(api_key, MAX_REQUESTS_PER_RUN)
 
