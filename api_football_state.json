@@ -1,13 +1,647 @@
 {
-  "version": 1,
-  "phase": "bootstrap",
-  "bootstrapLeagueIndex": 0,
-  "bootstrapPage": 4,
-  "bootstrapProgress": {
-    "PL": {
-      "currentPage": 3,
-      "totalPages": 57,
-      "completed": false
+  "version": 2,
+  "cycleNumber": 1,
+  "clubCursor": 53,
+  "teamMap": {
+    "58": 66,
+    "402": 55,
+    "61": 49,
+    "354": 52,
+    "62": 45,
+    "63": 36,
+    "57": 42,
+    "1044": 35,
+    "67": 34,
+    "65": 50,
+    "66": 33,
+    "351": 65,
+    "340": 41,
+    "73": 47,
+    "678": 194,
+    "7822": 4724
+  },
+  "apiTeams": {
+    "45": {
+      "id": 45,
+      "name": "Everton",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "36": {
+      "id": 36,
+      "name": "Fulham",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/36.png"
+    },
+    "55": {
+      "id": 55,
+      "name": "Brentford",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/55.png"
+    },
+    "52": {
+      "id": 52,
+      "name": "Crystal Palace",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/52.png"
+    },
+    "57": {
+      "id": 57,
+      "name": "Ipswich",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/57.png"
+    },
+    "49": {
+      "id": 49,
+      "name": "Chelsea",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "51": {
+      "id": 51,
+      "name": "Brighton",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/51.png"
+    },
+    "66": {
+      "id": 66,
+      "name": "Aston Villa",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "42": {
+      "id": 42,
+      "name": "Arsenal",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "35": {
+      "id": 35,
+      "name": "Bournemouth",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "34": {
+      "id": 34,
+      "name": "Newcastle",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/34.png"
+    },
+    "65": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "46": {
+      "id": 46,
+      "name": "Leicester",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/46.png"
+    },
+    "33": {
+      "id": 33,
+      "name": "Manchester United",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/33.png"
+    },
+    "48": {
+      "id": 48,
+      "name": "West Ham",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/48.png"
+    },
+    "47": {
+      "id": 47,
+      "name": "Tottenham",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/47.png"
+    },
+    "50": {
+      "id": 50,
+      "name": "Manchester City",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "41": {
+      "id": 41,
+      "name": "Southampton",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/41.png"
+    },
+    "39": {
+      "id": 39,
+      "name": "Wolves",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/39.png"
+    },
+    "194": {
+      "id": 194,
+      "name": "Ajax",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/teams/194.png"
+    },
+    "4724": {
+      "id": 4724,
+      "name": "Alverca",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/teams/4724.png"
+    }
+  },
+  "squads": {
+    "678": {
+      "footballDataTeamId": 678,
+      "footballDataTeamName": "Ajax",
+      "apiFootballTeamId": 194,
+      "apiFootballTeamName": "Ajax",
+      "competitionCodes": [
+        "CL",
+        "DED"
+      ],
+      "checkedAt": "2026-06-24T12:03:49.138313+00:00",
+      "players": [
+        {
+          "id": 394700,
+          "name": "J. Heerkens",
+          "number": 1,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/394700.png"
+        },
+        {
+          "id": 162687,
+          "name": "V. Jaroš",
+          "number": 1,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/162687.png"
+        },
+        {
+          "id": 37167,
+          "name": "M. Paes",
+          "number": 26,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/37167.png"
+        },
+        {
+          "id": 392258,
+          "name": "P. Reverson",
+          "number": 52,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/392258.png"
+        },
+        {
+          "id": 453702,
+          "name": "A. Hani",
+          "number": 62,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/453702.png"
+        },
+        {
+          "id": 586133,
+          "name": "V. van der Velde",
+          "number": 58,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/586133.png"
+        },
+        {
+          "id": 294684,
+          "name": "Y. Baas",
+          "number": 15,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/294684.png"
+        },
+        {
+          "id": 453706,
+          "name": "A. Bouwman",
+          "number": 30,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/453706.png"
+        },
+        {
+          "id": 313941,
+          "name": "A. Gaaei",
+          "number": 3,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/313941.png"
+        },
+        {
+          "id": 38114,
+          "name": "K. Itakura",
+          "number": 4,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/38114.png"
+        },
+        {
+          "id": 453708,
+          "name": "L. Jetten",
+          "number": 5,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/453708.png"
+        },
+        {
+          "id": 514183,
+          "name": "K. Kasanwirjo",
+          "number": 64,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/514183.png"
+        },
+        {
+          "id": 443829,
+          "name": "J. Mokio",
+          "number": 24,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/443829.png"
+        },
+        {
+          "id": 56283,
+          "name": "Lucas Rosa",
+          "number": 2,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/56283.png"
+        },
+        {
+          "id": 14701,
+          "name": "J. Šutalo",
+          "number": 37,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/14701.png"
+        },
+        {
+          "id": 2597,
+          "name": "T. Tomiyasu",
+          "number": 32,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/2597.png"
+        },
+        {
+          "id": 551129,
+          "name": "M. Verkuijl",
+          "number": 6,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/551129.png"
+        },
+        {
+          "id": 36893,
+          "name": "O. Wijndal",
+          "number": 5,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/36893.png"
+        },
+        {
+          "id": 641,
+          "name": "O. Zinchenko",
+          "number": 47,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/641.png"
+        },
+        {
+          "id": 492300,
+          "name": "R. van de Pavert",
+          "number": 45,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/492300.png"
+        },
+        {
+          "id": 453711,
+          "name": "M. van der Lans",
+          "number": 3,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/453711.png"
+        },
+        {
+          "id": 633948,
+          "name": "Mohamed Abdalla",
+          "number": 8,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/633948.png"
+        },
+        {
+          "id": 37160,
+          "name": "S. Berghuis",
+          "number": 23,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/37160.png"
+        },
+        {
+          "id": 396202,
+          "name": "Rayane Bounida",
+          "number": 43,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/396202.png"
+        },
+        {
+          "id": 36895,
+          "name": "K. Fitz-Jim",
+          "number": 28,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/36895.png"
+        },
+        {
+          "id": 329715,
+          "name": "O. Gloukh",
+          "number": 10,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/329715.png"
+        },
+        {
+          "id": 483958,
+          "name": "Jinairo Johnson",
+          "number": 3,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/483958.png"
+        },
+        {
+          "id": 25321,
+          "name": "D. Klaassen",
+          "number": 18,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/25321.png"
+        },
+        {
+          "id": 515967,
+          "name": "A. Ouazane",
+          "number": 10,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/515967.png"
+        },
+        {
+          "id": 161883,
+          "name": "Y. Regeer",
+          "number": 6,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/161883.png"
+        },
+        {
+          "id": 469321,
+          "name": "Sean Steur",
+          "number": 48,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/469321.png"
+        },
+        {
+          "id": 449247,
+          "name": "M. Carrizo",
+          "number": 7,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/449247.png"
+        },
+        {
+          "id": 550,
+          "name": "K. Dolberg",
+          "number": 9,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/550.png"
+        },
+        {
+          "id": 138753,
+          "name": "O. Edvardsen",
+          "number": 17,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/138753.png"
+        },
+        {
+          "id": 340153,
+          "name": "M. Godts",
+          "number": 11,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/340153.png"
+        },
+        {
+          "id": 474378,
+          "name": "Don-Angelo Christoffel Annum-Assamoah Konadu",
+          "number": 19,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/474378.png"
+        },
+        {
+          "id": 546756,
+          "name": "P. Nash",
+          "number": 11,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/546756.png"
+        },
+        {
+          "id": 25416,
+          "name": "W. Weghorst",
+          "number": 25,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/25416.png"
+        }
+      ]
+    },
+    "7822": {
+      "footballDataTeamId": 7822,
+      "footballDataTeamName": "Alverca",
+      "apiFootballTeamId": 4724,
+      "apiFootballTeamName": "Alverca",
+      "competitionCodes": [
+        "PPL"
+      ],
+      "checkedAt": "2026-06-24T12:03:55.080321+00:00",
+      "players": [
+        {
+          "id": 350337,
+          "name": "André Gomes",
+          "number": 13,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/350337.png"
+        },
+        {
+          "id": 278331,
+          "name": "Mateus Oliveira",
+          "number": 1,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/278331.png"
+        },
+        {
+          "id": 197017,
+          "name": "Matheus Mendes",
+          "number": 31,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/197017.png"
+        },
+        {
+          "id": 362379,
+          "name": "S. Baseya",
+          "number": 14,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/362379.png"
+        },
+        {
+          "id": 426799,
+          "name": "Francisco Chissumba",
+          "number": 55,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/426799.png"
+        },
+        {
+          "id": 2042,
+          "name": "Sergi Gómez",
+          "number": 5,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/2042.png"
+        },
+        {
+          "id": 402225,
+          "name": "I. James",
+          "number": 12,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/402225.png"
+        },
+        {
+          "id": 660948,
+          "name": "I. Julian",
+          "number": 15,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/660948.png"
+        },
+        {
+          "id": 535169,
+          "name": "Z. Kassary",
+          "number": 35,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/535169.png"
+        },
+        {
+          "id": 525382,
+          "name": "Kauan Gomes",
+          "number": 37,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/525382.png"
+        },
+        {
+          "id": 405996,
+          "name": "J. Martínez",
+          "number": 3,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/405996.png"
+        },
+        {
+          "id": 388777,
+          "name": "B. Meupiyou",
+          "number": 33,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/388777.png"
+        },
+        {
+          "id": 348896,
+          "name": "Kaiky Naves",
+          "number": 4,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/348896.png"
+        },
+        {
+          "id": 342967,
+          "name": "Diogo Filipe Spencer Marques",
+          "number": 82,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/342967.png"
+        },
+        {
+          "id": 186458,
+          "name": "S. Abdulai",
+          "number": 21,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/186458.png"
+        },
+        {
+          "id": 54699,
+          "name": "Rhaldney",
+          "number": 26,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/54699.png"
+        },
+        {
+          "id": 505867,
+          "name": "D. Gui",
+          "number": 6,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/505867.png"
+        },
+        {
+          "id": 10497,
+          "name": "Lincoln",
+          "number": 18,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/10497.png"
+        },
+        {
+          "id": 279101,
+          "name": "Vasco Moreira",
+          "number": 17,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/279101.png"
+        },
+        {
+          "id": 195962,
+          "name": "Chiquinho",
+          "number": 10,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/195962.png"
+        },
+        {
+          "id": 277054,
+          "name": "M. Clairicia",
+          "number": 19,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/277054.png"
+        },
+        {
+          "id": 24207,
+          "name": "S. Diarra",
+          "number": 25,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/24207.png"
+        },
+        {
+          "id": 616827,
+          "name": "Felipe Lima",
+          "number": 77,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/616827.png"
+        },
+        {
+          "id": 305837,
+          "name": "Figueiredo",
+          "number": 20,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/305837.png"
+        },
+        {
+          "id": 384373,
+          "name": "Fabrício Garcia",
+          "number": 98,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/384373.png"
+        },
+        {
+          "id": 312650,
+          "name": "M. Milovanović",
+          "number": 9,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/312650.png"
+        },
+        {
+          "id": 388889,
+          "name": "C. Nuozzi",
+          "number": 11,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/388889.png"
+        },
+        {
+          "id": 41624,
+          "name": "Sandro Lima",
+          "number": 91,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/41624.png"
+        },
+        {
+          "id": 144734,
+          "name": "Zoubdi",
+          "number": 2,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/144734.png"
+        }
+      ]
     }
   },
   "playerProfiles": {
@@ -610,144 +1244,1415 @@
       "birthDate": "2005-04-28",
       "photo": "https://media.api-sports.io/football/players/341641.png",
       "updatedAt": "2026-06-24T11:55:44.883157+00:00"
+    },
+    "2878": {
+      "id": 2878,
+      "name": "J. Sánchez",
+      "firstname": "Jorge Eduardo",
+      "lastname": "Sánchez Ramos",
+      "nationality": "Mexico",
+      "birthDate": "1997-12-10",
+      "photo": "https://media.api-sports.io/football/players/2878.png",
+      "updatedAt": "2026-06-24T12:03:50.130598+00:00"
+    },
+    "37599": {
+      "id": 37599,
+      "name": "J. Gorter",
+      "firstname": "Jay",
+      "lastname": "Gorter",
+      "nationality": "Netherlands",
+      "birthDate": "2000-05-30",
+      "photo": "https://media.api-sports.io/football/players/37599.png",
+      "updatedAt": "2026-06-24T12:03:50.130626+00:00"
+    },
+    "41089": {
+      "id": 41089,
+      "name": "Matheus",
+      "firstname": "Matheus",
+      "lastname": "Lima Magalhães",
+      "nationality": "Brazil",
+      "birthDate": "1992-03-29",
+      "photo": "https://media.api-sports.io/football/players/41089.png",
+      "updatedAt": "2026-06-24T12:03:50.130635+00:00"
+    },
+    "138753": {
+      "id": 138753,
+      "name": "O. Edvardsen",
+      "firstname": "Oliver Valaker",
+      "lastname": "Edvardsen",
+      "nationality": "Norway",
+      "birthDate": "1999-03-19",
+      "photo": "https://media.api-sports.io/football/players/138753.png",
+      "updatedAt": "2026-06-24T12:03:50.130641+00:00"
+    },
+    "161585": {
+      "id": 161585,
+      "name": "Francisco Conceição",
+      "firstname": "Francisco",
+      "lastname": "Fernandes da Conceição",
+      "nationality": "Portugal",
+      "birthDate": "2002-12-14",
+      "photo": "https://media.api-sports.io/football/players/161585.png",
+      "updatedAt": "2026-06-24T12:03:50.130646+00:00"
+    },
+    "162199": {
+      "id": 162199,
+      "name": "A. Martha",
+      "firstname": "Ar'jany",
+      "lastname": "Martha",
+      "nationality": "Netherlands",
+      "birthDate": "2003-09-04",
+      "photo": "https://media.api-sports.io/football/players/162199.png",
+      "updatedAt": "2026-06-24T12:03:50.130649+00:00"
+    },
+    "191879": {
+      "id": 191879,
+      "name": "K. Hlynsson",
+      "firstname": "Kristian Nökkvi",
+      "lastname": "Hlynsson",
+      "nationality": "Iceland",
+      "birthDate": "2004-01-23",
+      "photo": "https://media.api-sports.io/football/players/191879.png",
+      "updatedAt": "2026-06-24T12:03:50.130654+00:00"
+    },
+    "271581": {
+      "id": 271581,
+      "name": "O. Aertssen",
+      "firstname": "Olivier",
+      "lastname": "Aertssen",
+      "nationality": "Netherlands",
+      "birthDate": "2004-08-07",
+      "photo": "https://media.api-sports.io/football/players/271581.png",
+      "updatedAt": "2026-06-24T12:03:50.130661+00:00"
+    },
+    "272542": {
+      "id": 272542,
+      "name": "Y. Boerhout",
+      "firstname": "Yoram Lorenzo Ismaël",
+      "lastname": "Boerhout",
+      "nationality": "Netherlands",
+      "birthDate": "2005-04-05",
+      "photo": "https://media.api-sports.io/football/players/272542.png",
+      "updatedAt": "2026-06-24T12:03:50.130669+00:00"
+    },
+    "335335": {
+      "id": 335335,
+      "name": "Julian Dean Rijkhoff",
+      "firstname": "Julian Dean",
+      "lastname": "Rijkhoff",
+      "nationality": "Netherlands",
+      "birthDate": "2005-01-25",
+      "photo": "https://media.api-sports.io/football/players/335335.png",
+      "updatedAt": "2026-06-24T12:03:50.130675+00:00"
+    },
+    "336672": {
+      "id": 336672,
+      "name": "D. Jermoumi",
+      "firstname": "Diyae-Eddine",
+      "lastname": "Jermoumi",
+      "nationality": "Morocco",
+      "birthDate": "2004-07-19",
+      "photo": "https://media.api-sports.io/football/players/336672.png",
+      "updatedAt": "2026-06-24T12:03:50.130681+00:00"
+    },
+    "336674": {
+      "id": 336674,
+      "name": "G. Misehouy",
+      "firstname": "Gabriel",
+      "lastname": "Osei Misehouy",
+      "nationality": "Netherlands",
+      "birthDate": "2005-07-18",
+      "photo": "https://media.api-sports.io/football/players/336674.png",
+      "updatedAt": "2026-06-24T12:03:50.130687+00:00"
+    },
+    "336678": {
+      "id": 336678,
+      "name": "O. Agougil",
+      "firstname": "Oualid",
+      "lastname": "Agougil",
+      "nationality": "Netherlands",
+      "birthDate": "2005-08-07",
+      "photo": "https://media.api-sports.io/football/players/336678.png",
+      "updatedAt": "2026-06-24T12:03:50.130692+00:00"
+    },
+    "345816": {
+      "id": 345816,
+      "name": "N. Chourak",
+      "firstname": "Nassef",
+      "lastname": "Chourak",
+      "nationality": "Netherlands",
+      "birthDate": "2004-07-21",
+      "photo": "https://media.api-sports.io/football/players/345816.png",
+      "updatedAt": "2026-06-24T12:03:50.130696+00:00"
+    },
+    "386821": {
+      "id": 386821,
+      "name": "D. Kalokoh",
+      "firstname": "David",
+      "lastname": "Kalokoh",
+      "nationality": "Netherlands",
+      "birthDate": "2005-04-21",
+      "photo": "https://media.api-sports.io/football/players/386821.png",
+      "updatedAt": "2026-06-24T12:03:50.130702+00:00"
+    },
+    "386822": {
+      "id": 386822,
+      "name": "R. Chahid",
+      "firstname": "Mohamed Rida",
+      "lastname": "Chahid",
+      "nationality": "Morocco",
+      "birthDate": "2004-12-03",
+      "photo": "https://media.api-sports.io/football/players/386822.png",
+      "updatedAt": "2026-06-24T12:03:50.130708+00:00"
+    },
+    "386825": {
+      "id": 386825,
+      "name": "S. Vink",
+      "firstname": "Skye",
+      "lastname": "Vink",
+      "nationality": "Netherlands",
+      "birthDate": "2006-07-01",
+      "photo": "https://media.api-sports.io/football/players/386825.png",
+      "updatedAt": "2026-06-24T12:03:50.130714+00:00"
+    },
+    "396627": {
+      "id": 396627,
+      "name": "Rico Speksnijder",
+      "firstname": "Rico",
+      "lastname": "Speksnijder",
+      "nationality": "Netherlands",
+      "birthDate": "2005-02-23",
+      "photo": "https://media.api-sports.io/football/players/396627.png",
+      "updatedAt": "2026-06-24T12:03:50.130720+00:00"
+    },
+    "412868": {
+      "id": 412868,
+      "name": "Kayden Wolff",
+      "firstname": "Kayden",
+      "lastname": "Wolff",
+      "nationality": "Netherlands",
+      "birthDate": "2006-06-19",
+      "photo": "https://media.api-sports.io/football/players/412868.png",
+      "updatedAt": "2026-06-24T12:03:50.130726+00:00"
+    },
+    "412882": {
+      "id": 412882,
+      "name": "P. Ugwu",
+      "firstname": "Precious Joel Uche-Chukwu",
+      "lastname": "Ugwu",
+      "nationality": "Netherlands",
+      "birthDate": "2006-02-08",
+      "photo": "https://media.api-sports.io/football/players/412882.png",
+      "updatedAt": "2026-06-24T12:03:50.130731+00:00"
+    },
+    "36893": {
+      "id": 36893,
+      "name": "O. Wijndal",
+      "firstname": "Owen",
+      "lastname": "Wijndal",
+      "nationality": "Netherlands",
+      "birthDate": "1999-11-28",
+      "photo": "https://media.api-sports.io/football/players/36893.png",
+      "updatedAt": "2026-06-24T12:03:51.133292+00:00"
+    },
+    "36895": {
+      "id": 36895,
+      "name": "K. Fitz-Jim",
+      "firstname": "Kian",
+      "lastname": "Fitz-Jim",
+      "nationality": "Netherlands",
+      "birthDate": "2003-07-05",
+      "photo": "https://media.api-sports.io/football/players/36895.png",
+      "updatedAt": "2026-06-24T12:03:51.133319+00:00"
+    },
+    "37652": {
+      "id": 37652,
+      "name": "B. van den Boomen",
+      "firstname": "Branco",
+      "lastname": "van den Boomen",
+      "nationality": "Netherlands",
+      "birthDate": "1995-07-21",
+      "photo": "https://media.api-sports.io/football/players/37652.png",
+      "updatedAt": "2026-06-24T12:03:51.133328+00:00"
+    },
+    "38749": {
+      "id": 38749,
+      "name": "K. Taylor",
+      "firstname": "Kenneth",
+      "lastname": "Taylor",
+      "nationality": "Netherlands",
+      "birthDate": "2002-05-16",
+      "photo": "https://media.api-sports.io/football/players/38749.png",
+      "updatedAt": "2026-06-24T12:03:51.133337+00:00"
+    },
+    "57443": {
+      "id": 57443,
+      "name": "S. Mannsverk",
+      "firstname": "Sivert",
+      "lastname": "Heggheim Mannsverk",
+      "nationality": "Norway",
+      "birthDate": "2002-05-08",
+      "photo": "https://media.api-sports.io/football/players/57443.png",
+      "updatedAt": "2026-06-24T12:03:51.133344+00:00"
+    },
+    "161883": {
+      "id": 161883,
+      "name": "Y. Regeer",
+      "firstname": "Youri Pieter",
+      "lastname": "Regeer",
+      "nationality": "Netherlands",
+      "birthDate": "2003-08-18",
+      "photo": "https://media.api-sports.io/football/players/161883.png",
+      "updatedAt": "2026-06-24T12:03:51.133352+00:00"
+    },
+    "161894": {
+      "id": 161894,
+      "name": "N. Ünüvar",
+      "firstname": "Naci",
+      "lastname": "Ünüvar",
+      "nationality": "Türkiye",
+      "birthDate": "2003-06-13",
+      "photo": "https://media.api-sports.io/football/players/161894.png",
+      "updatedAt": "2026-06-24T12:03:51.133360+00:00"
+    },
+    "180496": {
+      "id": 180496,
+      "name": "G. Mikautadze",
+      "firstname": "Georges",
+      "lastname": "Mikautadze",
+      "nationality": "Georgia",
+      "birthDate": "2000-10-31",
+      "photo": "https://media.api-sports.io/football/players/180496.png",
+      "updatedAt": "2026-06-24T12:03:51.133367+00:00"
+    },
+    "202087": {
+      "id": 202087,
+      "name": "A. van Axel Dongen",
+      "firstname": "Amourrichio Jahvairo Déshaunti",
+      "lastname": "van Axel Dongen",
+      "nationality": "Netherlands",
+      "birthDate": "2004-09-29",
+      "photo": "https://media.api-sports.io/football/players/202087.png",
+      "updatedAt": "2026-06-24T12:03:51.133372+00:00"
+    },
+    "278159": {
+      "id": 278159,
+      "name": "A. Kaplan",
+      "firstname": "Ahmetcan",
+      "lastname": "Kaplan",
+      "nationality": "Türkiye",
+      "birthDate": "2003-01-16",
+      "photo": "https://media.api-sports.io/football/players/278159.png",
+      "updatedAt": "2026-06-24T12:03:51.133398+00:00"
+    },
+    "336582": {
+      "id": 336582,
+      "name": "T. Gooijer",
+      "firstname": "Tristan",
+      "lastname": "Gooijer",
+      "nationality": "Netherlands",
+      "birthDate": "2004-09-02",
+      "photo": "https://media.api-sports.io/football/players/336582.png",
+      "updatedAt": "2026-06-24T12:03:51.133406+00:00"
+    },
+    "338499": {
+      "id": 338499,
+      "name": "T. de Graaff",
+      "firstname": "Tom",
+      "lastname": "de Graaff",
+      "nationality": "Netherlands",
+      "birthDate": "2004-12-10",
+      "photo": "https://media.api-sports.io/football/players/338499.png",
+      "updatedAt": "2026-06-24T12:03:51.133411+00:00"
+    },
+    "340153": {
+      "id": 340153,
+      "name": "M. Godts",
+      "firstname": "Mika Marcel",
+      "lastname": "Godts",
+      "nationality": "Belgium",
+      "birthDate": "2005-06-07",
+      "photo": "https://media.api-sports.io/football/players/340153.png",
+      "updatedAt": "2026-06-24T12:03:51.133416+00:00"
+    },
+    "353732": {
+      "id": 353732,
+      "name": "Jan Faberski",
+      "firstname": "Jan",
+      "lastname": "Faberski",
+      "nationality": "Poland",
+      "birthDate": "2006-04-22",
+      "photo": "https://media.api-sports.io/football/players/353732.png",
+      "updatedAt": "2026-06-24T12:03:51.133423+00:00"
+    },
+    "396202": {
+      "id": 396202,
+      "name": "Rayane Bounida",
+      "firstname": "Rayane",
+      "lastname": "Bounida",
+      "nationality": "Belgium",
+      "birthDate": "2006-03-03",
+      "photo": "https://media.api-sports.io/football/players/396202.png",
+      "updatedAt": "2026-06-24T12:03:51.133429+00:00"
+    },
+    "412872": {
+      "id": 412872,
+      "name": "D. Janse",
+      "firstname": "Dies",
+      "lastname": "Janse",
+      "nationality": "Netherlands",
+      "birthDate": "2006-01-17",
+      "photo": "https://media.api-sports.io/football/players/412872.png",
+      "updatedAt": "2026-06-24T12:03:51.133435+00:00"
+    },
+    "434028": {
+      "id": 434028,
+      "name": "N. Verschuren",
+      "firstname": "Nick",
+      "lastname": "Verschuren",
+      "nationality": "Netherlands",
+      "birthDate": "2005-01-13",
+      "photo": "https://media.api-sports.io/football/players/434028.png",
+      "updatedAt": "2026-06-24T12:03:51.133442+00:00"
+    },
+    "443829": {
+      "id": 443829,
+      "name": "J. Mokio",
+      "firstname": "Jorthy",
+      "lastname": "Mokio",
+      "nationality": "Belgium",
+      "birthDate": "2008-02-29",
+      "photo": "https://media.api-sports.io/football/players/443829.png",
+      "updatedAt": "2026-06-24T12:03:51.133449+00:00"
+    },
+    "469321": {
+      "id": 469321,
+      "name": "Sean Steur",
+      "firstname": "Sean",
+      "lastname": "Steur",
+      "nationality": "Netherlands",
+      "birthDate": "2008-01-11",
+      "photo": "https://media.api-sports.io/football/players/469321.png",
+      "updatedAt": "2026-06-24T12:03:51.133457+00:00"
+    },
+    "474378": {
+      "id": 474378,
+      "name": "Don-Angelo Christoffel Annum-Assamoah Konadu",
+      "firstname": "Don-Angelo",
+      "lastname": "Christoffel Annum-Assamoah Kon",
+      "nationality": "Netherlands",
+      "birthDate": "2006-05-03",
+      "photo": "https://media.api-sports.io/football/players/474378.png",
+      "updatedAt": "2026-06-24T12:03:51.133462+00:00"
+    },
+    "861": {
+      "id": 861,
+      "name": "D. Rugani",
+      "firstname": "Daniele",
+      "lastname": "Rugani",
+      "nationality": "Italy",
+      "birthDate": "1994-07-29",
+      "photo": "https://media.api-sports.io/football/players/861.png",
+      "updatedAt": "2026-06-24T12:03:52.121999+00:00"
+    },
+    "5962": {
+      "id": 5962,
+      "name": "G. Ávila",
+      "firstname": "Gastón Luciano",
+      "lastname": "Ávila",
+      "nationality": "Argentina",
+      "birthDate": "2001-09-30",
+      "photo": "https://media.api-sports.io/football/players/5962.png",
+      "updatedAt": "2026-06-24T12:03:52.122024+00:00"
+    },
+    "14701": {
+      "id": 14701,
+      "name": "J. Šutalo",
+      "firstname": "Josip",
+      "lastname": "Šutalo",
+      "nationality": "Croatia",
+      "birthDate": "2000-02-28",
+      "photo": "https://media.api-sports.io/football/players/14701.png",
+      "updatedAt": "2026-06-24T12:03:52.122033+00:00"
+    },
+    "24894": {
+      "id": 24894,
+      "name": "D. Ramaj",
+      "firstname": "Diant",
+      "lastname": "Ramaj",
+      "nationality": "Germany",
+      "birthDate": "2001-09-19",
+      "photo": "https://media.api-sports.io/football/players/24894.png",
+      "updatedAt": "2026-06-24T12:03:52.122040+00:00"
+    },
+    "37113": {
+      "id": 37113,
+      "name": "R. Pasveer",
+      "firstname": "Remko Jurian",
+      "lastname": "Pasveer",
+      "nationality": "Netherlands",
+      "birthDate": "1983-11-08",
+      "photo": "https://media.api-sports.io/football/players/37113.png",
+      "updatedAt": "2026-06-24T12:03:52.122046+00:00"
+    },
+    "47296": {
+      "id": 47296,
+      "name": "G. Rulli",
+      "firstname": "Gerónimo",
+      "lastname": "Rulli",
+      "nationality": "Argentina",
+      "birthDate": "1992-05-20",
+      "photo": "https://media.api-sports.io/football/players/47296.png",
+      "updatedAt": "2026-06-24T12:03:52.122052+00:00"
+    },
+    "56283": {
+      "id": 56283,
+      "name": "Lucas Rosa",
+      "firstname": "Lucas",
+      "lastname": "Oliveira Rosa",
+      "nationality": "Brazil",
+      "birthDate": "2000-04-03",
+      "photo": "https://media.api-sports.io/football/players/56283.png",
+      "updatedAt": "2026-06-24T12:03:52.122058+00:00"
+    },
+    "80219": {
+      "id": 80219,
+      "name": "J. Medić",
+      "firstname": "Jakov",
+      "lastname": "Medić",
+      "nationality": "Croatia",
+      "birthDate": "1998-09-07",
+      "photo": "https://media.api-sports.io/football/players/80219.png",
+      "updatedAt": "2026-06-24T12:03:52.122062+00:00"
+    },
+    "162451": {
+      "id": 162451,
+      "name": "A. Salah-Eddine",
+      "firstname": "Anass",
+      "lastname": "Salah-Eddine",
+      "nationality": "Morocco",
+      "birthDate": "2002-01-18",
+      "photo": "https://media.api-sports.io/football/players/162451.png",
+      "updatedAt": "2026-06-24T12:03:52.122068+00:00"
+    },
+    "162452": {
+      "id": 162452,
+      "name": "D. Rensch",
+      "firstname": "Devyne Fabian Jairo",
+      "lastname": "Rensch",
+      "nationality": "Netherlands",
+      "birthDate": "2003-01-18",
+      "photo": "https://media.api-sports.io/football/players/162452.png",
+      "updatedAt": "2026-06-24T12:03:52.122071+00:00"
+    },
+    "264094": {
+      "id": 264094,
+      "name": "B. Tahirović",
+      "firstname": "Benjamin",
+      "lastname": "Tahirović",
+      "nationality": "Bosnia and Herzegovina",
+      "birthDate": "2003-03-03",
+      "photo": "https://media.api-sports.io/football/players/264094.png",
+      "updatedAt": "2026-06-24T12:03:52.122077+00:00"
+    },
+    "294684": {
+      "id": 294684,
+      "name": "Y. Baas",
+      "firstname": "Youri",
+      "lastname": "Baas",
+      "nationality": "Netherlands",
+      "birthDate": "2003-03-17",
+      "photo": "https://media.api-sports.io/football/players/294684.png",
+      "updatedAt": "2026-06-24T12:03:52.122084+00:00"
+    },
+    "309766": {
+      "id": 309766,
+      "name": "C. Setford",
+      "firstname": "Charlie Terence",
+      "lastname": "Setford",
+      "nationality": "England",
+      "birthDate": "2004-05-11",
+      "photo": "https://media.api-sports.io/football/players/309766.png",
+      "updatedAt": "2026-06-24T12:03:52.122091+00:00"
+    },
+    "313941": {
+      "id": 313941,
+      "name": "A. Gaaei",
+      "firstname": "Anton",
+      "lastname": "Gaaei",
+      "nationality": "Denmark",
+      "birthDate": "2002-11-19",
+      "photo": "https://media.api-sports.io/football/players/313941.png",
+      "updatedAt": "2026-06-24T12:03:52.122097+00:00"
+    },
+    "336580": {
+      "id": 336580,
+      "name": "S. Vos",
+      "firstname": "Silvano Cliff Robbie",
+      "lastname": "Vos",
+      "nationality": "Netherlands",
+      "birthDate": "2005-03-16",
+      "photo": "https://media.api-sports.io/football/players/336580.png",
+      "updatedAt": "2026-06-24T12:03:52.122103+00:00"
+    },
+    "336581": {
+      "id": 336581,
+      "name": "J. Brandes",
+      "firstname": "Julian Christiaan",
+      "lastname": "Brandes",
+      "nationality": "Netherlands",
+      "birthDate": "2004-05-11",
+      "photo": "https://media.api-sports.io/football/players/336581.png",
+      "updatedAt": "2026-06-24T12:03:52.122109+00:00"
+    },
+    "392258": {
+      "id": 392258,
+      "name": "P. Reverson",
+      "firstname": "Paul",
+      "lastname": "Peters Reverson",
+      "nationality": "Netherlands",
+      "birthDate": "2005-06-20",
+      "photo": "https://media.api-sports.io/football/players/392258.png",
+      "updatedAt": "2026-06-24T12:03:52.122115+00:00"
+    },
+    "393191": {
+      "id": 393191,
+      "name": "Gerald Alders",
+      "firstname": "Gerald",
+      "lastname": "Alders",
+      "nationality": "Netherlands",
+      "birthDate": "2005-05-07",
+      "photo": "https://media.api-sports.io/football/players/393191.png",
+      "updatedAt": "2026-06-24T12:03:52.122121+00:00"
+    },
+    "453706": {
+      "id": 453706,
+      "name": "A. Bouwman",
+      "firstname": "Aaron",
+      "lastname": "Bouwman",
+      "nationality": "Netherlands",
+      "birthDate": "2007-08-28",
+      "photo": "https://media.api-sports.io/football/players/453706.png",
+      "updatedAt": "2026-06-24T12:03:52.122130+00:00"
+    },
+    "453708": {
+      "id": 453708,
+      "name": "L. Jetten",
+      "firstname": "Lucas",
+      "lastname": "Jetten",
+      "nationality": "Netherlands",
+      "birthDate": "2007-06-07",
+      "photo": "https://media.api-sports.io/football/players/453708.png",
+      "updatedAt": "2026-06-24T12:03:52.122136+00:00"
+    },
+    "433343": {
+      "id": 433343,
+      "name": "Nuno Gaspar",
+      "firstname": "Nuno",
+      "lastname": "Pereira Gaspar",
+      "nationality": "Portugal",
+      "birthDate": "2004-06-10",
+      "photo": "https://media.api-sports.io/football/players/433343.png",
+      "updatedAt": "2026-06-24T12:03:56.061518+00:00"
+    },
+    "381610": {
+      "id": 381610,
+      "name": "Jean Sales",
+      "firstname": "Jean",
+      "lastname": "Sales de Souza Freire",
+      "nationality": "Brazil",
+      "birthDate": "2003-01-27",
+      "photo": "https://media.api-sports.io/football/players/381610.png",
+      "updatedAt": "2026-06-24T12:03:56.061539+00:00"
+    },
+    "107859": {
+      "id": 107859,
+      "name": "Rui Batalha",
+      "firstname": "Rui Pedro",
+      "lastname": "Reis Batalha",
+      "nationality": "Portugal",
+      "birthDate": "1996-06-29",
+      "photo": "https://media.api-sports.io/football/players/107859.png",
+      "updatedAt": "2026-06-24T12:03:56.061546+00:00"
+    },
+    "129783": {
+      "id": 129783,
+      "name": "K. Hachadi",
+      "firstname": "Khalid",
+      "lastname": "Hachadi",
+      "nationality": "Morocco",
+      "birthDate": "1998-05-03",
+      "photo": "https://media.api-sports.io/football/players/129783.png",
+      "updatedAt": "2026-06-24T12:03:56.061551+00:00"
+    },
+    "44636": {
+      "id": 44636,
+      "name": "Diogo Salomão",
+      "firstname": "Diogo",
+      "lastname": "Ferreira Salomão",
+      "nationality": "Portugal",
+      "birthDate": "1988-09-14",
+      "photo": "https://media.api-sports.io/football/players/44636.png",
+      "updatedAt": "2026-06-24T12:03:56.061555+00:00"
+    },
+    "41237": {
+      "id": 41237,
+      "name": "P. Sagna",
+      "firstname": "Pierre Emmanuel",
+      "lastname": "Sagna",
+      "nationality": "Senegal",
+      "birthDate": "1990-08-21",
+      "photo": "https://media.api-sports.io/football/players/41237.png",
+      "updatedAt": "2026-06-24T12:03:56.061559+00:00"
+    },
+    "141582": {
+      "id": 141582,
+      "name": "Caiser Gomes",
+      "firstname": "Caiser Sérgio",
+      "lastname": "Gomes",
+      "nationality": "Guinea-Bissau",
+      "birthDate": "2000-04-04",
+      "photo": "https://media.api-sports.io/football/players/141582.png",
+      "updatedAt": "2026-06-24T12:03:56.061563+00:00"
+    },
+    "311449": {
+      "id": 311449,
+      "name": "Cesinha",
+      "firstname": "César Vinicius",
+      "lastname": "de Souza Soares",
+      "nationality": "Brazil",
+      "birthDate": "2001-05-24",
+      "photo": "https://media.api-sports.io/football/players/311449.png",
+      "updatedAt": "2026-06-24T12:03:56.061567+00:00"
+    },
+    "96431": {
+      "id": 96431,
+      "name": "Jorge Bernardo",
+      "firstname": "Jorge Fernando",
+      "lastname": "Brito Bernardo",
+      "nationality": "Portugal",
+      "birthDate": "1991-09-25",
+      "photo": "https://media.api-sports.io/football/players/96431.png",
+      "updatedAt": "2026-06-24T12:03:56.061570+00:00"
+    },
+    "142316": {
+      "id": 142316,
+      "name": "Nuno Hidalgo",
+      "firstname": "Nuno Alexandre",
+      "lastname": "Hidalgo Costa Pereira",
+      "nationality": "Portugal",
+      "birthDate": "1991-11-06",
+      "photo": "https://media.api-sports.io/football/players/142316.png",
+      "updatedAt": "2026-06-24T12:03:56.061574+00:00"
+    },
+    "278334": {
+      "id": 278334,
+      "name": "Vitinho",
+      "firstname": "Victor Hugo",
+      "lastname": "Baptista Mafra",
+      "nationality": "Brazil",
+      "birthDate": "2002-06-25",
+      "photo": "https://media.api-sports.io/football/players/278334.png",
+      "updatedAt": "2026-06-24T12:03:56.061578+00:00"
+    },
+    "279412": {
+      "id": 279412,
+      "name": "Gonçalo Pinto",
+      "firstname": "Gonçalo Miguel",
+      "lastname": "Santos Pinto",
+      "nationality": "Portugal",
+      "birthDate": "1999-10-23",
+      "photo": "https://media.api-sports.io/football/players/279412.png",
+      "updatedAt": "2026-06-24T12:03:56.061582+00:00"
+    },
+    "381607": {
+      "id": 381607,
+      "name": "Gustavo Godinho",
+      "firstname": "Gustavo",
+      "lastname": "Anselmo da Silva Godinho",
+      "nationality": "Portugal",
+      "birthDate": "2003-05-01",
+      "photo": "https://media.api-sports.io/football/players/381607.png",
+      "updatedAt": "2026-06-24T12:03:56.061585+00:00"
+    },
+    "41930": {
+      "id": 41930,
+      "name": "A. Bukia",
+      "firstname": "André",
+      "lastname": "Watshini Bukia",
+      "nationality": "Congo DR",
+      "birthDate": "1995-03-03",
+      "photo": "https://media.api-sports.io/football/players/41930.png",
+      "updatedAt": "2026-06-24T12:03:56.061590+00:00"
+    },
+    "119291": {
+      "id": 119291,
+      "name": "Andrézinho",
+      "firstname": "André Miguel",
+      "lastname": "Pinto Lopes",
+      "nationality": "Portugal",
+      "birthDate": "1996-12-01",
+      "photo": "https://media.api-sports.io/football/players/119291.png",
+      "updatedAt": "2026-06-24T12:03:56.061594+00:00"
+    },
+    "431103": {
+      "id": 431103,
+      "name": "Janickson da Silva",
+      "firstname": "Janickson Lamine",
+      "lastname": "Da Silva",
+      "nationality": "Guinea-Bissau",
+      "birthDate": "2004-12-05",
+      "photo": "https://media.api-sports.io/football/players/431103.png",
+      "updatedAt": "2026-06-24T12:03:56.061599+00:00"
+    },
+    "426355": {
+      "id": 426355,
+      "name": "Diogo Ramos",
+      "firstname": "Diogo João",
+      "lastname": "Clímaco Ramos",
+      "nationality": "Portugal",
+      "birthDate": "2003-03-09",
+      "photo": "https://media.api-sports.io/football/players/426355.png",
+      "updatedAt": "2026-06-24T12:03:56.061603+00:00"
+    },
+    "287578": {
+      "id": 287578,
+      "name": "K. Shinga",
+      "firstname": "Kwenzokuhle",
+      "lastname": "Nkanyiso Shinga",
+      "nationality": "South Africa",
+      "birthDate": "2000-03-30",
+      "photo": "https://media.api-sports.io/football/players/287578.png",
+      "updatedAt": "2026-06-24T12:03:56.061608+00:00"
+    },
+    "41436": {
+      "id": 41436,
+      "name": "David Bruno",
+      "firstname": "David",
+      "lastname": "Carneiro Dias de Rezende Bruno",
+      "nationality": "Portugal",
+      "birthDate": "1992-02-14",
+      "photo": "https://media.api-sports.io/football/players/41436.png",
+      "updatedAt": "2026-06-24T12:03:56.061614+00:00"
+    },
+    "95252": {
+      "id": 95252,
+      "name": "J. Velázquez",
+      "firstname": "José Manuel",
+      "lastname": "Velázquez Rodríguez",
+      "nationality": "Venezuela",
+      "birthDate": "1990-09-08",
+      "photo": "https://media.api-sports.io/football/players/95252.png",
+      "updatedAt": "2026-06-24T12:03:56.061618+00:00"
     }
   },
-  "apiTeams": {
-    "45": {
-      "id": 45,
-      "name": "Everton",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/45.png"
+  "teamProgress": {
+    "1": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     },
-    "36": {
-      "id": 36,
-      "name": "Fulham",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/36.png"
+    "678": {
+      "historyPage": 3,
+      "historyComplete": true,
+      "squadCycle": 1,
+      "updatedAt": "2026-06-24T12:03:52.122208+00:00",
+      "historyTotalPagesUsed": 3
     },
-    "55": {
-      "id": 55,
-      "name": "Brentford",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/55.png"
+    "263": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     },
-    "52": {
-      "id": 52,
-      "name": "Crystal Palace",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/52.png"
+    "7822": {
+      "historyPage": 2,
+      "historyComplete": false,
+      "squadCycle": 1,
+      "updatedAt": "2026-06-24T12:03:56.061660+00:00",
+      "historyTotalPagesUsed": 3
+    },
+    "9136": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "532": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "712": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     },
     "57": {
-      "id": 57,
-      "name": "Ipswich",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/57.png"
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     },
-    "49": {
-      "id": 49,
-      "name": "Chelsea",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/49.png"
+    "58": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     },
-    "51": {
-      "id": 51,
-      "name": "Brighton",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/51.png"
+    "102": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     },
-    "66": {
-      "id": 66,
-      "name": "Aston Villa",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/66.png"
+    "77": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     },
-    "42": {
-      "id": 42,
-      "name": "Arsenal",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/42.png"
+    "78": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     },
-    "35": {
-      "id": 35,
-      "name": "Bournemouth",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/35.png"
+    "16": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     },
-    "34": {
-      "id": 34,
-      "name": "Newcastle",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/34.png"
+    "519": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     },
-    "65": {
-      "id": 65,
-      "name": "Nottingham Forest",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/65.png"
+    "10340": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     },
-    "46": {
-      "id": 46,
-      "name": "Leicester",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/46.png"
+    "682": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     },
-    "33": {
-      "id": 33,
-      "name": "Manchester United",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/33.png"
+    "81": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     },
-    "48": {
-      "id": 48,
-      "name": "West Ham",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/48.png"
+    "5": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     },
-    "47": {
-      "id": 47,
-      "name": "Tottenham",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/47.png"
+    "332": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     },
-    "50": {
-      "id": 50,
-      "name": "Manchester City",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/50.png"
+    "59": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     },
-    "41": {
-      "id": 41,
-      "name": "Southampton",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/41.png"
+    "5721": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     },
-    "39": {
-      "id": 39,
-      "name": "Wolves",
-      "country": null,
-      "logo": "https://media.api-sports.io/football/teams/39.png"
+    "103": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "1044": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "5613": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "12": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "402": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "512": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "397": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "387": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "104": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "1909": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "6618": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "5529": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "558": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "348": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "61": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "851": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "7397": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "1076": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "354": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "680": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "342": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "4": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "285": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "80": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "582": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "62": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "670": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "5531": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "675": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "99": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "10601": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "19": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     }
   },
-  "teamMap": {
-    "58": 66,
-    "402": 55,
-    "61": 49,
-    "354": 52,
-    "62": 45,
-    "63": 36,
-    "57": 42,
-    "1044": 35,
-    "67": 34,
-    "65": 50,
-    "66": 33,
-    "351": 65,
-    "340": 41,
-    "73": 47
+  "pendingProfileIds": [
+    "550",
+    "641",
+    "2042",
+    "2597",
+    "10497",
+    "24207",
+    "25321",
+    "25416",
+    "37160",
+    "37167",
+    "38114",
+    "41624",
+    "54699",
+    "144734",
+    "162687",
+    "186458",
+    "195962",
+    "197017",
+    "277054",
+    "278331",
+    "279101",
+    "294684",
+    "305837",
+    "312650",
+    "313941",
+    "329715",
+    "340153",
+    "342967",
+    "348896",
+    "350337",
+    "362379",
+    "384373",
+    "388777",
+    "388889",
+    "392258",
+    "394700",
+    "396202",
+    "402225",
+    "405996",
+    "426799",
+    "443829",
+    "449247",
+    "453702",
+    "453706",
+    "453708",
+    "453711",
+    "469321",
+    "474378",
+    "483958",
+    "492300",
+    "505867",
+    "514183",
+    "515967",
+    "525382",
+    "535169",
+    "546756",
+    "551129",
+    "586133",
+    "616827",
+    "633948",
+    "660948"
+  ],
+  "unresolvedTeams": {
+    "1": {
+      "name": "1. FC Köln",
+      "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
+      "updatedAt": "2026-06-24T12:03:47.170452+00:00"
+    },
+    "263": {
+      "name": "Alavés",
+      "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
+      "updatedAt": "2026-06-24T12:03:53.093528+00:00"
+    },
+    "9136": {
+      "name": "Amadora",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.085485+00:00"
+    },
+    "532": {
+      "name": "Angers SCO",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.096764+00:00"
+    },
+    "712": {
+      "name": "Arouca",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.108820+00:00"
+    },
+    "102": {
+      "name": "Atalanta",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.151850+00:00"
+    },
+    "77": {
+      "name": "Athletic",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.164035+00:00"
+    },
+    "78": {
+      "name": "Atleti",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.175685+00:00"
+    },
+    "16": {
+      "name": "Augsburg",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.189119+00:00"
+    },
+    "519": {
+      "name": "Auxerre",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.204501+00:00"
+    },
+    "10340": {
+      "name": "AVS",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.215456+00:00"
+    },
+    "682": {
+      "name": "AZ",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.227979+00:00"
+    },
+    "81": {
+      "name": "Barça",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.239969+00:00"
+    },
+    "5": {
+      "name": "Bayern",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.254844+00:00"
+    },
+    "332": {
+      "name": "Birmingham",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.268257+00:00"
+    },
+    "59": {
+      "name": "Blackburn",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.283530+00:00"
+    },
+    "5721": {
+      "name": "Bodø/Glimt",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.294011+00:00"
+    },
+    "103": {
+      "name": "Bologna",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.306372+00:00"
+    },
+    "5613": {
+      "name": "Braga",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.333421+00:00"
+    },
+    "12": {
+      "name": "Bremen",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.345280+00:00"
+    },
+    "512": {
+      "name": "Brest",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.376552+00:00"
+    },
+    "397": {
+      "name": "Brighton Hove",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.393323+00:00"
+    },
+    "387": {
+      "name": "Bristol City",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.411328+00:00"
+    },
+    "104": {
+      "name": "Cagliari",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.433556+00:00"
+    },
+    "1909": {
+      "name": "Cambuur",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.446464+00:00"
+    },
+    "6618": {
+      "name": "Casa Pia",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.462102+00:00"
+    },
+    "5529": {
+      "name": "CD Nacional",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.472451+00:00"
+    },
+    "558": {
+      "name": "Celta",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.484189+00:00"
+    },
+    "348": {
+      "name": "Charlton",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.506286+00:00"
+    },
+    "851": {
+      "name": "Club Brugge",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.530632+00:00"
+    },
+    "7397": {
+      "name": "Como 1907",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.543704+00:00"
+    },
+    "1076": {
+      "name": "Coventry City",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.556608+00:00"
+    },
+    "680": {
+      "name": "Den Haag",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.583523+00:00"
+    },
+    "342": {
+      "name": "Derby County",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.595843+00:00"
+    },
+    "4": {
+      "name": "Dortmund",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.621809+00:00"
+    },
+    "285": {
+      "name": "Elche",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.637584+00:00"
+    },
+    "80": {
+      "name": "Espanyol",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.650689+00:00"
+    },
+    "582": {
+      "name": "Estoril Praia",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.666011+00:00"
+    },
+    "670": {
+      "name": "Excelsior",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.696917+00:00"
+    },
+    "5531": {
+      "name": "Famalicão",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.708906+00:00"
+    },
+    "675": {
+      "name": "Feyenoord",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.723968+00:00"
+    },
+    "99": {
+      "name": "Fiorentina",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.741797+00:00"
+    },
+    "10601": {
+      "name": "FK Kairat",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.752335+00:00"
+    },
+    "19": {
+      "name": "Frankfurt",
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+      "updatedAt": "2026-06-24T12:03:56.767958+00:00"
+    }
   },
-  "squads": {},
-  "squadCursor": 0,
-  "pendingProfileIds": [],
-  "unresolvedTeams": {},
   "lastFullSquadCycleAt": null,
   "recentErrors": [
     {
@@ -763,7 +2668,186 @@
       "league": "PL",
       "page": 4,
       "message": "API error: plan: Free plans are limited to a maximum value of 3 for the Page parameter"
+    },
+    {
+      "at": "2026-06-24T12:03:56.073151+00:00",
+      "phase": "history",
+      "footballDataTeamId": 7822,
+      "apiFootballTeamId": 4724,
+      "page": 2,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.119104+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 57,
+      "apiFootballTeamId": 42,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.135139+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 58,
+      "apiFootballTeamId": 66,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.321954+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 1044,
+      "apiFootballTeamId": 35,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.358973+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 402,
+      "apiFootballTeamId": 55,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.518861+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 61,
+      "apiFootballTeamId": 49,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.567921+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 354,
+      "apiFootballTeamId": 52,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.678755+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 62,
+      "apiFootballTeamId": 45,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.784518+00:00",
+      "phase": "profiles",
+      "playerId": 550,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.799848+00:00",
+      "phase": "profiles",
+      "playerId": 641,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.813536+00:00",
+      "phase": "profiles",
+      "playerId": 2042,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.826991+00:00",
+      "phase": "profiles",
+      "playerId": 2597,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.838987+00:00",
+      "phase": "profiles",
+      "playerId": 10497,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.853522+00:00",
+      "phase": "profiles",
+      "playerId": 24207,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.864669+00:00",
+      "phase": "profiles",
+      "playerId": 25321,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.878599+00:00",
+      "phase": "profiles",
+      "playerId": 25416,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.892495+00:00",
+      "phase": "profiles",
+      "playerId": 37160,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.908645+00:00",
+      "phase": "profiles",
+      "playerId": 37167,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.919607+00:00",
+      "phase": "profiles",
+      "playerId": 38114,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.931908+00:00",
+      "phase": "profiles",
+      "playerId": 41624,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.945207+00:00",
+      "phase": "profiles",
+      "playerId": 54699,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.960453+00:00",
+      "phase": "profiles",
+      "playerId": 144734,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.977453+00:00",
+      "phase": "profiles",
+      "playerId": 162687,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:56.990493+00:00",
+      "phase": "profiles",
+      "playerId": 186458,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:57.007084+00:00",
+      "phase": "profiles",
+      "playerId": 195962,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:57.023025+00:00",
+      "phase": "profiles",
+      "playerId": 197017,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:57.039137+00:00",
+      "phase": "profiles",
+      "playerId": 277054,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
+    },
+    {
+      "at": "2026-06-24T12:03:57.056689+00:00",
+      "phase": "profiles",
+      "playerId": 278331,
+      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}"
     }
   ],
-  "updatedAt": "2026-06-24T11:59:59.877360+00:00"
+  "updatedAt": "2026-06-24T12:03:57.056724+00:00",
+  "migratedFromVersion": 1,
+  "migratedAt": "2026-06-24T12:03:46.127194+00:00"
 }
