@@ -756,7 +756,14 @@
       "league": "PL",
       "page": 4,
       "message": "API error: plan: Free plans are limited to a maximum value of 3 for the Page parameter"
+    },
+    {
+      "at": "2026-06-24T11:59:59.877273+00:00",
+      "phase": "bootstrap",
+      "league": "PL",
+      "page": 4,
+      "message": "API error: plan: Free plans are limited to a maximum value of 3 for the Page parameter"
     }
   ],
-  "updatedAt": "2026-06-24T11:55:45.825430+00:00"
+  "updatedAt": "2026-06-24T11:59:59.877360+00:00"
 }
