@@ -1,6 +1,7 @@
 import json
 import os
 import sys
+import time
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -23,6 +24,8 @@ COMPETITIONS = [
 ]
 
 MAX_DAYS_PER_REQUEST = 10
+FUTURE_DAYS = 90
+REQUEST_DELAY_SECONDS = 7
 
 
 def fetch_period(
@@ -95,7 +98,7 @@ def fetch_matches(token: str) -> dict:
         now_utc.date() - timedelta(days=1)
     )
     overall_end = (
-        now_utc.date() + timedelta(days=32)
+        now_utc.date() + timedelta(days=FUTURE_DAYS)
     )
 
     all_matches = []
@@ -134,6 +137,9 @@ def fetch_matches(token: str) -> dict:
         current_start = (
             current_end + timedelta(days=1)
         )
+
+        if current_start <= overall_end:
+            time.sleep(REQUEST_DELAY_SECONDS)
 
     all_matches.sort(
         key=lambda match: (
