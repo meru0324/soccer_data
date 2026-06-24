@@ -1,0 +1,762 @@
+{
+  "version": 1,
+  "phase": "bootstrap",
+  "bootstrapLeagueIndex": 0,
+  "bootstrapPage": 4,
+  "bootstrapProgress": {
+    "PL": {
+      "currentPage": 3,
+      "totalPages": 57,
+      "completed": false
+    }
+  },
+  "playerProfiles": {
+    "83": {
+      "id": 83,
+      "name": "A. Danjuma",
+      "firstname": "Arnaut",
+      "lastname": "Danjuma Adam Groeneveld",
+      "nationality": "Netherlands",
+      "birthDate": "1997-01-31",
+      "photo": "https://media.api-sports.io/football/players/83.png",
+      "updatedAt": "2026-06-24T11:55:42.951452+00:00"
+    },
+    "105": {
+      "id": 105,
+      "name": "F. Ballo-Touré",
+      "firstname": "Fodé",
+      "lastname": "Ballo-Touré",
+      "nationality": "Senegal",
+      "birthDate": "1997-01-03",
+      "photo": "https://media.api-sports.io/football/players/105.png",
+      "updatedAt": "2026-06-24T11:55:42.951526+00:00"
+    },
+    "172": {
+      "id": 172,
+      "name": "D. Alli",
+      "firstname": "Bamidele Jermaine",
+      "lastname": "Alli",
+      "nationality": "England",
+      "birthDate": "1996-04-11",
+      "photo": "https://media.api-sports.io/football/players/172.png",
+      "updatedAt": "2026-06-24T11:55:42.951541+00:00"
+    },
+    "2699": {
+      "id": 2699,
+      "name": "S. Ghoddos",
+      "firstname": "Sayed Saman",
+      "lastname": "Ghoddos",
+      "nationality": "Iran",
+      "birthDate": "1993-09-06",
+      "photo": "https://media.api-sports.io/football/players/2699.png",
+      "updatedAt": "2026-06-24T11:55:42.951551+00:00"
+    },
+    "18765": {
+      "id": 18765,
+      "name": "André Gomes",
+      "firstname": "André Filipe",
+      "lastname": "Tavares Gomes",
+      "nationality": "Portugal",
+      "birthDate": "1993-07-30",
+      "photo": "https://media.api-sports.io/football/players/18765.png",
+      "updatedAt": "2026-06-24T11:55:42.951561+00:00"
+    },
+    "18853": {
+      "id": 18853,
+      "name": "J. Riedewald",
+      "firstname": "Jaïro Jocquim",
+      "lastname": "Riedewald",
+      "nationality": "Netherlands",
+      "birthDate": "1996-09-09",
+      "photo": "https://media.api-sports.io/football/players/18853.png",
+      "updatedAt": "2026-06-24T11:55:42.951570+00:00"
+    },
+    "19073": {
+      "id": 19073,
+      "name": "B. Godfrey",
+      "firstname": "Benjamin Matthew",
+      "lastname": "Godfrey",
+      "nationality": "England",
+      "birthDate": "1998-01-15",
+      "photo": "https://media.api-sports.io/football/players/19073.png",
+      "updatedAt": "2026-06-24T11:55:42.951579+00:00"
+    },
+    "19145": {
+      "id": 19145,
+      "name": "T. Adarabioyo",
+      "firstname": "Abdul-Nasir Oluwatosin",
+      "lastname": "Oluwadoyinsolami Adarabioyo",
+      "nationality": "England",
+      "birthDate": "1997-09-24",
+      "photo": "https://media.api-sports.io/football/players/19145.png",
+      "updatedAt": "2026-06-24T11:55:42.951589+00:00"
+    },
+    "19364": {
+      "id": 19364,
+      "name": "N. Maupay",
+      "firstname": "Neal",
+      "lastname": "Maupay",
+      "nationality": "France",
+      "birthDate": "1996-08-14",
+      "photo": "https://media.api-sports.io/football/players/19364.png",
+      "updatedAt": "2026-06-24T11:55:42.951606+00:00"
+    },
+    "19657": {
+      "id": 19657,
+      "name": "M. Rodák",
+      "firstname": "Marek",
+      "lastname": "Rodák",
+      "nationality": "Slovakia",
+      "birthDate": "1996-12-13",
+      "photo": "https://media.api-sports.io/football/players/19657.png",
+      "updatedAt": "2026-06-24T11:55:42.951617+00:00"
+    },
+    "19744": {
+      "id": 19744,
+      "name": "K. Jackson",
+      "firstname": "Kayden Pastel Dunn",
+      "lastname": "Jackson",
+      "nationality": "England",
+      "birthDate": "1994-02-22",
+      "photo": "https://media.api-sports.io/football/players/19744.png",
+      "updatedAt": "2026-06-24T11:55:42.951625+00:00"
+    },
+    "20224": {
+      "id": 20224,
+      "name": "A. Lonergan",
+      "firstname": "Andrew Michael",
+      "lastname": "Lonergan",
+      "nationality": "England",
+      "birthDate": "1983-10-19",
+      "photo": "https://media.api-sports.io/football/players/20224.png",
+      "updatedAt": "2026-06-24T11:55:42.951633+00:00"
+    },
+    "44803": {
+      "id": 44803,
+      "name": "D. Ball",
+      "firstname": "Dominic Martin",
+      "lastname": "Ball",
+      "nationality": "England",
+      "birthDate": "1995-08-02",
+      "photo": "https://media.api-sports.io/football/players/44803.png",
+      "updatedAt": "2026-06-24T11:55:42.951641+00:00"
+    },
+    "127605": {
+      "id": 127605,
+      "name": "N. Ferguson",
+      "firstname": "Nathan Kirk-Patrick",
+      "lastname": "Ferguson",
+      "nationality": "England",
+      "birthDate": "2000-10-06",
+      "photo": "https://media.api-sports.io/football/players/127605.png",
+      "updatedAt": "2026-06-24T11:55:42.951649+00:00"
+    },
+    "135775": {
+      "id": 135775,
+      "name": "Ansu Fati",
+      "firstname": "Anssumane",
+      "lastname": "Fati Vieira",
+      "nationality": "Spain",
+      "birthDate": "2002-10-31",
+      "photo": "https://media.api-sports.io/football/players/135775.png",
+      "updatedAt": "2026-06-24T11:55:42.951657+00:00"
+    },
+    "138822": {
+      "id": 138822,
+      "name": "A. Broja",
+      "firstname": "Armando",
+      "lastname": "Broja",
+      "nationality": "Albania",
+      "birthDate": "2001-09-10",
+      "photo": "https://media.api-sports.io/football/players/138822.png",
+      "updatedAt": "2026-06-24T11:55:42.951665+00:00"
+    },
+    "153422": {
+      "id": 153422,
+      "name": "E. Brierley",
+      "firstname": "Ethan Craig",
+      "lastname": "Brierley",
+      "nationality": "England",
+      "birthDate": "2003-11-23",
+      "photo": "https://media.api-sports.io/football/players/153422.png",
+      "updatedAt": "2026-06-24T11:55:42.951678+00:00"
+    },
+    "153425": {
+      "id": 153425,
+      "name": "L. Dobbin",
+      "firstname": "Lewis Norman",
+      "lastname": "Dobbin",
+      "nationality": "England",
+      "birthDate": "2003-01-03",
+      "photo": "https://media.api-sports.io/football/players/153425.png",
+      "updatedAt": "2026-06-24T11:55:42.951685+00:00"
+    },
+    "284500": {
+      "id": 284500,
+      "name": "T. Iroegbunam",
+      "firstname": "Timothy Emeka",
+      "lastname": "Iroegbunam",
+      "nationality": "England",
+      "birthDate": "2003-06-30",
+      "photo": "https://media.api-sports.io/football/players/284500.png",
+      "updatedAt": "2026-06-24T11:55:42.951695+00:00"
+    },
+    "348263": {
+      "id": 348263,
+      "name": "C. Stewart",
+      "firstname": "Cameron Jack",
+      "lastname": "Stewart",
+      "nationality": "England",
+      "birthDate": "2003-02-20",
+      "photo": "https://media.api-sports.io/football/players/348263.png",
+      "updatedAt": "2026-06-24T11:55:42.951705+00:00"
+    },
+    "133": {
+      "id": 133,
+      "name": "C. Lenglet",
+      "firstname": "Clément Nicolas Laurent",
+      "lastname": "Lenglet",
+      "nationality": "France",
+      "birthDate": "1995-06-17",
+      "photo": "https://media.api-sports.io/football/players/133.png",
+      "updatedAt": "2026-06-24T11:55:43.952350+00:00"
+    },
+    "190": {
+      "id": 190,
+      "name": "Cédric Soares",
+      "firstname": "Cédric Ricardo",
+      "lastname": "Alves Soares",
+      "nationality": "Portugal",
+      "birthDate": "1991-08-31",
+      "photo": "https://media.api-sports.io/football/players/190.png",
+      "updatedAt": "2026-06-24T11:55:43.952397+00:00"
+    },
+    "786": {
+      "id": 786,
+      "name": "N. Zaniolo",
+      "firstname": "Nicolò",
+      "lastname": "Zaniolo",
+      "nationality": "Italy",
+      "birthDate": "1999-07-02",
+      "photo": "https://media.api-sports.io/football/players/786.png",
+      "updatedAt": "2026-06-24T11:55:43.952409+00:00"
+    },
+    "1452": {
+      "id": 1452,
+      "name": "Mohamed Elneny",
+      "firstname": "Mohamed Naser",
+      "lastname": "Elsayed Elneny",
+      "nationality": "Egypt",
+      "birthDate": "1992-07-11",
+      "photo": "https://media.api-sports.io/football/players/1452.png",
+      "updatedAt": "2026-06-24T11:55:43.952417+00:00"
+    },
+    "19263": {
+      "id": 19263,
+      "name": "L. Kelly",
+      "firstname": "Lloyd Casius",
+      "lastname": "Kelly",
+      "nationality": "England",
+      "birthDate": "1998-10-06",
+      "photo": "https://media.api-sports.io/football/players/19263.png",
+      "updatedAt": "2026-06-24T11:55:43.952424+00:00"
+    },
+    "19356": {
+      "id": 19356,
+      "name": "E. Marcondes",
+      "firstname": "Emiliano",
+      "lastname": "Marcondes Camargo Hansen",
+      "nationality": "Denmark",
+      "birthDate": "1995-03-09",
+      "photo": "https://media.api-sports.io/football/players/19356.png",
+      "updatedAt": "2026-06-24T11:55:43.952432+00:00"
+    },
+    "19804": {
+      "id": 19804,
+      "name": "K. Moore",
+      "firstname": "Kieffer Roberto Francisco",
+      "lastname": "Moore",
+      "nationality": "Wales",
+      "birthDate": "1992-08-08",
+      "photo": "https://media.api-sports.io/football/players/19804.png",
+      "updatedAt": "2026-06-24T11:55:43.952439+00:00"
+    },
+    "20110": {
+      "id": 20110,
+      "name": "S. Baptiste",
+      "firstname": "Shandon Harkeem",
+      "lastname": "Baptiste",
+      "nationality": "Grenada",
+      "birthDate": "1998-04-08",
+      "photo": "https://media.api-sports.io/football/players/20110.png",
+      "updatedAt": "2026-06-24T11:55:43.952445+00:00"
+    },
+    "30765": {
+      "id": 30765,
+      "name": "I. Radu",
+      "firstname": "Ionuț Andrei",
+      "lastname": "Radu",
+      "nationality": "Romania",
+      "birthDate": "1997-05-28",
+      "photo": "https://media.api-sports.io/football/players/30765.png",
+      "updatedAt": "2026-06-24T11:55:43.952451+00:00"
+    },
+    "138937": {
+      "id": 138937,
+      "name": "F. Marschall",
+      "firstname": "Filip",
+      "lastname": "Marschall",
+      "nationality": "England",
+      "birthDate": "2003-04-24",
+      "photo": "https://media.api-sports.io/football/players/138937.png",
+      "updatedAt": "2026-06-24T11:55:43.952457+00:00"
+    },
+    "278123": {
+      "id": 278123,
+      "name": "S. Revan",
+      "firstname": "Sebastian",
+      "lastname": "Revan",
+      "nationality": "England",
+      "birthDate": "2003-07-14",
+      "photo": "https://media.api-sports.io/football/players/278123.png",
+      "updatedAt": "2026-06-24T11:55:43.952462+00:00"
+    },
+    "281975": {
+      "id": 281975,
+      "name": "Val Adedokun",
+      "firstname": "Val",
+      "lastname": "Adedokun",
+      "nationality": "Republic of Ireland",
+      "birthDate": "2003-02-14",
+      "photo": "https://media.api-sports.io/football/players/281975.png",
+      "updatedAt": "2026-06-24T11:55:43.952468+00:00"
+    },
+    "284502": {
+      "id": 284502,
+      "name": "James Lannin-Sweet",
+      "firstname": "James",
+      "lastname": "Lannin-Sweet",
+      "nationality": "England",
+      "birthDate": "2004-11-03",
+      "photo": "https://media.api-sports.io/football/players/284502.png",
+      "updatedAt": "2026-06-24T11:55:43.952474+00:00"
+    },
+    "284540": {
+      "id": 284540,
+      "name": "Mauro Bandeira",
+      "firstname": "Mauro",
+      "lastname": "Gomes Bandeira",
+      "nationality": "Portugal",
+      "birthDate": "2004-04-19",
+      "photo": "https://media.api-sports.io/football/players/284540.png",
+      "updatedAt": "2026-06-24T11:55:43.952480+00:00"
+    },
+    "294638": {
+      "id": 294638,
+      "name": "Finley Munroe",
+      "firstname": "Finley",
+      "lastname": "Munroe",
+      "nationality": "England",
+      "birthDate": "2005-02-08",
+      "photo": "https://media.api-sports.io/football/players/294638.png",
+      "updatedAt": "2026-06-24T11:55:43.952486+00:00"
+    },
+    "309501": {
+      "id": 309501,
+      "name": "A. Cozier-Duberry",
+      "firstname": "Amario",
+      "lastname": "Cozier-Duberry",
+      "nationality": "England",
+      "birthDate": "2005-05-29",
+      "photo": "https://media.api-sports.io/football/players/309501.png",
+      "updatedAt": "2026-06-24T11:55:43.952492+00:00"
+    },
+    "309505": {
+      "id": 309505,
+      "name": "R. Walters",
+      "firstname": "Reuell",
+      "lastname": "Walters",
+      "nationality": "England",
+      "birthDate": "2004-12-16",
+      "photo": "https://media.api-sports.io/football/players/309505.png",
+      "updatedAt": "2026-06-24T11:55:43.952500+00:00"
+    },
+    "329347": {
+      "id": 329347,
+      "name": "O. Kellyman",
+      "firstname": "Omari Jamian",
+      "lastname": "Kellyman",
+      "nationality": "England",
+      "birthDate": "2005-09-25",
+      "photo": "https://media.api-sports.io/football/players/329347.png",
+      "updatedAt": "2026-06-24T11:55:43.952505+00:00"
+    },
+    "349288": {
+      "id": 349288,
+      "name": "Vincent Angelini",
+      "firstname": "Vincent",
+      "lastname": "Angelini",
+      "nationality": "Scotland",
+      "birthDate": "2003-09-12",
+      "photo": "https://media.api-sports.io/football/players/349288.png",
+      "updatedAt": "2026-06-24T11:55:43.952513+00:00"
+    },
+    "455010": {
+      "id": 455010,
+      "name": "L. Emery",
+      "firstname": "Lander",
+      "lastname": "Emery",
+      "nationality": "Spain",
+      "birthDate": "2003-03-29",
+      "photo": "https://media.api-sports.io/football/players/455010.png",
+      "updatedAt": "2026-06-24T11:55:43.952519+00:00"
+    },
+    "305": {
+      "id": 305,
+      "name": "D. Origi",
+      "firstname": "Divock",
+      "lastname": "Okoth Origi",
+      "nationality": "Belgium",
+      "birthDate": "1995-04-18",
+      "photo": "https://media.api-sports.io/football/players/305.png",
+      "updatedAt": "2026-06-24T11:55:44.882980+00:00"
+    },
+    "371": {
+      "id": 371,
+      "name": "Felipe",
+      "firstname": "Felipe Augusto",
+      "lastname": "de Almeida Monteiro",
+      "nationality": "Brazil",
+      "birthDate": "1989-05-16",
+      "photo": "https://media.api-sports.io/football/players/371.png",
+      "updatedAt": "2026-06-24T11:55:44.883029+00:00"
+    },
+    "454": {
+      "id": 454,
+      "name": "Y. Akgün",
+      "firstname": "Yunus",
+      "lastname": "Akgün",
+      "nationality": "Türkiye",
+      "birthDate": "2000-07-07",
+      "photo": "https://media.api-sports.io/football/players/454.png",
+      "updatedAt": "2026-06-24T11:55:44.883040+00:00"
+    },
+    "908": {
+      "id": 908,
+      "name": "A. Martial",
+      "firstname": "Anthony Jordan",
+      "lastname": "Martial",
+      "nationality": "France",
+      "birthDate": "1995-12-05",
+      "photo": "https://media.api-sports.io/football/players/908.png",
+      "updatedAt": "2026-06-24T11:55:44.883050+00:00"
+    },
+    "1972": {
+      "id": 1972,
+      "name": "L. Karius",
+      "firstname": "Loris Sven",
+      "lastname": "Karius",
+      "nationality": "Germany",
+      "birthDate": "1993-06-22",
+      "photo": "https://media.api-sports.io/football/players/1972.png",
+      "updatedAt": "2026-06-24T11:55:44.883056+00:00"
+    },
+    "2468": {
+      "id": 2468,
+      "name": "G. Montiel",
+      "firstname": "Gonzalo Ariel",
+      "lastname": "Montiel",
+      "nationality": "Argentina",
+      "birthDate": "1997-01-01",
+      "photo": "https://media.api-sports.io/football/players/2468.png",
+      "updatedAt": "2026-06-24T11:55:44.883062+00:00"
+    },
+    "2925": {
+      "id": 2925,
+      "name": "D. Praet",
+      "firstname": "Dennis Pierre Jacques Albert",
+      "lastname": "Praet",
+      "nationality": "Belgium",
+      "birthDate": "1994-05-14",
+      "photo": "https://media.api-sports.io/football/players/2925.png",
+      "updatedAt": "2026-06-24T11:55:44.883068+00:00"
+    },
+    "18817": {
+      "id": 18817,
+      "name": "A. Ogbonna",
+      "firstname": "Angelo",
+      "lastname": "Obinze Ogbonna",
+      "nationality": "Italy",
+      "birthDate": "1988-05-23",
+      "photo": "https://media.api-sports.io/football/players/18817.png",
+      "updatedAt": "2026-06-24T11:55:44.883075+00:00"
+    },
+    "18892": {
+      "id": 18892,
+      "name": "P. Dummett",
+      "firstname": "Paul",
+      "lastname": "Dummett",
+      "nationality": "Wales",
+      "birthDate": "1991-09-26",
+      "photo": "https://media.api-sports.io/football/players/18892.png",
+      "updatedAt": "2026-06-24T11:55:44.883081+00:00"
+    },
+    "18903": {
+      "id": 18903,
+      "name": "M. Ritchie",
+      "firstname": "Matthew Thomas",
+      "lastname": "Ritchie",
+      "nationality": "Scotland",
+      "birthDate": "1989-09-10",
+      "photo": "https://media.api-sports.io/football/players/18903.png",
+      "updatedAt": "2026-06-24T11:55:44.883087+00:00"
+    },
+    "19032": {
+      "id": 19032,
+      "name": "R. Sessegnon",
+      "firstname": "Kouassi Ryan",
+      "lastname": "Sessegnon",
+      "nationality": "England",
+      "birthDate": "2000-05-18",
+      "photo": "https://media.api-sports.io/football/players/19032.png",
+      "updatedAt": "2026-06-24T11:55:44.883093+00:00"
+    },
+    "19130": {
+      "id": 19130,
+      "name": "K. Phillips",
+      "firstname": "Kalvin Mark",
+      "lastname": "Phillips",
+      "nationality": "England",
+      "birthDate": "1995-12-02",
+      "photo": "https://media.api-sports.io/football/players/19130.png",
+      "updatedAt": "2026-06-24T11:55:44.883102+00:00"
+    },
+    "19482": {
+      "id": 19482,
+      "name": "J. Rothwell",
+      "firstname": "Joseph Matthew",
+      "lastname": "Rothwell",
+      "nationality": "England",
+      "birthDate": "1995-01-11",
+      "photo": "https://media.api-sports.io/football/players/19482.png",
+      "updatedAt": "2026-06-24T11:55:44.883111+00:00"
+    },
+    "41577": {
+      "id": 41577,
+      "name": "Nuno Tavares",
+      "firstname": "Nuno Albertino",
+      "lastname": "Varela Tavares",
+      "nationality": "Portugal",
+      "birthDate": "2000-01-26",
+      "photo": "https://media.api-sports.io/football/players/41577.png",
+      "updatedAt": "2026-06-24T11:55:44.883119+00:00"
+    },
+    "144709": {
+      "id": 144709,
+      "name": "J. Anang",
+      "firstname": "Joseph",
+      "lastname": "Tetteh Anang",
+      "nationality": "England",
+      "birthDate": "2000-06-08",
+      "photo": "https://media.api-sports.io/football/players/144709.png",
+      "updatedAt": "2026-06-24T11:55:44.883126+00:00"
+    },
+    "161921": {
+      "id": 161921,
+      "name": "G. Reyna",
+      "firstname": "Giovanni Alejandro",
+      "lastname": "Reyna",
+      "nationality": "USA",
+      "birthDate": "2002-11-13",
+      "photo": "https://media.api-sports.io/football/players/161921.png",
+      "updatedAt": "2026-06-24T11:55:44.883132+00:00"
+    },
+    "284242": {
+      "id": 284242,
+      "name": "O. Forson",
+      "firstname": "Omari Nathan",
+      "lastname": "Forson",
+      "nationality": "England",
+      "birthDate": "2004-07-20",
+      "photo": "https://media.api-sports.io/football/players/284242.png",
+      "updatedAt": "2026-06-24T11:55:44.883138+00:00"
+    },
+    "284536": {
+      "id": 284536,
+      "name": "J. Knightbridge",
+      "firstname": "Jacob Christopher",
+      "lastname": "Knightbridge",
+      "nationality": "England",
+      "birthDate": "2004-01-25",
+      "photo": "https://media.api-sports.io/football/players/284536.png",
+      "updatedAt": "2026-06-24T11:55:44.883145+00:00"
+    },
+    "338856": {
+      "id": 338856,
+      "name": "N. Lemina",
+      "firstname": "Pascal Noha",
+      "lastname": "Lemina",
+      "nationality": "France",
+      "birthDate": "2005-06-17",
+      "photo": "https://media.api-sports.io/football/players/338856.png",
+      "updatedAt": "2026-06-24T11:55:44.883151+00:00"
+    },
+    "341641": {
+      "id": 341641,
+      "name": "Rodrigo Ribeiro",
+      "firstname": "Rodrigo",
+      "lastname": "Duarte Ribeiro",
+      "nationality": "Portugal",
+      "birthDate": "2005-04-28",
+      "photo": "https://media.api-sports.io/football/players/341641.png",
+      "updatedAt": "2026-06-24T11:55:44.883157+00:00"
+    }
+  },
+  "apiTeams": {
+    "45": {
+      "id": 45,
+      "name": "Everton",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "36": {
+      "id": 36,
+      "name": "Fulham",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/36.png"
+    },
+    "55": {
+      "id": 55,
+      "name": "Brentford",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/55.png"
+    },
+    "52": {
+      "id": 52,
+      "name": "Crystal Palace",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/52.png"
+    },
+    "57": {
+      "id": 57,
+      "name": "Ipswich",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/57.png"
+    },
+    "49": {
+      "id": 49,
+      "name": "Chelsea",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "51": {
+      "id": 51,
+      "name": "Brighton",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/51.png"
+    },
+    "66": {
+      "id": 66,
+      "name": "Aston Villa",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "42": {
+      "id": 42,
+      "name": "Arsenal",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "35": {
+      "id": 35,
+      "name": "Bournemouth",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "34": {
+      "id": 34,
+      "name": "Newcastle",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/34.png"
+    },
+    "65": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "46": {
+      "id": 46,
+      "name": "Leicester",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/46.png"
+    },
+    "33": {
+      "id": 33,
+      "name": "Manchester United",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/33.png"
+    },
+    "48": {
+      "id": 48,
+      "name": "West Ham",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/48.png"
+    },
+    "47": {
+      "id": 47,
+      "name": "Tottenham",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/47.png"
+    },
+    "50": {
+      "id": 50,
+      "name": "Manchester City",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "41": {
+      "id": 41,
+      "name": "Southampton",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/41.png"
+    },
+    "39": {
+      "id": 39,
+      "name": "Wolves",
+      "country": null,
+      "logo": "https://media.api-sports.io/football/teams/39.png"
+    }
+  },
+  "teamMap": {
+    "58": 66,
+    "402": 55,
+    "61": 49,
+    "354": 52,
+    "62": 45,
+    "63": 36,
+    "57": 42,
+    "1044": 35,
+    "67": 34,
+    "65": 50,
+    "66": 33,
+    "351": 65,
+    "340": 41,
+    "73": 47
+  },
+  "squads": {},
+  "squadCursor": 0,
+  "pendingProfileIds": [],
+  "unresolvedTeams": {},
+  "lastFullSquadCycleAt": null,
+  "recentErrors": [
+    {
+      "at": "2026-06-24T11:55:45.825088+00:00",
+      "phase": "bootstrap",
+      "league": "PL",
+      "page": 4,
+      "message": "API error: plan: Free plans are limited to a maximum value of 3 for the Page parameter"
+    }
+  ],
+  "updatedAt": "2026-06-24T11:55:45.825430+00:00"
+}
