@@ -22,9 +22,14 @@ COMPETITIONS = [
     "PPL",
 ]
 
-# football-data.orgのアクセス制限を避けるため、
-# 各大会の取得間隔を空ける
+# football-data.org のアクセス制限を避けるための待機時間
 REQUEST_INTERVAL_SECONDS = 10
+TEAM_DETAIL_INTERVAL_SECONDS = 7
+
+JAPANESE_NATIONALITIES = {
+    "japan",
+    "japanese",
+}
 
 
 def request_json(url: str, token: str) -> dict:
@@ -133,17 +138,36 @@ def merge_team(
         )
 
 
+def save_squad_if_present(
+    squads_by_team_id: dict,
+    team: dict,
+) -> None:
+    if not isinstance(team, dict):
+        return
+
+    team_id = team.get("id")
+    squad = team.get("squad")
+
+    if (
+        isinstance(team_id, int)
+        and isinstance(squad, list)
+        and squad
+    ):
+        squads_by_team_id[team_id] = squad
+
+
 def add_teams_from_matches(
     teams_by_key: dict,
-) -> None:
+) -> set[int]:
     matches_path = Path("matches.json")
+    match_team_ids: set[int] = set()
 
     if not matches_path.exists():
         print(
             "matches.json was not found. "
             "Skipping match team import."
         )
-        return
+        return match_team_ids
 
     try:
         data = json.loads(
@@ -155,12 +179,12 @@ def add_teams_from_matches(
         print(
             f"Could not read matches.json: {error}"
         )
-        return
+        return match_team_ids
 
     matches = data.get("matches", [])
 
     if not isinstance(matches, list):
-        return
+        return match_team_ids
 
     for match in matches:
         if not isinstance(match, dict):
@@ -175,16 +199,26 @@ def add_teams_from_matches(
         else:
             competition_code = None
 
-        merge_team(
-            teams_by_key,
-            match.get("homeTeam"),
-            competition_code,
-        )
-        merge_team(
-            teams_by_key,
-            match.get("awayTeam"),
-            competition_code,
-        )
+        for side in ["homeTeam", "awayTeam"]:
+            team = match.get(side)
+
+            merge_team(
+                teams_by_key,
+                team,
+                competition_code,
+            )
+
+            if isinstance(team, dict):
+                team_id = team.get("id")
+
+                # WCの代表チームはクラブ所属判定から除外する
+                if (
+                    isinstance(team_id, int)
+                    and competition_code != "WC"
+                ):
+                    match_team_ids.add(team_id)
+
+    return match_team_ids
 
 
 def fetch_competition_teams(
@@ -213,6 +247,191 @@ def fetch_competition_teams(
     return teams
 
 
+def fetch_team_details(
+    token: str,
+    team_id: int,
+) -> dict:
+    url = f"{API_BASE_URL}/teams/{team_id}"
+    return request_json(url, token)
+
+
+def is_japanese_player(player: dict) -> bool:
+    nationality = clean_text(
+        player.get("nationality")
+    )
+
+    if nationality is None:
+        return False
+
+    return (
+        nationality.casefold()
+        in JAPANESE_NATIONALITIES
+    )
+
+
+def normalize_player(player: dict) -> dict:
+    return {
+        "id": player.get("id"),
+        "name": clean_text(player.get("name")),
+        "position": clean_text(
+            player.get("position")
+        ),
+        "dateOfBirth": clean_text(
+            player.get("dateOfBirth")
+        ),
+        "nationality": clean_text(
+            player.get("nationality")
+        ),
+    }
+
+
+def load_existing_player_teams() -> dict:
+    path = Path("japanese_players.json")
+
+    if not path.exists():
+        return {}
+
+    try:
+        data = json.loads(
+            path.read_text(encoding="utf-8")
+        )
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+    result = {}
+
+    for item in data.get("teams", []):
+        if not isinstance(item, dict):
+            continue
+
+        team_id = item.get("teamId")
+
+        if isinstance(team_id, int):
+            result[team_id] = item
+
+    return result
+
+
+def build_japanese_player_data(
+    token: str,
+    teams: list,
+    squads_by_team_id: dict,
+    match_team_ids: set[int],
+) -> tuple[list, list]:
+    existing_by_team_id = (
+        load_existing_player_teams()
+    )
+    errors = []
+    player_teams = []
+
+    teams_by_id = {
+        team.get("id"): team
+        for team in teams
+        if isinstance(team.get("id"), int)
+    }
+
+    candidate_ids = sorted(
+        team_id
+        for team_id in match_team_ids
+        if team_id in teams_by_id
+    )
+
+    print(
+        "Japanese player scan targets: "
+        f"{len(candidate_ids)} teams."
+    )
+
+    detail_request_count = 0
+
+    for team_id in candidate_ids:
+        team = teams_by_id[team_id]
+        squad = squads_by_team_id.get(team_id)
+
+        if not squad:
+            if detail_request_count > 0:
+                time.sleep(
+                    TEAM_DETAIL_INTERVAL_SECONDS
+                )
+
+            try:
+                details = fetch_team_details(
+                    token,
+                    team_id,
+                )
+                squad = details.get("squad")
+
+                if not isinstance(squad, list):
+                    squad = []
+
+                detail_request_count += 1
+
+            except RuntimeError as error:
+                message = (
+                    f"team {team_id}: {error}"
+                )
+                errors.append(message)
+                print(
+                    f"Warning: {message}",
+                    file=sys.stderr,
+                )
+
+                previous = (
+                    existing_by_team_id.get(team_id)
+                )
+
+                if previous is not None:
+                    player_teams.append(previous)
+
+                continue
+
+        japanese_players = [
+            normalize_player(player)
+            for player in squad
+            if (
+                isinstance(player, dict)
+                and is_japanese_player(player)
+            )
+        ]
+
+        japanese_players.sort(
+            key=lambda player: (
+                player.get("name") or ""
+            ).casefold()
+        )
+
+        if not japanese_players:
+            continue
+
+        player_teams.append(
+            {
+                "teamId": team_id,
+                "teamName": (
+                    team.get("shortName")
+                    or team.get("name")
+                ),
+                "competitionCodes": (
+                    team.get("competitionCodes")
+                    or []
+                ),
+                "players": japanese_players,
+            }
+        )
+
+        print(
+            f"Japanese players found: "
+            f"{team.get('shortName') or team.get('name')} "
+            f"({len(japanese_players)})"
+        )
+
+    player_teams.sort(
+        key=lambda item: (
+            item.get("teamName") or ""
+        ).casefold()
+    )
+
+    return player_teams, errors
+
+
 def main() -> None:
     token = os.environ.get(
         "FOOTBALL_DATA_TOKEN",
@@ -227,25 +446,34 @@ def main() -> None:
         sys.exit(1)
 
     teams_by_key = {}
+    squads_by_team_id = {}
     errors = []
 
-    # 先に現在の試合データからチームを登録
-    add_teams_from_matches(teams_by_key)
+    # 90日間の試合に登場するクラブIDを収集
+    match_team_ids = add_teams_from_matches(
+        teams_by_key
+    )
 
     for index, competition_code in enumerate(
         COMPETITIONS
     ):
         try:
-            teams = fetch_competition_teams(
-                token,
-                competition_code,
+            competition_teams = (
+                fetch_competition_teams(
+                    token,
+                    competition_code,
+                )
             )
 
-            for team in teams:
+            for team in competition_teams:
                 merge_team(
                     teams_by_key,
                     team,
                     competition_code,
+                )
+                save_squad_if_present(
+                    squads_by_team_id,
+                    team,
                 )
 
         except RuntimeError as error:
@@ -273,13 +501,15 @@ def main() -> None:
             team.get("shortName")
             or team.get("name")
             or ""
-        ).lower()
+        ).casefold()
     )
 
-    output = {
-        "updatedAt": datetime.now(
-            timezone.utc
-        ).isoformat(),
+    updated_at = datetime.now(
+        timezone.utc
+    ).isoformat()
+
+    teams_output = {
+        "updatedAt": updated_at,
         "competitions": COMPETITIONS,
         "count": len(teams),
         "errors": errors,
@@ -288,7 +518,39 @@ def main() -> None:
 
     Path("teams.json").write_text(
         json.dumps(
-            output,
+            teams_output,
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    player_teams, player_errors = (
+        build_japanese_player_data(
+            token,
+            teams,
+            squads_by_team_id,
+            match_team_ids,
+        )
+    )
+
+    player_count = sum(
+        len(item.get("players", []))
+        for item in player_teams
+    )
+
+    players_output = {
+        "updatedAt": updated_at,
+        "teamCount": len(player_teams),
+        "playerCount": player_count,
+        "errors": player_errors,
+        "teams": player_teams,
+    }
+
+    Path("japanese_players.json").write_text(
+        json.dumps(
+            players_output,
             ensure_ascii=False,
             indent=2,
         )
@@ -299,6 +561,11 @@ def main() -> None:
     print(
         f"Created teams.json with "
         f"{len(teams)} teams."
+    )
+    print(
+        "Created japanese_players.json with "
+        f"{player_count} players across "
+        f"{len(player_teams)} teams."
     )
 
 
