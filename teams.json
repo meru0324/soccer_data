@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T10:36:40.930227+00:00",
+  "updatedAt": "2026-06-24T10:51:22.471975+00:00",
   "competitions": [
     "WC",
     "CL",
@@ -860,7 +860,7 @@
       "id": 9460,
       "name": "Curaçao",
       "shortName": "Curaçao",
-      "tla": "CUW",
+      "tla": "CUR",
       "crest": "https://crests.football-data.org/curacao.svg",
       "area": {
         "id": 2060,
@@ -3199,7 +3199,7 @@
       "id": 758,
       "name": "Uruguay",
       "shortName": "Uruguay",
-      "tla": "URU",
+      "tla": "URY",
       "crest": "https://crests.football-data.org/758.svg",
       "area": {
         "id": 2257,
