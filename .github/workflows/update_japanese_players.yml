@@ -1,9 +1,9 @@
-name: Update soccer matches
+name: Update Japanese players
 
 "on":
   workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "20 3 * * *"
 
 permissions:
   contents: write
@@ -25,26 +25,23 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch matches
+      - name: Update Japanese player data
         env:
-          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
-        run: python update_matches.py
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python update_japanese_players.py
 
-      - name: Fetch teams
-        env:
-          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
-        run: python update_teams.py  
-
-      - name: Commit updated data
+      - name: Commit updated player data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git restore --worktree japanese_players.json 2>/dev/null || true
-          git add matches.json teams.json
+          git add japanese_players.json api_football_state.json
+          if [ -f japanese_players_overrides.json ]; then
+            git add japanese_players_overrides.json
+          fi
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-          git commit -m "Update match data"
+          git commit -m "Update Japanese player data"
           git pull --rebase
           git push
