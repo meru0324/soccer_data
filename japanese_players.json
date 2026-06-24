@@ -1,0 +1,32 @@
+{
+  "updatedAt": "2026-06-24T11:09:51.893397+00:00",
+  "teamCount": 1,
+  "playerCount": 2,
+  "errors": [],
+  "teams": [
+    {
+      "teamId": 678,
+      "teamName": "Ajax",
+      "competitionCodes": [
+        "CL",
+        "DED"
+      ],
+      "players": [
+        {
+          "id": 48902,
+          "name": "Ko Itakura",
+          "position": "Defence",
+          "dateOfBirth": "1997-01-27",
+          "nationality": "Japan"
+        },
+        {
+          "id": 9034,
+          "name": "Takehiro Tomiyasu",
+          "position": "Defence",
+          "dateOfBirth": "1998-11-05",
+          "nationality": "Japan"
+        }
+      ]
+    }
+  ]
+}
