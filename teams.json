@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T10:32:46.863687+00:00",
+  "updatedAt": "2026-06-25T19:23:07.488185+00:00",
   "competitions": [
     "WC",
     "CL",
@@ -12,7 +12,7 @@
     "DED",
     "PPL"
   ],
-  "count": 211,
+  "count": 214,
   "errors": [],
   "teams": [
     {
@@ -455,6 +455,22 @@
       ]
     },
     {
+      "id": 60,
+      "name": "Bolton Wanderers FC",
+      "shortName": "Bolton",
+      "tla": "BOL",
+      "crest": "https://crests.football-data.org/60.png",
+      "area": {
+        "id": 2072,
+        "name": "England",
+        "code": "ENG",
+        "flag": "https://crests.football-data.org/770.svg"
+      },
+      "competitionCodes": [
+        "ELC"
+      ]
+    },
+    {
       "id": 1060,
       "name": "Bosnia-Herzegovina",
       "shortName": "Bosnia-H.",
@@ -599,6 +615,22 @@
       ]
     },
     {
+      "id": 328,
+      "name": "Burnley FC",
+      "shortName": "Burnley",
+      "tla": "BUR",
+      "crest": "https://crests.football-data.org/328.png",
+      "area": {
+        "id": 2072,
+        "name": "England",
+        "code": "ENG",
+        "flag": "https://crests.football-data.org/770.svg"
+      },
+      "competitionCodes": [
+        "ELC"
+      ]
+    },
+    {
       "id": 104,
       "name": "Cagliari Calcio",
       "shortName": "Cagliari",
@@ -660,6 +692,22 @@
       },
       "competitionCodes": [
         "WC"
+      ]
+    },
+    {
+      "id": 715,
+      "name": "Cardiff City FC",
+      "shortName": "Cardiff",
+      "tla": "CAR",
+      "crest": "https://crests.football-data.org/715.png",
+      "area": {
+        "id": 2264,
+        "name": "Wales",
+        "code": "WAL",
+        "flag": "https://crests.football-data.org/833.svg"
+      },
+      "competitionCodes": [
+        "ELC"
       ]
     },
     {
@@ -820,7 +868,6 @@
         "flag": "https://crests.football-data.org/770.svg"
       },
       "competitionCodes": [
-        "ELC",
         "PL"
       ]
     },
@@ -1447,7 +1494,6 @@
         "flag": "https://crests.football-data.org/770.svg"
       },
       "competitionCodes": [
-        "ELC",
         "PL"
       ]
     },
@@ -1481,7 +1527,6 @@
         "flag": "https://crests.football-data.org/770.svg"
       },
       "competitionCodes": [
-        "ELC",
         "PL"
       ]
     },
@@ -1695,22 +1740,6 @@
       ]
     },
     {
-      "id": 338,
-      "name": "Leicester City FC",
-      "shortName": "Leicester City",
-      "tla": "LEI",
-      "crest": "https://crests.football-data.org/338.png",
-      "area": {
-        "id": 2072,
-        "name": "England",
-        "code": "ENG",
-        "flag": "https://crests.football-data.org/770.svg"
-      },
-      "competitionCodes": [
-        "ELC"
-      ]
-    },
-    {
       "id": 88,
       "name": "Levante UD",
       "shortName": "Levante",
@@ -1757,6 +1786,22 @@
       },
       "competitionCodes": [
         "FL1"
+      ]
+    },
+    {
+      "id": 1126,
+      "name": "Lincoln City FC",
+      "shortName": "Lincoln City",
+      "tla": "LIN",
+      "crest": "https://crests.football-data.org/1126.png",
+      "area": {
+        "id": 2072,
+        "name": "England",
+        "code": "ENG",
+        "flag": "https://crests.football-data.org/770.svg"
+      },
+      "competitionCodes": [
+        "ELC"
       ]
     },
     {
@@ -2211,22 +2256,6 @@
       },
       "competitionCodes": [
         "PD"
-      ]
-    },
-    {
-      "id": 1082,
-      "name": "Oxford United FC",
-      "shortName": "Oxford United",
-      "tla": "OXF",
-      "crest": "https://crests.football-data.org/1082.png",
-      "area": {
-        "id": 2072,
-        "name": "England",
-        "code": "ENG",
-        "flag": "https://crests.football-data.org/770.svg"
-      },
-      "competitionCodes": [
-        "ELC"
       ]
     },
     {
@@ -2702,22 +2731,6 @@
       "shortName": "Sheffield Utd",
       "tla": "SHE",
       "crest": "https://crests.football-data.org/356.png",
-      "area": {
-        "id": 2072,
-        "name": "England",
-        "code": "ENG",
-        "flag": "https://crests.football-data.org/770.svg"
-      },
-      "competitionCodes": [
-        "ELC"
-      ]
-    },
-    {
-      "id": 345,
-      "name": "Sheffield Wednesday FC",
-      "shortName": "Sheffield Wed",
-      "tla": "SHE",
-      "crest": "https://crests.football-data.org/345.png",
       "area": {
         "id": 2072,
         "name": "England",
@@ -3357,6 +3370,22 @@
       ]
     },
     {
+      "id": 563,
+      "name": "West Ham United FC",
+      "shortName": "West Ham",
+      "tla": "WHU",
+      "crest": "https://crests.football-data.org/563.png",
+      "area": {
+        "id": 2072,
+        "name": "England",
+        "code": "ENG",
+        "flag": "https://crests.football-data.org/770.svg"
+      },
+      "competitionCodes": [
+        "ELC"
+      ]
+    },
+    {
       "id": 672,
       "name": "Willem II Tilburg",
       "shortName": "Willem II",
@@ -3386,6 +3415,22 @@
       },
       "competitionCodes": [
         "BL1"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Wolverhampton Wanderers FC",
+      "shortName": "Wolverhampton",
+      "tla": "WOL",
+      "crest": "https://crests.football-data.org/76.png",
+      "area": {
+        "id": 2072,
+        "name": "England",
+        "code": "ENG",
+        "flag": "https://crests.football-data.org/770.svg"
+      },
+      "competitionCodes": [
+        "ELC"
       ]
     },
     {
