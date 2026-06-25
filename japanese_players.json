@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-24T12:03:57.057203+00:00",
+  "updatedAt": "2026-06-25T12:17:01.845409+00:00",
   "source": "API-Football",
-  "teamCount": 0,
-  "playerCount": 0,
+  "teamCount": 2,
+  "playerCount": 2,
   "coverage": {
     "totalClubTeams": 163,
-    "mappedTeams": 16,
-    "teamsWithSquads": 2,
-    "historyCompleteTeams": 1,
-    "unresolvedTeamCount": 44,
-    "pendingProfileCount": 61,
-    "unknownProfileCount": 51,
+    "mappedTeams": 24,
+    "teamsWithSquads": 12,
+    "historyCompleteTeams": 11,
+    "unresolvedTeamCount": 3,
+    "pendingProfileCount": 325,
+    "unknownProfileCount": 160,
     "lastFullSquadCycleAt": null,
     "isComplete": false
   },
@@ -19,266 +19,62 @@
       "teamId": 1,
       "name": "1. FC Köln",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-06-24T12:03:47.170452+00:00"
+      "updatedAt": "2026-06-25T12:08:58.849996+00:00"
     },
     {
       "teamId": 263,
       "name": "Alavés",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-06-24T12:03:53.093528+00:00"
+      "updatedAt": "2026-06-25T12:09:05.814284+00:00"
     },
     {
       "teamId": 9136,
       "name": "Amadora",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.085485+00:00"
-    },
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-25T12:09:26.842660+00:00"
+    }
+  ],
+  "teams": [
     {
-      "teamId": 532,
-      "name": "Angers SCO",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.096764+00:00"
+      "teamId": 678,
+      "teamName": "Ajax",
+      "apiFootballTeamId": 194,
+      "competitionCodes": [
+        "CL",
+        "DED"
+      ],
+      "players": [
+        {
+          "id": 2597,
+          "name": "Takehiro Tomiyasu",
+          "nameJa": null,
+          "position": "Defender",
+          "number": 32,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/2597.png"
+        }
+      ],
+      "checkedAt": "2026-06-24T12:03:49.138313+00:00"
     },
     {
       "teamId": 712,
-      "name": "Arouca",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.108820+00:00"
-    },
-    {
-      "teamId": 102,
-      "name": "Atalanta",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.151850+00:00"
-    },
-    {
-      "teamId": 77,
-      "name": "Athletic",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.164035+00:00"
-    },
-    {
-      "teamId": 78,
-      "name": "Atleti",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.175685+00:00"
-    },
-    {
-      "teamId": 16,
-      "name": "Augsburg",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.189119+00:00"
-    },
-    {
-      "teamId": 519,
-      "name": "Auxerre",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.204501+00:00"
-    },
-    {
-      "teamId": 10340,
-      "name": "AVS",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.215456+00:00"
-    },
-    {
-      "teamId": 682,
-      "name": "AZ",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.227979+00:00"
-    },
-    {
-      "teamId": 81,
-      "name": "Barça",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.239969+00:00"
-    },
-    {
-      "teamId": 5,
-      "name": "Bayern",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.254844+00:00"
-    },
-    {
-      "teamId": 332,
-      "name": "Birmingham",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.268257+00:00"
-    },
-    {
-      "teamId": 59,
-      "name": "Blackburn",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.283530+00:00"
-    },
-    {
-      "teamId": 5721,
-      "name": "Bodø/Glimt",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.294011+00:00"
-    },
-    {
-      "teamId": 103,
-      "name": "Bologna",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.306372+00:00"
-    },
-    {
-      "teamId": 5613,
-      "name": "Braga",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.333421+00:00"
-    },
-    {
-      "teamId": 12,
-      "name": "Bremen",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.345280+00:00"
-    },
-    {
-      "teamId": 512,
-      "name": "Brest",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.376552+00:00"
-    },
-    {
-      "teamId": 397,
-      "name": "Brighton Hove",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.393323+00:00"
-    },
-    {
-      "teamId": 387,
-      "name": "Bristol City",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.411328+00:00"
-    },
-    {
-      "teamId": 104,
-      "name": "Cagliari",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.433556+00:00"
-    },
-    {
-      "teamId": 1909,
-      "name": "Cambuur",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.446464+00:00"
-    },
-    {
-      "teamId": 6618,
-      "name": "Casa Pia",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.462102+00:00"
-    },
-    {
-      "teamId": 5529,
-      "name": "CD Nacional",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.472451+00:00"
-    },
-    {
-      "teamId": 558,
-      "name": "Celta",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.484189+00:00"
-    },
-    {
-      "teamId": 348,
-      "name": "Charlton",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.506286+00:00"
-    },
-    {
-      "teamId": 851,
-      "name": "Club Brugge",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.530632+00:00"
-    },
-    {
-      "teamId": 7397,
-      "name": "Como 1907",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.543704+00:00"
-    },
-    {
-      "teamId": 1076,
-      "name": "Coventry City",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.556608+00:00"
-    },
-    {
-      "teamId": 680,
-      "name": "Den Haag",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.583523+00:00"
-    },
-    {
-      "teamId": 342,
-      "name": "Derby County",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.595843+00:00"
-    },
-    {
-      "teamId": 4,
-      "name": "Dortmund",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.621809+00:00"
-    },
-    {
-      "teamId": 285,
-      "name": "Elche",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.637584+00:00"
-    },
-    {
-      "teamId": 80,
-      "name": "Espanyol",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.650689+00:00"
-    },
-    {
-      "teamId": 582,
-      "name": "Estoril Praia",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.666011+00:00"
-    },
-    {
-      "teamId": 670,
-      "name": "Excelsior",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.696917+00:00"
-    },
-    {
-      "teamId": 5531,
-      "name": "Famalicão",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.708906+00:00"
-    },
-    {
-      "teamId": 675,
-      "name": "Feyenoord",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.723968+00:00"
-    },
-    {
-      "teamId": 99,
-      "name": "Fiorentina",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.741797+00:00"
-    },
-    {
-      "teamId": 10601,
-      "name": "FK Kairat",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.752335+00:00"
-    },
-    {
-      "teamId": 19,
-      "name": "Frankfurt",
-      "message": "HTTP 429: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your per-minute request limit. Please wait a few seconds before retrying or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
-      "updatedAt": "2026-06-24T12:03:56.767958+00:00"
+      "teamName": "Arouca",
+      "apiFootballTeamId": 240,
+      "competitionCodes": [
+        "PPL"
+      ],
+      "players": [
+        {
+          "id": 306615,
+          "name": "Taichi Fukui",
+          "nameJa": null,
+          "position": "Midfielder",
+          "number": 21,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/306615.png"
+        }
+      ],
+      "checkedAt": "2026-06-25T12:10:15.818173+00:00"
     }
-  ],
-  "teams": []
+  ]
 }
