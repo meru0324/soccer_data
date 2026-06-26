@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-25T12:17:01.845409+00:00",
+  "updatedAt": "2026-06-26T12:10:29.022640+00:00",
   "source": "API-Football",
-  "teamCount": 2,
-  "playerCount": 2,
+  "teamCount": 5,
+  "playerCount": 5,
   "coverage": {
-    "totalClubTeams": 163,
-    "mappedTeams": 24,
-    "teamsWithSquads": 12,
-    "historyCompleteTeams": 11,
-    "unresolvedTeamCount": 3,
-    "pendingProfileCount": 325,
-    "unknownProfileCount": 160,
+    "totalClubTeams": 166,
+    "mappedTeams": 31,
+    "teamsWithSquads": 21,
+    "historyCompleteTeams": 21,
+    "unresolvedTeamCount": 8,
+    "pendingProfileCount": 534,
+    "unknownProfileCount": 256,
     "lastFullSquadCycleAt": null,
     "isComplete": false
   },
@@ -32,6 +32,36 @@
       "name": "Amadora",
       "message": "No unambiguous API-Football team match.",
       "updatedAt": "2026-06-25T12:09:26.842660+00:00"
+    },
+    {
+      "teamId": 682,
+      "name": "AZ",
+      "message": "API error: search: The Search field must be at least 3 characters in length.",
+      "updatedAt": "2026-06-26T12:02:40.005739+00:00"
+    },
+    {
+      "teamId": 81,
+      "name": "Barça",
+      "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
+      "updatedAt": "2026-06-26T12:02:46.999952+00:00"
+    },
+    {
+      "teamId": 5721,
+      "name": "Bodø/Glimt",
+      "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
+      "updatedAt": "2026-06-26T12:04:39.005458+00:00"
+    },
+    {
+      "teamId": 12,
+      "name": "Bremen",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-26T12:06:59.033147+00:00"
+    },
+    {
+      "teamId": 397,
+      "name": "Brighton Hove",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-26T12:08:09.060853+00:00"
     }
   ],
   "teams": [
@@ -75,6 +105,67 @@
         }
       ],
       "checkedAt": "2026-06-25T12:10:15.818173+00:00"
+    },
+    {
+      "teamId": 5,
+      "teamName": "Bayern",
+      "apiFootballTeamId": 157,
+      "competitionCodes": [
+        "BL1",
+        "CL"
+      ],
+      "players": [
+        {
+          "id": 32893,
+          "name": "Hiroki Ito",
+          "nameJa": null,
+          "position": "Defender",
+          "number": 21,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/32893.png"
+        }
+      ],
+      "checkedAt": "2026-06-26T12:03:01.010052+00:00"
+    },
+    {
+      "teamId": 332,
+      "teamName": "Birmingham",
+      "apiFootballTeamId": 54,
+      "competitionCodes": [
+        "ELC"
+      ],
+      "players": [
+        {
+          "id": 32938,
+          "name": "Tomoki Iwata",
+          "nameJa": null,
+          "position": "Midfielder",
+          "number": 24,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/32938.png"
+        }
+      ],
+      "checkedAt": "2026-06-26T12:03:36.003406+00:00"
+    },
+    {
+      "teamId": 59,
+      "teamName": "Blackburn",
+      "apiFootballTeamId": 67,
+      "competitionCodes": [
+        "ELC"
+      ],
+      "players": [
+        {
+          "id": 33147,
+          "name": "Yuki Ohashi",
+          "nameJa": null,
+          "position": "Attacker",
+          "number": 23,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/33147.png"
+        }
+      ],
+      "checkedAt": "2026-06-26T12:04:11.003005+00:00"
     }
   ]
 }
