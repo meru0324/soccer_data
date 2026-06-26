@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T10:43:28.747737+00:00",
+  "updatedAt": "2026-06-26T18:15:36.856316+00:00",
   "competitions": [
     "WC",
     "CL",
@@ -3212,7 +3212,7 @@
       "id": 758,
       "name": "Uruguay",
       "shortName": "Uruguay",
-      "tla": "URU",
+      "tla": "URY",
       "crest": "https://crests.football-data.org/758.svg",
       "area": {
         "id": 2257,
