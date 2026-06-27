@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-26T12:10:29.022640+00:00",
+  "updatedAt": "2026-06-27T10:43:25.887716+00:00",
   "source": "API-Football",
-  "teamCount": 5,
-  "playerCount": 5,
+  "teamCount": 6,
+  "playerCount": 6,
   "coverage": {
     "totalClubTeams": 166,
-    "mappedTeams": 31,
-    "teamsWithSquads": 21,
-    "historyCompleteTeams": 21,
-    "unresolvedTeamCount": 8,
-    "pendingProfileCount": 534,
-    "unknownProfileCount": 256,
+    "mappedTeams": 39,
+    "teamsWithSquads": 31,
+    "historyCompleteTeams": 30,
+    "unresolvedTeamCount": 12,
+    "pendingProfileCount": 775,
+    "unknownProfileCount": 368,
     "lastFullSquadCycleAt": null,
     "isComplete": false
   },
@@ -62,6 +62,30 @@
       "name": "Brighton Hove",
       "message": "No unambiguous API-Football team match.",
       "updatedAt": "2026-06-26T12:08:09.060853+00:00"
+    },
+    {
+      "teamId": 5529,
+      "name": "CD Nacional",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-27T10:38:52.902712+00:00"
+    },
+    {
+      "teamId": 558,
+      "name": "Celta",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-27T10:38:59.910554+00:00"
+    },
+    {
+      "teamId": 7397,
+      "name": "Como 1907",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-27T10:40:44.904859+00:00"
+    },
+    {
+      "teamId": 1076,
+      "name": "Coventry City",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-27T10:40:51.902991+00:00"
     }
   ],
   "teams": [
@@ -166,6 +190,26 @@
         }
       ],
       "checkedAt": "2026-06-26T12:04:11.003005+00:00"
+    },
+    {
+      "teamId": 354,
+      "teamName": "Crystal Palace",
+      "apiFootballTeamId": 52,
+      "competitionCodes": [
+        "PL"
+      ],
+      "players": [
+        {
+          "id": 2601,
+          "name": "Daichi Kamada",
+          "nameJa": "鎌田大地",
+          "position": "Midfielder",
+          "number": 18,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/2601.png"
+        }
+      ],
+      "checkedAt": "2026-06-27T10:40:58.876199+00:00"
     }
   ]
 }
