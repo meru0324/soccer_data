@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-27T10:43:25.887716+00:00",
+  "updatedAt": "2026-06-28T11:23:50.816112+00:00",
   "source": "API-Football",
-  "teamCount": 6,
-  "playerCount": 6,
+  "teamCount": 7,
+  "playerCount": 7,
   "coverage": {
     "totalClubTeams": 166,
-    "mappedTeams": 39,
-    "teamsWithSquads": 31,
-    "historyCompleteTeams": 30,
-    "unresolvedTeamCount": 12,
-    "pendingProfileCount": 775,
-    "unknownProfileCount": 368,
+    "mappedTeams": 48,
+    "teamsWithSquads": 40,
+    "historyCompleteTeams": 39,
+    "unresolvedTeamCount": 17,
+    "pendingProfileCount": 911,
+    "unknownProfileCount": 438,
     "lastFullSquadCycleAt": null,
     "isComplete": false
   },
@@ -86,6 +86,36 @@
       "name": "Coventry City",
       "message": "No unambiguous API-Football team match.",
       "updatedAt": "2026-06-27T10:40:51.902991+00:00"
+    },
+    {
+      "teamId": 342,
+      "name": "Derby County",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-28T11:16:36.828161+00:00"
+    },
+    {
+      "teamId": 5531,
+      "name": "Famalicão",
+      "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
+      "updatedAt": "2026-06-28T11:19:45.800951+00:00"
+    },
+    {
+      "teamId": 675,
+      "name": "Feyenoord",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-28T11:19:52.829482+00:00"
+    },
+    {
+      "teamId": 10601,
+      "name": "FK Kairat",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-28T11:20:34.850193+00:00"
+    },
+    {
+      "teamId": 19,
+      "name": "Frankfurt",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-28T11:20:41.825696+00:00"
     }
   ],
   "teams": [
@@ -210,6 +240,26 @@
         }
       ],
       "checkedAt": "2026-06-27T10:40:58.876199+00:00"
+    },
+    {
+      "teamId": 17,
+      "teamName": "Freiburg",
+      "apiFootballTeamId": 160,
+      "competitionCodes": [
+        "BL1"
+      ],
+      "players": [
+        {
+          "id": 199143,
+          "name": "Yuito Suzuki",
+          "nameJa": null,
+          "position": "Attacker",
+          "number": 14,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/199143.png"
+        }
+      ],
+      "checkedAt": "2026-06-28T11:20:55.801866+00:00"
     }
   ]
 }
