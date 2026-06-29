@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-28T11:23:50.816112+00:00",
+  "updatedAt": "2026-06-29T16:51:06.216939+00:00",
   "source": "API-Football",
-  "teamCount": 7,
-  "playerCount": 7,
+  "teamCount": 8,
+  "playerCount": 9,
   "coverage": {
     "totalClubTeams": 166,
-    "mappedTeams": 48,
-    "teamsWithSquads": 40,
-    "historyCompleteTeams": 39,
-    "unresolvedTeamCount": 17,
-    "pendingProfileCount": 911,
-    "unknownProfileCount": 438,
+    "mappedTeams": 57,
+    "teamsWithSquads": 50,
+    "historyCompleteTeams": 49,
+    "unresolvedTeamCount": 20,
+    "pendingProfileCount": 1158,
+    "unknownProfileCount": 539,
     "lastFullSquadCycleAt": null,
     "isComplete": false
   },
@@ -116,6 +116,24 @@
       "name": "Frankfurt",
       "message": "No unambiguous API-Football team match.",
       "updatedAt": "2026-06-28T11:20:41.825696+00:00"
+    },
+    {
+      "teamId": 44,
+      "name": "Heidenheim",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-29T16:48:25.206967+00:00"
+    },
+    {
+      "teamId": 2,
+      "name": "Hoffenheim",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-29T16:48:32.210009+00:00"
+    },
+    {
+      "teamId": 7,
+      "name": "HSV",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-29T16:48:39.229393+00:00"
     }
   ],
   "teams": [
@@ -190,6 +208,15 @@
       ],
       "players": [
         {
+          "id": 33794,
+          "name": "Kanya Fujimoto",
+          "nameJa": null,
+          "position": "Midfielder",
+          "number": 27,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/33794.png"
+        },
+        {
           "id": 32938,
           "name": "Tomoki Iwata",
           "nameJa": null,
@@ -260,6 +287,26 @@
         }
       ],
       "checkedAt": "2026-06-28T11:20:55.801866+00:00"
+    },
+    {
+      "teamId": 322,
+      "teamName": "Hull City",
+      "apiFootballTeamId": 64,
+      "competitionCodes": [
+        "PL"
+      ],
+      "players": [
+        {
+          "id": 348800,
+          "name": "Yu Hirakawa",
+          "nameJa": null,
+          "position": "Attacker",
+          "number": 13,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/348800.png"
+        }
+      ],
+      "checkedAt": "2026-06-29T16:48:53.206195+00:00"
     }
   ]
 }
