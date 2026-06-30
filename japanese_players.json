@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-29T16:51:06.216939+00:00",
+  "updatedAt": "2026-06-30T12:08:50.132417+00:00",
   "source": "API-Football",
   "teamCount": 8,
   "playerCount": 9,
   "coverage": {
     "totalClubTeams": 166,
-    "mappedTeams": 57,
-    "teamsWithSquads": 50,
-    "historyCompleteTeams": 49,
-    "unresolvedTeamCount": 20,
-    "pendingProfileCount": 1158,
-    "unknownProfileCount": 539,
+    "mappedTeams": 66,
+    "teamsWithSquads": 59,
+    "historyCompleteTeams": 58,
+    "unresolvedTeamCount": 26,
+    "pendingProfileCount": 1368,
+    "unknownProfileCount": 618,
     "lastFullSquadCycleAt": null,
     "isComplete": false
   },
@@ -134,6 +134,42 @@
       "name": "HSV",
       "message": "No unambiguous API-Football team match.",
       "updatedAt": "2026-06-29T16:48:39.229393+00:00"
+    },
+    {
+      "teamId": 349,
+      "name": "Ipswich Town",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-30T12:01:36.161064+00:00"
+    },
+    {
+      "teamId": 1876,
+      "name": "København",
+      "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
+      "updatedAt": "2026-06-30T12:02:18.121304+00:00"
+    },
+    {
+      "teamId": 341,
+      "name": "Leeds United",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-30T12:04:45.126882+00:00"
+    },
+    {
+      "teamId": 3,
+      "name": "Leverkusen",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-30T12:05:27.150495+00:00"
+    },
+    {
+      "teamId": 1126,
+      "name": "Lincoln City",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-30T12:06:09.151027+00:00"
+    },
+    {
+      "teamId": 64,
+      "name": "Liverpool",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-06-30T12:06:16.123754+00:00"
     }
   ],
   "teams": [
