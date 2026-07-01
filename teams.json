@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T18:26:40.117302+00:00",
+  "updatedAt": "2026-07-01T11:43:42.504670+00:00",
   "competitions": [
     "WC",
     "CL",
@@ -952,6 +952,22 @@
       ]
     },
     {
+      "id": 560,
+      "name": "RC Deportivo La Coruña",
+      "shortName": "Deportivo",
+      "tla": "DEP",
+      "crest": "https://crests.football-data.org/560.png",
+      "area": {
+        "id": 2224,
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "https://crests.football-data.org/760.svg"
+      },
+      "competitionCodes": [
+        "PD"
+      ]
+    },
+    {
       "id": 342,
       "name": "Derby County FC",
       "shortName": "Derby County",
@@ -1351,22 +1367,6 @@
       },
       "competitionCodes": [
         "PPL"
-      ]
-    },
-    {
-      "id": 298,
-      "name": "Girona FC",
-      "shortName": "Girona",
-      "tla": "GIR",
-      "crest": "https://crests.football-data.org/298.png",
-      "area": {
-        "id": 2224,
-        "name": "Spain",
-        "code": "ESP",
-        "flag": "https://crests.football-data.org/760.svg"
-      },
-      "competitionCodes": [
-        "PD"
       ]
     },
     {
@@ -1870,22 +1870,6 @@
       ]
     },
     {
-      "id": 89,
-      "name": "RCD Mallorca",
-      "shortName": "Mallorca",
-      "tla": "MAL",
-      "crest": "https://crests.football-data.org/89.png",
-      "area": {
-        "id": 2224,
-        "name": "Spain",
-        "code": "ESP",
-        "flag": "https://crests.football-data.org/760.svg"
-      },
-      "competitionCodes": [
-        "PD"
-      ]
-    },
-    {
       "id": 65,
       "name": "Manchester City FC",
       "shortName": "Man City",
@@ -2062,6 +2046,22 @@
       },
       "competitionCodes": [
         "WC"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Málaga CF",
+      "shortName": "Málaga",
+      "tla": "MAL",
+      "crest": "https://crests.football-data.org/84.png",
+      "area": {
+        "id": 2224,
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "https://crests.football-data.org/760.svg"
+      },
+      "competitionCodes": [
+        "PD"
       ]
     },
     {
@@ -2566,22 +2566,6 @@
       ]
     },
     {
-      "id": 1048,
-      "name": "Real Oviedo",
-      "shortName": "Real Oviedo",
-      "tla": "OVI",
-      "crest": "https://crests.football-data.org/1048.png",
-      "area": {
-        "id": 2224,
-        "name": "Spain",
-        "code": "ESP",
-        "flag": "https://crests.football-data.org/760.svg"
-      },
-      "competitionCodes": [
-        "PD"
-      ]
-    },
-    {
       "id": 92,
       "name": "Real Sociedad de Fútbol",
       "shortName": "Real Sociedad",
@@ -2643,6 +2627,22 @@
       },
       "competitionCodes": [
         "PPL"
+      ]
+    },
+    {
+      "id": 5335,
+      "name": "Real Racing Club de Santander",
+      "shortName": "Santander",
+      "tla": "SAN",
+      "crest": "https://crests.football-data.org/5335.png",
+      "area": {
+        "id": 2224,
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "https://crests.football-data.org/760.svg"
+      },
+      "competitionCodes": [
+        "PD"
       ]
     },
     {
