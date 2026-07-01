@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-30T12:08:50.132417+00:00",
+  "updatedAt": "2026-07-01T13:35:27.634204+00:00",
   "source": "API-Football",
-  "teamCount": 8,
-  "playerCount": 9,
+  "teamCount": 9,
+  "playerCount": 10,
   "coverage": {
     "totalClubTeams": 166,
-    "mappedTeams": 66,
-    "teamsWithSquads": 59,
-    "historyCompleteTeams": 58,
-    "unresolvedTeamCount": 26,
-    "pendingProfileCount": 1368,
-    "unknownProfileCount": 618,
+    "mappedTeams": 73,
+    "teamsWithSquads": 68,
+    "historyCompleteTeams": 67,
+    "unresolvedTeamCount": 29,
+    "pendingProfileCount": 1564,
+    "unknownProfileCount": 665,
     "lastFullSquadCycleAt": null,
     "isComplete": false
   },
@@ -170,6 +170,24 @@
       "name": "Liverpool",
       "message": "No unambiguous API-Football team match.",
       "updatedAt": "2026-06-30T12:06:16.123754+00:00"
+    },
+    {
+      "teamId": 18,
+      "name": "M'gladbach",
+      "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
+      "updatedAt": "2026-07-01T13:27:38.560303+00:00"
+    },
+    {
+      "teamId": 15,
+      "name": "Mainz",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-07-01T13:27:45.605265+00:00"
+    },
+    {
+      "teamId": 84,
+      "name": "Málaga",
+      "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
+      "updatedAt": "2026-07-01T13:32:53.567302+00:00"
     }
   ],
   "teams": [
@@ -343,6 +361,27 @@
         }
       ],
       "checkedAt": "2026-06-29T16:48:53.206195+00:00"
+    },
+    {
+      "teamId": 548,
+      "teamName": "Monaco",
+      "apiFootballTeamId": 91,
+      "competitionCodes": [
+        "CL",
+        "FL1"
+      ],
+      "players": [
+        {
+          "id": 1101,
+          "name": "Takumi Minamino",
+          "nameJa": null,
+          "position": "Attacker",
+          "number": 8,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/1101.png"
+        }
+      ],
+      "checkedAt": "2026-07-01T13:31:15.570906+00:00"
     }
   ]
 }
