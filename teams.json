@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T10:22:19.292095+00:00",
+  "updatedAt": "2026-07-02T18:20:51.055046+00:00",
   "competitions": [
     "WC",
     "CL",
@@ -1049,6 +1049,22 @@
       ]
     },
     {
+      "id": 719,
+      "name": "SV 07 Elversberg",
+      "shortName": "Elversberg",
+      "tla": "ELV",
+      "crest": "https://crests.football-data.org/719.png",
+      "area": {
+        "id": 2088,
+        "name": "Germany",
+        "code": "DEU",
+        "flag": "https://crests.football-data.org/759.svg"
+      },
+      "competitionCodes": [
+        "BL1"
+      ]
+    },
+    {
       "id": 770,
       "name": "England",
       "shortName": "England",
@@ -1431,22 +1447,6 @@
       },
       "competitionCodes": [
         "DED"
-      ]
-    },
-    {
-      "id": 44,
-      "name": "1. FC Heidenheim 1846",
-      "shortName": "Heidenheim",
-      "tla": "HEI",
-      "crest": "https://crests.football-data.org/44.png",
-      "area": {
-        "id": 2088,
-        "name": "Germany",
-        "code": "DEU",
-        "flag": "https://crests.football-data.org/759.svg"
-      },
-      "competitionCodes": [
-        "BL1"
       ]
     },
     {
@@ -2678,6 +2678,38 @@
       ]
     },
     {
+      "id": 29,
+      "name": "SC Paderborn 07",
+      "shortName": "SC Paderborn",
+      "tla": "SCP",
+      "crest": "https://crests.football-data.org/29.png",
+      "area": {
+        "id": 2088,
+        "name": "Germany",
+        "code": "DEU",
+        "flag": "https://crests.football-data.org/759.svg"
+      },
+      "competitionCodes": [
+        "BL1"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "FC Schalke 04",
+      "shortName": "Schalke",
+      "tla": "S04",
+      "crest": "https://crests.football-data.org/6.png",
+      "area": {
+        "id": 2088,
+        "name": "Germany",
+        "code": "DEU",
+        "flag": "https://crests.football-data.org/759.svg"
+      },
+      "competitionCodes": [
+        "BL1"
+      ]
+    },
+    {
       "id": 8873,
       "name": "Scotland",
       "shortName": "Scotland",
@@ -2869,22 +2901,6 @@
       "competitionCodes": [
         "CL",
         "PPL"
-      ]
-    },
-    {
-      "id": 20,
-      "name": "FC St. Pauli 1910",
-      "shortName": "St. Pauli",
-      "tla": "STP",
-      "crest": "https://crests.football-data.org/20.png",
-      "area": {
-        "id": 2088,
-        "name": "Germany",
-        "code": "DEU",
-        "flag": "https://crests.football-data.org/759.svg"
-      },
-      "competitionCodes": [
-        "BL1"
       ]
     },
     {
@@ -3399,22 +3415,6 @@
       },
       "competitionCodes": [
         "DED"
-      ]
-    },
-    {
-      "id": 11,
-      "name": "VfL Wolfsburg",
-      "shortName": "Wolfsburg",
-      "tla": "WOB",
-      "crest": "https://crests.football-data.org/11.png",
-      "area": {
-        "id": 2088,
-        "name": "Germany",
-        "code": "DEU",
-        "flag": "https://crests.football-data.org/759.svg"
-      },
-      "competitionCodes": [
-        "BL1"
       ]
     },
     {
