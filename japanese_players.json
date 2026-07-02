@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-01T13:35:27.634204+00:00",
+  "updatedAt": "2026-07-02T12:03:49.099419+00:00",
   "source": "API-Football",
-  "teamCount": 9,
-  "playerCount": 10,
+  "teamCount": 10,
+  "playerCount": 11,
   "coverage": {
     "totalClubTeams": 166,
-    "mappedTeams": 73,
-    "teamsWithSquads": 68,
-    "historyCompleteTeams": 67,
-    "unresolvedTeamCount": 29,
-    "pendingProfileCount": 1564,
-    "unknownProfileCount": 665,
+    "mappedTeams": 82,
+    "teamsWithSquads": 79,
+    "historyCompleteTeams": 78,
+    "unresolvedTeamCount": 31,
+    "pendingProfileCount": 1821,
+    "unknownProfileCount": 777,
     "lastFullSquadCycleAt": null,
     "isComplete": false
   },
@@ -188,6 +188,18 @@
       "name": "Málaga",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
       "updatedAt": "2026-07-01T13:32:53.567302+00:00"
+    },
+    {
+      "teamId": 68,
+      "name": "Norwich",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-07-02T11:57:24.074726+00:00"
+    },
+    {
+      "teamId": 11034,
+      "name": "Paphos FC",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-07-02T11:59:37.099988+00:00"
     }
   ],
   "teams": [
@@ -382,6 +394,26 @@
         }
       ],
       "checkedAt": "2026-07-01T13:31:15.570906+00:00"
+    },
+    {
+      "teamId": 112,
+      "teamName": "Parma",
+      "apiFootballTeamId": 523,
+      "competitionCodes": [
+        "SA"
+      ],
+      "players": [
+        {
+          "id": 199578,
+          "name": "Zion Suzuki",
+          "nameJa": null,
+          "position": "Goalkeeper",
+          "number": 31,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/199578.png"
+        }
+      ],
+      "checkedAt": "2026-07-02T12:00:26.087290+00:00"
     }
   ]
 }
