@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-02T12:03:49.099419+00:00",
+  "updatedAt": "2026-07-03T12:02:42.935048+00:00",
   "source": "API-Football",
-  "teamCount": 10,
-  "playerCount": 11,
+  "teamCount": 12,
+  "playerCount": 13,
   "coverage": {
     "totalClubTeams": 166,
-    "mappedTeams": 82,
-    "teamsWithSquads": 79,
-    "historyCompleteTeams": 78,
-    "unresolvedTeamCount": 31,
-    "pendingProfileCount": 1821,
-    "unknownProfileCount": 777,
+    "mappedTeams": 91,
+    "teamsWithSquads": 88,
+    "historyCompleteTeams": 87,
+    "unresolvedTeamCount": 36,
+    "pendingProfileCount": 2028,
+    "unknownProfileCount": 848,
     "lastFullSquadCycleAt": null,
     "isComplete": false
   },
@@ -200,6 +200,36 @@
       "name": "Paphos FC",
       "message": "No unambiguous API-Football team match.",
       "updatedAt": "2026-07-02T11:59:37.099988+00:00"
+    },
+    {
+      "teamId": 1081,
+      "name": "Preston NE",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-07-03T11:54:53.926070+00:00"
+    },
+    {
+      "teamId": 524,
+      "name": "PSG",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-07-03T11:55:00.907571+00:00"
+    },
+    {
+      "teamId": 674,
+      "name": "PSV",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-07-03T11:55:07.908776+00:00"
+    },
+    {
+      "teamId": 611,
+      "name": "Qarabağ Ağdam",
+      "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
+      "updatedAt": "2026-07-03T11:55:14.904580+00:00"
+    },
+    {
+      "teamId": 546,
+      "name": "RC Lens",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-07-03T11:57:06.942456+00:00"
     }
   ],
   "teams": [
@@ -414,6 +444,46 @@
         }
       ],
       "checkedAt": "2026-07-02T12:00:26.087290+00:00"
+    },
+    {
+      "teamId": 69,
+      "teamName": "QPR",
+      "apiFootballTeamId": 72,
+      "competitionCodes": [
+        "ELC"
+      ],
+      "players": [
+        {
+          "id": 33838,
+          "name": "Koki Saito",
+          "nameJa": null,
+          "position": "Attacker",
+          "number": 14,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/33838.png"
+        }
+      ],
+      "checkedAt": "2026-07-03T11:55:28.904606+00:00"
+    },
+    {
+      "teamId": 92,
+      "teamName": "Real Sociedad",
+      "apiFootballTeamId": 548,
+      "competitionCodes": [
+        "PD"
+      ],
+      "players": [
+        {
+          "id": 32862,
+          "name": "Takefusa Kubo",
+          "nameJa": null,
+          "position": "Attacker",
+          "number": 14,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/32862.png"
+        }
+      ],
+      "checkedAt": "2026-07-03T11:58:30.915570+00:00"
     }
   ]
 }
