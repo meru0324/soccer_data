@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-03T12:02:42.935048+00:00",
+  "updatedAt": "2026-07-04T10:43:58.046020+00:00",
   "source": "API-Football",
-  "teamCount": 12,
-  "playerCount": 13,
+  "teamCount": 14,
+  "playerCount": 15,
   "coverage": {
     "totalClubTeams": 166,
-    "mappedTeams": 91,
-    "teamsWithSquads": 88,
-    "historyCompleteTeams": 87,
-    "unresolvedTeamCount": 36,
-    "pendingProfileCount": 2028,
-    "unknownProfileCount": 848,
+    "mappedTeams": 100,
+    "teamsWithSquads": 98,
+    "historyCompleteTeams": 97,
+    "unresolvedTeamCount": 38,
+    "pendingProfileCount": 2239,
+    "unknownProfileCount": 935,
     "lastFullSquadCycleAt": null,
     "isComplete": false
   },
@@ -230,6 +230,18 @@
       "name": "RC Lens",
       "message": "No unambiguous API-Football team match.",
       "updatedAt": "2026-07-03T11:57:06.942456+00:00"
+    },
+    {
+      "teamId": 5335,
+      "name": "Santander",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-07-04T10:36:09.056236+00:00"
+    },
+    {
+      "teamId": 559,
+      "name": "Sevilla FC",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-07-04T10:38:01.181632+00:00"
     }
   ],
   "teams": [
@@ -484,6 +496,47 @@
         }
       ],
       "checkedAt": "2026-07-03T11:58:30.915570+00:00"
+    },
+    {
+      "teamId": 6806,
+      "teamName": "Sparta",
+      "apiFootballTeamId": 426,
+      "competitionCodes": [
+        "DED"
+      ],
+      "players": [
+        {
+          "id": 237131,
+          "name": "Shunsuke Mito",
+          "nameJa": null,
+          "position": "Midfielder",
+          "number": 11,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/237131.png"
+        }
+      ],
+      "checkedAt": "2026-07-04T10:40:49.024676+00:00"
+    },
+    {
+      "teamId": 498,
+      "teamName": "Sporting CP",
+      "apiFootballTeamId": 228,
+      "competitionCodes": [
+        "CL",
+        "PPL"
+      ],
+      "players": [
+        {
+          "id": 32960,
+          "name": "Hidemasa Morita",
+          "nameJa": null,
+          "position": "Midfielder",
+          "number": 5,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/32960.png"
+        }
+      ],
+      "checkedAt": "2026-07-04T10:41:24.026093+00:00"
     }
   ]
 }
