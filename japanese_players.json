@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-04T10:43:58.046020+00:00",
+  "updatedAt": "2026-07-05T11:18:43.692071+00:00",
   "source": "API-Football",
-  "teamCount": 14,
-  "playerCount": 15,
+  "teamCount": 15,
+  "playerCount": 16,
   "coverage": {
     "totalClubTeams": 166,
-    "mappedTeams": 100,
-    "teamsWithSquads": 98,
-    "historyCompleteTeams": 97,
-    "unresolvedTeamCount": 38,
-    "pendingProfileCount": 2239,
-    "unknownProfileCount": 935,
+    "mappedTeams": 109,
+    "teamsWithSquads": 108,
+    "historyCompleteTeams": 108,
+    "unresolvedTeamCount": 39,
+    "pendingProfileCount": 2407,
+    "unknownProfileCount": 994,
     "lastFullSquadCycleAt": null,
     "isComplete": false
   },
@@ -242,6 +242,12 @@
       "name": "Sevilla FC",
       "message": "No unambiguous API-Football team match.",
       "updatedAt": "2026-07-04T10:38:01.181632+00:00"
+    },
+    {
+      "teamId": 529,
+      "name": "Stade Rennais",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-07-05T11:10:47.711623+00:00"
     }
   ],
   "teams": [
@@ -537,6 +543,26 @@
         }
       ],
       "checkedAt": "2026-07-04T10:41:24.026093+00:00"
+    },
+    {
+      "teamId": 70,
+      "teamName": "Stoke",
+      "apiFootballTeamId": 75,
+      "competitionCodes": [
+        "ELC"
+      ],
+      "players": [
+        {
+          "id": 153321,
+          "name": "Tatsuki Seko",
+          "nameJa": null,
+          "position": "Midfielder",
+          "number": 12,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/153321.png"
+        }
+      ],
+      "checkedAt": "2026-07-05T11:11:01.682119+00:00"
     }
   ]
 }
