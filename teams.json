@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T15:57:59.362713+00:00",
+  "updatedAt": "2026-07-06T14:07:45.963085+00:00",
   "competitions": [
     "WC",
     "CL",
@@ -29,6 +29,22 @@
       },
       "competitionCodes": [
         "BL1"
+      ]
+    },
+    {
+      "id": 5527,
+      "name": "Académico de Viseu FC",
+      "shortName": "Acad. Viseu",
+      "tla": "ACV",
+      "crest": "https://crests.football-data.org/5527.png",
+      "area": {
+        "id": 2187,
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "https://crests.football-data.org/765.svg"
+      },
+      "competitionCodes": [
+        "PPL"
       ]
     },
     {
@@ -306,22 +322,6 @@
       },
       "competitionCodes": [
         "FL1"
-      ]
-    },
-    {
-      "id": 10340,
-      "name": "AVS",
-      "shortName": "AVS",
-      "tla": "AVS",
-      "crest": "https://crests.football-data.org/10340.png",
-      "area": {
-        "id": 2187,
-        "name": "Portugal",
-        "code": "POR",
-        "flag": "https://crests.football-data.org/765.svg"
-      },
-      "competitionCodes": [
-        "PPL"
       ]
     },
     {
@@ -1920,6 +1920,22 @@
       ]
     },
     {
+      "id": 5575,
+      "name": "CS Marítimo",
+      "shortName": "Marítimo",
+      "tla": "CSM",
+      "crest": "https://crests.football-data.org/5575.png",
+      "area": {
+        "id": 2187,
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "https://crests.football-data.org/765.svg"
+      },
+      "competitionCodes": [
+        "PPL"
+      ]
+    },
+    {
       "id": 769,
       "name": "Mexico",
       "shortName": "Mexico",
@@ -3045,22 +3061,6 @@
       },
       "competitionCodes": [
         "DED"
-      ]
-    },
-    {
-      "id": 1049,
-      "name": "CD Tondela",
-      "shortName": "Tondela",
-      "tla": "TON",
-      "crest": "https://crests.football-data.org/1049.png",
-      "area": {
-        "id": 2187,
-        "name": "Portugal",
-        "code": "POR",
-        "flag": "https://crests.football-data.org/765.svg"
-      },
-      "competitionCodes": [
-        "PPL"
       ]
     },
     {
