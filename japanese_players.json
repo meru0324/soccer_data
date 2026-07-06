@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-05T11:18:43.692071+00:00",
+  "updatedAt": "2026-07-06T14:54:26.056149+00:00",
   "source": "API-Football",
   "teamCount": 15,
   "playerCount": 16,
   "coverage": {
     "totalClubTeams": 166,
-    "mappedTeams": 109,
-    "teamsWithSquads": 108,
-    "historyCompleteTeams": 108,
-    "unresolvedTeamCount": 39,
-    "pendingProfileCount": 2407,
-    "unknownProfileCount": 994,
+    "mappedTeams": 118,
+    "teamsWithSquads": 117,
+    "historyCompleteTeams": 116,
+    "unresolvedTeamCount": 42,
+    "pendingProfileCount": 2578,
+    "unknownProfileCount": 1077,
     "lastFullSquadCycleAt": null,
     "isComplete": false
   },
@@ -248,6 +248,24 @@
       "name": "Stade Rennais",
       "message": "No unambiguous API-Football team match.",
       "updatedAt": "2026-07-05T11:10:47.711623+00:00"
+    },
+    {
+      "teamId": 531,
+      "name": "Troyes",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-07-06T14:46:23.131348+00:00"
+    },
+    {
+      "teamId": 454,
+      "name": "Venezia FC",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-07-06T14:49:32.081217+00:00"
+    },
+    {
+      "teamId": 5543,
+      "name": "Vitória SC",
+      "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
+      "updatedAt": "2026-07-06T14:50:14.048991+00:00"
     }
   ],
   "teams": [
