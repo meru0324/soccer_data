@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://soccer-schedule-d1n.pages.dev/sitemap.xml
