@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-06T14:54:26.056149+00:00",
+  "updatedAt": "2026-07-07T12:47:13.201259+00:00",
   "source": "API-Football",
-  "teamCount": 15,
-  "playerCount": 16,
+  "teamCount": 16,
+  "playerCount": 17,
   "coverage": {
     "totalClubTeams": 166,
-    "mappedTeams": 118,
-    "teamsWithSquads": 117,
-    "historyCompleteTeams": 116,
-    "unresolvedTeamCount": 42,
-    "pendingProfileCount": 2578,
-    "unknownProfileCount": 1077,
-    "lastFullSquadCycleAt": null,
+    "mappedTeams": 120,
+    "teamsWithSquads": 119,
+    "historyCompleteTeams": 119,
+    "unresolvedTeamCount": 44,
+    "pendingProfileCount": 2517,
+    "unknownProfileCount": 1065,
+    "lastFullSquadCycleAt": "2026-07-07T12:40:34.207766+00:00",
     "isComplete": false
   },
   "unresolvedTeams": [
@@ -19,61 +19,67 @@
       "teamId": 1,
       "name": "1. FC Köln",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-06-25T12:08:58.849996+00:00"
+      "updatedAt": "2026-07-07T12:40:41.185039+00:00"
+    },
+    {
+      "teamId": 5527,
+      "name": "Acad. Viseu",
+      "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
+      "updatedAt": "2026-07-07T12:40:48.185329+00:00"
     },
     {
       "teamId": 263,
       "name": "Alavés",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-06-25T12:09:05.814284+00:00"
+      "updatedAt": "2026-07-07T12:41:02.254220+00:00"
     },
     {
       "teamId": 9136,
       "name": "Amadora",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-25T12:09:26.842660+00:00"
+      "updatedAt": "2026-07-07T12:41:16.227258+00:00"
     },
     {
       "teamId": 682,
       "name": "AZ",
       "message": "API error: search: The Search field must be at least 3 characters in length.",
-      "updatedAt": "2026-06-26T12:02:40.005739+00:00"
+      "updatedAt": "2026-07-07T12:42:26.192340+00:00"
     },
     {
       "teamId": 81,
       "name": "Barça",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-06-26T12:02:46.999952+00:00"
+      "updatedAt": "2026-07-07T12:42:33.191972+00:00"
     },
     {
       "teamId": 5721,
       "name": "Bodø/Glimt",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-06-26T12:04:39.005458+00:00"
+      "updatedAt": "2026-07-07T12:43:01.191788+00:00"
     },
     {
       "teamId": 12,
       "name": "Bremen",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-26T12:06:59.033147+00:00"
+      "updatedAt": "2026-07-07T12:43:36.234194+00:00"
     },
     {
       "teamId": 397,
       "name": "Brighton Hove",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-26T12:08:09.060853+00:00"
+      "updatedAt": "2026-07-07T12:43:57.236902+00:00"
     },
     {
       "teamId": 5529,
       "name": "CD Nacional",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-27T10:38:52.902712+00:00"
+      "updatedAt": "2026-07-07T12:44:46.224962+00:00"
     },
     {
       "teamId": 558,
       "name": "Celta",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-27T10:38:59.910554+00:00"
+      "updatedAt": "2026-07-07T12:44:53.191628+00:00"
     },
     {
       "teamId": 7397,
@@ -266,6 +272,12 @@
       "name": "Vitória SC",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
       "updatedAt": "2026-07-06T14:50:14.048991+00:00"
+    },
+    {
+      "teamId": 76,
+      "name": "Wolverhampton",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-07-07T12:39:24.235949+00:00"
     }
   ],
   "teams": [
@@ -288,7 +300,7 @@
           "photo": "https://media.api-sports.io/football/players/2597.png"
         }
       ],
-      "checkedAt": "2026-06-24T12:03:49.138313+00:00"
+      "checkedAt": "2026-07-07T12:40:55.186129+00:00"
     },
     {
       "teamId": 712,
@@ -308,7 +320,7 @@
           "photo": "https://media.api-sports.io/football/players/306615.png"
         }
       ],
-      "checkedAt": "2026-06-25T12:10:15.818173+00:00"
+      "checkedAt": "2026-07-07T12:41:30.190816+00:00"
     },
     {
       "teamId": 5,
@@ -329,7 +341,7 @@
           "photo": "https://media.api-sports.io/football/players/32893.png"
         }
       ],
-      "checkedAt": "2026-06-26T12:03:01.010052+00:00"
+      "checkedAt": "2026-07-07T12:42:40.193429+00:00"
     },
     {
       "teamId": 332,
@@ -358,7 +370,7 @@
           "photo": "https://media.api-sports.io/football/players/32938.png"
         }
       ],
-      "checkedAt": "2026-06-26T12:03:36.003406+00:00"
+      "checkedAt": "2026-07-07T12:42:47.198313+00:00"
     },
     {
       "teamId": 59,
@@ -378,7 +390,7 @@
           "photo": "https://media.api-sports.io/football/players/33147.png"
         }
       ],
-      "checkedAt": "2026-06-26T12:04:11.003005+00:00"
+      "checkedAt": "2026-07-07T12:42:54.196145+00:00"
     },
     {
       "teamId": 354,
@@ -439,6 +451,26 @@
         }
       ],
       "checkedAt": "2026-06-29T16:48:53.206195+00:00"
+    },
+    {
+      "teamId": 533,
+      "teamName": "Le Havre",
+      "apiFootballTeamId": 111,
+      "competitionCodes": [
+        "FL1"
+      ],
+      "players": [
+        {
+          "id": 33165,
+          "name": "Ayumu Seko",
+          "nameJa": null,
+          "position": "Defender",
+          "number": 15,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/33165.png"
+        }
+      ],
+      "checkedAt": "2026-06-30T12:03:07.117971+00:00"
     },
     {
       "teamId": 548,
