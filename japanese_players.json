@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-07T12:47:13.201259+00:00",
+  "updatedAt": "2026-07-08T11:00:14.695969+00:00",
   "source": "API-Football",
   "teamCount": 16,
-  "playerCount": 17,
+  "playerCount": 18,
   "coverage": {
     "totalClubTeams": 166,
-    "mappedTeams": 120,
+    "mappedTeams": 121,
     "teamsWithSquads": 119,
     "historyCompleteTeams": 119,
-    "unresolvedTeamCount": 44,
-    "pendingProfileCount": 2517,
-    "unknownProfileCount": 1065,
+    "unresolvedTeamCount": 45,
+    "pendingProfileCount": 2444,
+    "unknownProfileCount": 1042,
     "lastFullSquadCycleAt": "2026-07-07T12:40:34.207766+00:00",
     "isComplete": false
   },
@@ -82,46 +82,52 @@
       "updatedAt": "2026-07-07T12:44:53.191628+00:00"
     },
     {
-      "teamId": 7397,
-      "name": "Como 1907",
-      "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-27T10:40:44.904859+00:00"
-    },
-    {
       "teamId": 1076,
       "name": "Coventry City",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-27T10:40:51.902991+00:00"
+      "updatedAt": "2026-07-08T10:52:46.705589+00:00"
+    },
+    {
+      "teamId": 560,
+      "name": "Deportivo",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-07-08T10:53:07.711264+00:00"
     },
     {
       "teamId": 342,
       "name": "Derby County",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-28T11:16:36.828161+00:00"
+      "updatedAt": "2026-07-08T10:53:14.721135+00:00"
+    },
+    {
+      "teamId": 719,
+      "name": "Elversberg",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-07-08T10:53:35.700528+00:00"
     },
     {
       "teamId": 5531,
       "name": "Famalicão",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-06-28T11:19:45.800951+00:00"
+      "updatedAt": "2026-07-08T10:54:10.671847+00:00"
     },
     {
       "teamId": 675,
       "name": "Feyenoord",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-28T11:19:52.829482+00:00"
+      "updatedAt": "2026-07-08T10:54:17.676839+00:00"
     },
     {
       "teamId": 10601,
       "name": "FK Kairat",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-28T11:20:34.850193+00:00"
+      "updatedAt": "2026-07-08T10:54:31.718774+00:00"
     },
     {
       "teamId": 19,
       "name": "Frankfurt",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-28T11:20:41.825696+00:00"
+      "updatedAt": "2026-07-08T10:54:38.725854+00:00"
     },
     {
       "teamId": 44,
@@ -133,49 +139,49 @@
       "teamId": 2,
       "name": "Hoffenheim",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-29T16:48:32.210009+00:00"
+      "updatedAt": "2026-07-08T10:55:55.718580+00:00"
     },
     {
       "teamId": 7,
       "name": "HSV",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-29T16:48:39.229393+00:00"
+      "updatedAt": "2026-07-08T10:56:02.825070+00:00"
     },
     {
       "teamId": 349,
       "name": "Ipswich Town",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-30T12:01:36.161064+00:00"
+      "updatedAt": "2026-07-08T10:56:23.702836+00:00"
     },
     {
       "teamId": 1876,
       "name": "København",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-06-30T12:02:18.121304+00:00"
+      "updatedAt": "2026-07-08T10:56:37.677462+00:00"
     },
     {
       "teamId": 341,
       "name": "Leeds United",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-30T12:04:45.126882+00:00"
+      "updatedAt": "2026-07-08T10:57:12.854053+00:00"
     },
     {
       "teamId": 3,
       "name": "Leverkusen",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-30T12:05:27.150495+00:00"
+      "updatedAt": "2026-07-08T10:57:26.711181+00:00"
     },
     {
       "teamId": 1126,
       "name": "Lincoln City",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-30T12:06:09.151027+00:00"
+      "updatedAt": "2026-07-08T10:57:40.710565+00:00"
     },
     {
       "teamId": 64,
       "name": "Liverpool",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-30T12:06:16.123754+00:00"
+      "updatedAt": "2026-07-08T10:57:47.680829+00:00"
     },
     {
       "teamId": 18,
@@ -361,6 +367,15 @@
           "photo": "https://media.api-sports.io/football/players/33794.png"
         },
         {
+          "id": 33253,
+          "name": "Kyogo Furuhashi",
+          "nameJa": null,
+          "position": "Attacker",
+          "number": 9,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/33253.png"
+        },
+        {
           "id": 32938,
           "name": "Tomoki Iwata",
           "nameJa": null,
@@ -410,7 +425,7 @@
           "photo": "https://media.api-sports.io/football/players/2601.png"
         }
       ],
-      "checkedAt": "2026-06-27T10:40:58.876199+00:00"
+      "checkedAt": "2026-07-08T10:52:53.670784+00:00"
     },
     {
       "teamId": 17,
@@ -430,7 +445,7 @@
           "photo": "https://media.api-sports.io/football/players/199143.png"
         }
       ],
-      "checkedAt": "2026-06-28T11:20:55.801866+00:00"
+      "checkedAt": "2026-07-08T10:54:45.672438+00:00"
     },
     {
       "teamId": 322,
@@ -450,7 +465,7 @@
           "photo": "https://media.api-sports.io/football/players/348800.png"
         }
       ],
-      "checkedAt": "2026-06-29T16:48:53.206195+00:00"
+      "checkedAt": "2026-07-08T10:56:09.675916+00:00"
     },
     {
       "teamId": 533,
@@ -470,7 +485,7 @@
           "photo": "https://media.api-sports.io/football/players/33165.png"
         }
       ],
-      "checkedAt": "2026-06-30T12:03:07.117971+00:00"
+      "checkedAt": "2026-07-08T10:56:51.676706+00:00"
     },
     {
       "teamId": 548,

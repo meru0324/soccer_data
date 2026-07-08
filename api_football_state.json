@@ -1,7 +1,7 @@
 {
   "version": 3,
   "cycleNumber": 2,
-  "clubCursor": 37,
+  "clubCursor": 86,
   "teamMap": {
     "58": 66,
     "402": 55,
@@ -125,7 +125,8 @@
     "563": 48,
     "672": 195,
     "404": 1837,
-    "684": 193
+    "684": 193,
+    "7397": 27960
   },
   "apiTeams": {
     "45": {
@@ -889,6 +890,12 @@
       "name": "PEC Zwolle",
       "country": "Netherlands",
       "logo": "https://media.api-sports.io/football/teams/193.png"
+    },
+    "27960": {
+      "id": 27960,
+      "name": "Como 1907 W",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/teams/27960.png"
     }
   },
   "squads": {
@@ -7236,12 +7243,12 @@
       "competitionCodes": [
         "ELC"
       ],
-      "checkedAt": "2026-06-27T10:39:13.870711+00:00",
+      "checkedAt": "2026-07-08T10:52:11.839434+00:00",
       "players": [
         {
           "id": 282727,
           "name": "T. Brooks",
-          "number": 21,
+          "number": 13,
           "position": "Goalkeeper",
           "photo": "https://media.api-sports.io/football/players/282727.png"
         },
@@ -7269,7 +7276,7 @@
         {
           "id": 19408,
           "name": "R. Burke",
-          "number": 32,
+          "number": 4,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/19408.png"
         },
@@ -7360,35 +7367,28 @@
         {
           "id": 445920,
           "name": "I. Fullah",
-          "number": 37,
+          "number": 27,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/445920.png"
         },
         {
           "id": 402503,
           "name": "Keenan Gough",
-          "number": 36,
+          "number": 28,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/402503.png"
         },
         {
           "id": 129097,
           "name": "H. Knibbs",
-          "number": 41,
+          "number": 8,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/129097.png"
         },
         {
-          "id": 419688,
-          "name": "Joshua Laqueretabua",
-          "number": 38,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/419688.png"
-        },
-        {
           "id": 291108,
           "name": "R. Apter",
-          "number": 15,
+          "number": 30,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/291108.png"
         },
@@ -7430,7 +7430,7 @@
         {
           "id": 200254,
           "name": "I. Olaofe",
-          "number": 9,
+          "number": 22,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/200254.png"
         }
@@ -7445,7 +7445,7 @@
         "CL",
         "PL"
       ],
-      "checkedAt": "2026-06-27T10:39:41.874137+00:00",
+      "checkedAt": "2026-07-08T10:52:18.670357+00:00",
       "players": [
         {
           "id": 286616,
@@ -7520,7 +7520,7 @@
         {
           "id": 47380,
           "name": "Marc Cucurella",
-          "number": 3,
+          "number": null,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/47380.png"
         },
@@ -7709,7 +7709,7 @@
       "competitionCodes": [
         "CL"
       ],
-      "checkedAt": "2026-06-27T10:40:16.875407+00:00",
+      "checkedAt": "2026-07-08T10:52:25.666997+00:00",
       "players": [
         {
           "id": 395891,
@@ -7924,7 +7924,7 @@
       "competitionCodes": [
         "PL"
       ],
-      "checkedAt": "2026-06-27T10:40:58.876199+00:00",
+      "checkedAt": "2026-07-08T10:52:53.670784+00:00",
       "players": [
         {
           "id": 22157,
@@ -8167,7 +8167,7 @@
       "competitionCodes": [
         "DED"
       ],
-      "checkedAt": "2026-06-28T11:16:08.797912+00:00",
+      "checkedAt": "2026-07-08T10:53:00.670440+00:00",
       "players": [
         {
           "id": 452387,
@@ -8390,7 +8390,7 @@
         "BL1",
         "CL"
       ],
-      "checkedAt": "2026-06-28T11:16:50.794570+00:00",
+      "checkedAt": "2026-07-08T10:53:21.668757+00:00",
       "players": [
         {
           "id": 26395,
@@ -8605,7 +8605,7 @@
       "competitionCodes": [
         "PD"
       ],
-      "checkedAt": "2026-06-28T11:17:25.804026+00:00",
+      "checkedAt": "2026-07-08T10:53:28.670931+00:00",
       "players": [
         {
           "id": 11346,
@@ -8734,13 +8734,6 @@
           "photo": "https://media.api-sports.io/football/players/637727.png"
         },
         {
-          "id": 508284,
-          "name": "Antonio Martinez",
-          "number": 37,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/508284.png"
-        },
-        {
           "id": 271580,
           "name": "Martim Neto",
           "number": 16,
@@ -8862,7 +8855,7 @@
       "competitionCodes": [
         "PD"
       ],
-      "checkedAt": "2026-06-28T11:18:00.870754+00:00",
+      "checkedAt": "2026-07-08T10:53:42.669983+00:00",
       "players": [
         {
           "id": 2813,
@@ -8877,13 +8870,6 @@
           "number": 1,
           "position": "Goalkeeper",
           "photo": "https://media.api-sports.io/football/players/182735.png"
-        },
-        {
-          "id": 461502,
-          "name": "Llorenç Serred",
-          "number": 31,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/461502.png"
         },
         {
           "id": 162585,
@@ -9077,7 +9063,7 @@
       "competitionCodes": [
         "PL"
       ],
-      "checkedAt": "2026-06-28T11:18:42.797806+00:00",
+      "checkedAt": "2026-07-08T10:53:56.669852+00:00",
       "players": [
         {
           "id": 82855,
@@ -9285,7 +9271,7 @@
       "competitionCodes": [
         "DED"
       ],
-      "checkedAt": "2026-06-28T11:19:17.811542+00:00",
+      "checkedAt": "2026-07-08T10:54:03.670791+00:00",
       "players": [
         {
           "id": 498931,
@@ -9318,7 +9304,7 @@
         {
           "id": 480304,
           "name": "Giulliano Cairo",
-          "number": 24,
+          "number": 14,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/480304.png"
         },
@@ -9332,7 +9318,7 @@
         {
           "id": 37780,
           "name": "S. Janssen",
-          "number": 15,
+          "number": 5,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/37780.png"
         },
@@ -9360,14 +9346,14 @@
         {
           "id": 126979,
           "name": "A. Carlén",
-          "number": 6,
+          "number": 13,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/126979.png"
         },
         {
           "id": 584938,
           "name": "N. El Hamdaoui",
-          "number": 34,
+          "number": 21,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/584938.png"
         },
@@ -9381,7 +9367,7 @@
         {
           "id": 319518,
           "name": "L. Hartjes",
-          "number": 20,
+          "number": 6,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/319518.png"
         },
@@ -9402,14 +9388,14 @@
         {
           "id": 290543,
           "name": "M. Tielemans",
-          "number": 8,
+          "number": 18,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/290543.png"
         },
         {
           "id": 371231,
           "name": "I. Yegoian",
-          "number": 23,
+          "number": 8,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/371231.png"
         },
@@ -9437,7 +9423,7 @@
         {
           "id": 272455,
           "name": "D. Sanches Fernandes",
-          "number": 30,
+          "number": 9,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/272455.png"
         },
@@ -9472,7 +9458,7 @@
       "competitionCodes": [
         "SA"
       ],
-      "checkedAt": "2026-06-28T11:20:06.811331+00:00",
+      "checkedAt": "2026-07-08T10:54:24.672019+00:00",
       "players": [
         {
           "id": 15843,
@@ -9722,7 +9708,7 @@
       "competitionCodes": [
         "BL1"
       ],
-      "checkedAt": "2026-06-28T11:20:55.801866+00:00",
+      "checkedAt": "2026-07-08T10:54:45.672438+00:00",
       "players": [
         {
           "id": 178768,
@@ -9916,7 +9902,7 @@
       "competitionCodes": [
         "SA"
       ],
-      "checkedAt": "2026-06-28T11:21:30.807568+00:00",
+      "checkedAt": "2026-07-08T10:54:52.671425+00:00",
       "players": [
         {
           "id": 351324,
@@ -10131,7 +10117,7 @@
       "competitionCodes": [
         "PL"
       ],
-      "checkedAt": "2026-06-29T16:43:17.203506+00:00",
+      "checkedAt": "2026-07-08T10:54:59.675357+00:00",
       "players": [
         {
           "id": 21566,
@@ -10332,7 +10318,7 @@
       "competitionCodes": [
         "CL"
       ],
-      "checkedAt": "2026-06-29T16:43:52.196964+00:00",
+      "checkedAt": "2026-07-08T10:55:06.674264+00:00",
       "players": [
         {
           "id": 49866,
@@ -10438,13 +10424,6 @@
           "number": 71,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/567984.png"
-        },
-        {
-          "id": 568050,
-          "name": "E. Arac",
-          "number": 65,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/568050.png"
         },
         {
           "id": 281795,
@@ -10582,7 +10561,7 @@
       "competitionCodes": [
         "SA"
       ],
-      "checkedAt": "2026-06-29T16:44:27.205055+00:00",
+      "checkedAt": "2026-07-08T10:55:13.678251+00:00",
       "players": [
         {
           "id": 37137,
@@ -10860,7 +10839,7 @@
       "competitionCodes": [
         "PD"
       ],
-      "checkedAt": "2026-06-29T16:45:02.391181+00:00",
+      "checkedAt": "2026-07-08T10:55:20.678110+00:00",
       "players": [
         {
           "id": 432080,
@@ -11117,7 +11096,7 @@
       "competitionCodes": [
         "PPL"
       ],
-      "checkedAt": "2026-06-29T16:45:37.197074+00:00",
+      "checkedAt": "2026-07-08T10:55:27.680928+00:00",
       "players": [
         {
           "id": 41992,
@@ -11561,7 +11540,7 @@
       "competitionCodes": [
         "DED"
       ],
-      "checkedAt": "2026-06-29T16:46:47.202641+00:00",
+      "checkedAt": "2026-07-08T10:55:34.676914+00:00",
       "players": [
         {
           "id": 8470,
@@ -11762,7 +11741,7 @@
       "competitionCodes": [
         "DED"
       ],
-      "checkedAt": "2026-06-29T16:47:22.205417+00:00",
+      "checkedAt": "2026-07-08T10:55:41.673618+00:00",
       "players": [
         {
           "id": 359370,
@@ -11970,7 +11949,7 @@
       "competitionCodes": [
         "DED"
       ],
-      "checkedAt": "2026-06-29T16:47:57.213489+00:00",
+      "checkedAt": "2026-07-08T10:55:48.676453+00:00",
       "players": [
         {
           "id": 37729,
@@ -12185,7 +12164,7 @@
       "competitionCodes": [
         "PL"
       ],
-      "checkedAt": "2026-06-29T16:48:53.206195+00:00",
+      "checkedAt": "2026-07-08T10:56:09.675916+00:00",
       "players": [
         {
           "id": 615629,
@@ -12422,7 +12401,7 @@
         "CL",
         "SA"
       ],
-      "checkedAt": "2026-06-30T12:01:08.117822+00:00",
+      "checkedAt": "2026-07-08T10:56:16.675163+00:00",
       "players": [
         {
           "id": 336707,
@@ -12701,7 +12680,7 @@
         "CL",
         "SA"
       ],
-      "checkedAt": "2026-06-30T12:01:50.118627+00:00",
+      "checkedAt": "2026-07-08T10:56:30.676833+00:00",
       "players": [
         {
           "id": 30670,
@@ -12930,7 +12909,7 @@
       "competitionCodes": [
         "SA"
       ],
-      "checkedAt": "2026-06-30T12:02:32.120465+00:00",
+      "checkedAt": "2026-07-08T10:56:44.677974+00:00",
       "players": [
         {
           "id": 63934,
@@ -13173,7 +13152,7 @@
       "competitionCodes": [
         "FL1"
       ],
-      "checkedAt": "2026-06-30T12:03:07.117971+00:00",
+      "checkedAt": "2026-07-08T10:56:51.676706+00:00",
       "players": [
         {
           "id": 395808,
@@ -13223,13 +13202,6 @@
           "number": 4,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/64255.png"
-        },
-        {
-          "id": 629834,
-          "name": "Yanis Monkolot",
-          "number": 14,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/629834.png"
         },
         {
           "id": 2336,
@@ -13416,7 +13388,7 @@
       "competitionCodes": [
         "FL1"
       ],
-      "checkedAt": "2026-06-30T12:03:42.119296+00:00",
+      "checkedAt": "2026-07-08T10:56:58.677171+00:00",
       "players": [
         {
           "id": 633362,
@@ -13610,7 +13582,7 @@
       "competitionCodes": [
         "SA"
       ],
-      "checkedAt": "2026-06-30T12:04:17.124207+00:00",
+      "checkedAt": "2026-07-08T10:57:05.678358+00:00",
       "players": [
         {
           "id": 628513,
@@ -13709,13 +13681,6 @@
           "number": 17,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/161702.png"
-        },
-        {
-          "id": 335071,
-          "name": "M. Berisha",
-          "number": 10,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/335071.png"
         },
         {
           "id": 1748,
@@ -13832,7 +13797,7 @@
       "competitionCodes": [
         "PD"
       ],
-      "checkedAt": "2026-06-30T12:04:59.127882+00:00",
+      "checkedAt": "2026-07-08T10:57:19.677803+00:00",
       "players": [
         {
           "id": 286611,
@@ -14061,7 +14026,7 @@
       "competitionCodes": [
         "FL1"
       ],
-      "checkedAt": "2026-06-30T12:05:41.123530+00:00",
+      "checkedAt": "2026-07-08T10:57:33.677977+00:00",
       "players": [
         {
           "id": 2096,
@@ -14097,13 +14062,6 @@
           "number": 4,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/142691.png"
-        },
-        {
-          "id": 437767,
-          "name": "M. Costarelli",
-          "number": 13,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/437767.png"
         },
         {
           "id": 490745,
@@ -14297,7 +14255,7 @@
       "competitionCodes": [
         "FL1"
       ],
-      "checkedAt": "2026-06-30T12:06:30.128824+00:00",
+      "checkedAt": "2026-07-08T10:57:54.689365+00:00",
       "players": [
         {
           "id": 22241,
@@ -14515,13 +14473,6 @@
           "number": 14,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/401389.png"
-        },
-        {
-          "id": 630767,
-          "name": "D. Semedo",
-          "number": 34,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/630767.png"
         },
         {
           "id": 144319,
@@ -88728,6 +88679,206 @@
       "birthDate": "2000-06-07",
       "photo": "https://media.api-sports.io/football/players/33165.png",
       "updatedAt": "2026-07-07T12:47:13.198053+00:00"
+    },
+    "33253": {
+      "id": 33253,
+      "name": "K. Furuhashi",
+      "firstname": "Kyogo",
+      "lastname": "Furuhashi",
+      "nationality": "Japan",
+      "birthDate": "1995-01-20",
+      "photo": "https://media.api-sports.io/football/players/33253.png",
+      "updatedAt": "2026-07-08T10:58:01.685738+00:00"
+    },
+    "36828": {
+      "id": 36828,
+      "name": "J. Drommel",
+      "firstname": "Joël",
+      "lastname": "Drommel",
+      "nationality": "Netherlands",
+      "birthDate": "1996-11-16",
+      "photo": "https://media.api-sports.io/football/players/36828.png",
+      "updatedAt": "2026-07-08T10:58:08.682681+00:00"
+    },
+    "36865": {
+      "id": 36865,
+      "name": "M. Meulensteen",
+      "firstname": "Melle",
+      "lastname": "Meulensteen",
+      "nationality": "Netherlands",
+      "birthDate": "1999-07-04",
+      "photo": "https://media.api-sports.io/football/players/36865.png",
+      "updatedAt": "2026-07-08T10:58:15.681885+00:00"
+    },
+    "36902": {
+      "id": 36902,
+      "name": "T. Reijnders",
+      "firstname": "Tijjani",
+      "lastname": "Reijnders",
+      "nationality": "Netherlands",
+      "birthDate": "1998-07-29",
+      "photo": "https://media.api-sports.io/football/players/36902.png",
+      "updatedAt": "2026-07-08T10:58:22.680622+00:00"
+    },
+    "36934": {
+      "id": 36934,
+      "name": "T. van den Belt",
+      "firstname": "Thomas",
+      "lastname": "van den Belt",
+      "nationality": "Netherlands",
+      "birthDate": "2001-06-18",
+      "photo": "https://media.api-sports.io/football/players/36934.png",
+      "updatedAt": "2026-07-08T10:58:29.687671+00:00"
+    },
+    "36937": {
+      "id": 36937,
+      "name": "V. van Crooij",
+      "firstname": "Vito",
+      "lastname": "van Crooij",
+      "nationality": "Netherlands",
+      "birthDate": "1996-01-29",
+      "photo": "https://media.api-sports.io/football/players/36937.png",
+      "updatedAt": "2026-07-08T10:58:36.681691+00:00"
+    },
+    "36964": {
+      "id": 36964,
+      "name": "F. Bednarek",
+      "firstname": "Filip",
+      "lastname": "Bednarek",
+      "nationality": "Poland",
+      "birthDate": "1992-09-26",
+      "photo": "https://media.api-sports.io/football/players/36964.png",
+      "updatedAt": "2026-07-08T10:58:43.684028+00:00"
+    },
+    "36990": {
+      "id": 36990,
+      "name": "A. van der Heide",
+      "firstname": "Arjen",
+      "lastname": "van der Heide",
+      "nationality": "Netherlands",
+      "birthDate": "2001-11-19",
+      "photo": "https://media.api-sports.io/football/players/36990.png",
+      "updatedAt": "2026-07-08T10:58:50.682148+00:00"
+    },
+    "36998": {
+      "id": 36998,
+      "name": "A. Ciranni",
+      "firstname": "Alessandro",
+      "lastname": "Ciranni",
+      "nationality": "Belgium",
+      "birthDate": "1996-06-28",
+      "photo": "https://media.api-sports.io/football/players/36998.png",
+      "updatedAt": "2026-07-08T10:58:57.686572+00:00"
+    },
+    "37137": {
+      "id": 37137,
+      "name": "J. Bijlow",
+      "firstname": "Justin",
+      "lastname": "Bijlow",
+      "nationality": "Netherlands",
+      "birthDate": "1998-01-22",
+      "photo": "https://media.api-sports.io/football/players/37137.png",
+      "updatedAt": "2026-07-08T10:59:04.685358+00:00"
+    },
+    "37151": {
+      "id": 37151,
+      "name": "C. Verdonk",
+      "firstname": "Calvin Ronald",
+      "lastname": "Verdonk",
+      "nationality": "Netherlands",
+      "birthDate": "1997-04-26",
+      "photo": "https://media.api-sports.io/football/players/37151.png",
+      "updatedAt": "2026-07-08T10:59:11.682996+00:00"
+    },
+    "37160": {
+      "id": 37160,
+      "name": "S. Berghuis",
+      "firstname": "Steven",
+      "lastname": "Berghuis",
+      "nationality": "Netherlands",
+      "birthDate": "1991-12-19",
+      "photo": "https://media.api-sports.io/football/players/37160.png",
+      "updatedAt": "2026-07-08T10:59:18.682457+00:00"
+    },
+    "37167": {
+      "id": 37167,
+      "name": "M. Paes",
+      "firstname": "Maarten Vincent",
+      "lastname": "Paes",
+      "nationality": "Netherlands",
+      "birthDate": "1998-05-14",
+      "photo": "https://media.api-sports.io/football/players/37167.png",
+      "updatedAt": "2026-07-08T10:59:25.682071+00:00"
+    },
+    "37183": {
+      "id": 37183,
+      "name": "J. van Overeem",
+      "firstname": "Joris",
+      "lastname": "van Overeem",
+      "nationality": "Netherlands",
+      "birthDate": "1994-06-01",
+      "photo": "https://media.api-sports.io/football/players/37183.png",
+      "updatedAt": "2026-07-08T10:59:32.684499+00:00"
+    },
+    "37449": {
+      "id": 37449,
+      "name": "W. van der Steen",
+      "firstname": "Wouter",
+      "lastname": "van der Steen",
+      "nationality": "Netherlands",
+      "birthDate": "1990-06-03",
+      "photo": "https://media.api-sports.io/football/players/37449.png",
+      "updatedAt": "2026-07-08T10:59:39.683353+00:00"
+    },
+    "37571": {
+      "id": 37571,
+      "name": "S. van Gassel",
+      "firstname": "Stijn",
+      "lastname": "van Gassel",
+      "nationality": "Netherlands",
+      "birthDate": "1996-10-18",
+      "photo": "https://media.api-sports.io/football/players/37571.png",
+      "updatedAt": "2026-07-08T10:59:46.682372+00:00"
+    },
+    "37615": {
+      "id": 37615,
+      "name": "O. Džepar",
+      "firstname": "Orhan",
+      "lastname": "Džepar",
+      "nationality": "Netherlands",
+      "birthDate": "1996-06-13",
+      "photo": "https://media.api-sports.io/football/players/37615.png",
+      "updatedAt": "2026-07-08T10:59:53.687236+00:00"
+    },
+    "37627": {
+      "id": 37627,
+      "name": "T. Verheydt",
+      "firstname": "Thomas Jacco",
+      "lastname": "Verheydt",
+      "nationality": "Netherlands",
+      "birthDate": "1992-01-24",
+      "photo": "https://media.api-sports.io/football/players/37627.png",
+      "updatedAt": "2026-07-08T11:00:00.788533+00:00"
+    },
+    "37729": {
+      "id": 37729,
+      "name": "N. Bakker",
+      "firstname": "Nordin",
+      "lastname": "Bakker",
+      "nationality": "Netherlands",
+      "birthDate": "1997-10-31",
+      "photo": "https://media.api-sports.io/football/players/37729.png",
+      "updatedAt": "2026-07-08T11:00:09.381572+00:00"
+    },
+    "37780": {
+      "id": 37780,
+      "name": "S. Janssen",
+      "firstname": "Simon",
+      "lastname": "Janssen",
+      "nationality": "Netherlands",
+      "birthDate": "2000-09-25",
+      "photo": "https://media.api-sports.io/football/players/37780.png",
+      "updatedAt": "2026-07-08T11:00:14.692794+00:00"
     }
   },
   "teamProgress": {
@@ -88962,22 +89113,22 @@
     "348": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-27T10:39:34.896683+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:52:11.839479+00:00",
       "historyTotalPagesUsed": 3
     },
     "61": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-27T10:40:03.636788+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:52:18.670400+00:00",
       "historyTotalPagesUsed": 3
     },
     "851": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-27T10:40:37.911122+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:52:25.667038+00:00",
       "historyTotalPagesUsed": 3
     },
     "7397": {
@@ -88995,15 +89146,15 @@
     "354": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-28T11:15:54.801186+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:52:53.670826+00:00",
       "historyTotalPagesUsed": 3
     },
     "680": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-28T11:16:29.800162+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:53:00.670478+00:00",
       "historyTotalPagesUsed": 3
     },
     "342": {
@@ -89015,22 +89166,22 @@
     "4": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-28T11:17:11.794332+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:53:21.668791+00:00",
       "historyTotalPagesUsed": 3
     },
     "285": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-28T11:17:46.816138+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:53:28.670967+00:00",
       "historyTotalPagesUsed": 3
     },
     "80": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-28T11:18:21.803438+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:53:42.670021+00:00",
       "historyTotalPagesUsed": 3
     },
     "582": {
@@ -89042,15 +89193,15 @@
     "62": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-28T11:19:03.811431+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:53:56.669887+00:00",
       "historyTotalPagesUsed": 3
     },
     "670": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-28T11:19:38.810181+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:54:03.670826+00:00",
       "historyTotalPagesUsed": 3
     },
     "5531": {
@@ -89068,8 +89219,8 @@
     "99": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-28T11:20:27.803295+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:54:24.672056+00:00",
       "historyTotalPagesUsed": 3
     },
     "10601": {
@@ -89108,50 +89259,50 @@
     "17": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-28T11:21:16.801289+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:54:45.672475+00:00",
       "historyTotalPagesUsed": 3
     },
     "470": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-29T16:43:10.226469+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:54:52.671459+00:00",
       "historyTotalPagesUsed": 3
     },
     "63": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-29T16:43:38.202322+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:54:59.675396+00:00",
       "historyTotalPagesUsed": 3
     },
     "610": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-29T16:44:13.234254+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:55:06.674305+00:00",
       "historyTotalPagesUsed": 3
     },
     "107": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-29T16:44:48.244404+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:55:13.678291+00:00",
       "historyTotalPagesUsed": 3
     },
     "82": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-29T16:45:23.274564+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:55:20.678153+00:00",
       "historyTotalPagesUsed": 3
     },
     "5533": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-29T16:45:58.223952+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:55:27.680967+00:00",
       "historyTotalPagesUsed": 3
     },
     "298": {
@@ -89164,22 +89315,22 @@
     "718": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-29T16:47:08.220476+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:55:34.676950+00:00",
       "historyTotalPagesUsed": 3
     },
     "677": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-29T16:47:43.221113+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:55:41.673652+00:00",
       "historyTotalPagesUsed": 3
     },
     "673": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-29T16:48:18.239501+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:55:48.676491+00:00",
       "historyTotalPagesUsed": 3
     },
     "44": {
@@ -89203,15 +89354,15 @@
     "322": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-30T12:00:54.187450+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:56:09.675952+00:00",
       "historyTotalPagesUsed": 3
     },
     "108": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-30T12:01:29.149264+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:56:16.675223+00:00",
       "historyTotalPagesUsed": 3
     },
     "349": {
@@ -89223,8 +89374,8 @@
     "109": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-30T12:02:11.141530+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:56:30.676871+00:00",
       "historyTotalPagesUsed": 3
     },
     "1876": {
@@ -89236,29 +89387,29 @@
     "110": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-30T12:02:53.120620+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:56:44.678012+00:00",
       "historyTotalPagesUsed": 3
     },
     "533": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-30T12:03:28.141906+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:56:51.676745+00:00",
       "historyTotalPagesUsed": 3
     },
     "535": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-30T12:04:03.122625+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:56:58.677229+00:00",
       "historyTotalPagesUsed": 3
     },
     "5890": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-30T12:04:38.136780+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:57:05.678397+00:00",
       "historyTotalPagesUsed": 3
     },
     "341": {
@@ -89270,8 +89421,8 @@
     "88": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-30T12:05:20.148862+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:57:19.677841+00:00",
       "historyTotalPagesUsed": 3
     },
     "3": {
@@ -89283,8 +89434,8 @@
     "521": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-06-30T12:06:02.132081+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:57:33.678014+00:00",
       "historyTotalPagesUsed": 3
     },
     "1126": {
@@ -89302,8 +89453,8 @@
     "525": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 1,
-      "updatedAt": "2026-07-01T13:27:31.601670+00:00",
+      "squadCycle": 2,
+      "updatedAt": "2026-07-08T10:57:54.689404+00:00",
       "historyTotalPagesUsed": 3
     },
     "18": {
@@ -89854,82 +90005,21 @@
       "historyComplete": false,
       "squadCycle": 0,
       "updatedAt": null
+    },
+    "560": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
+    },
+    "719": {
+      "historyPage": 1,
+      "historyComplete": false,
+      "squadCycle": 0,
+      "updatedAt": null
     }
   },
   "pendingProfileIds": [
-    "33253",
-    "33794",
-    "33838",
-    "35544",
-    "36794",
-    "36828",
-    "36854",
-    "36862",
-    "36865",
-    "36878",
-    "36881",
-    "36887",
-    "36902",
-    "36903",
-    "36916",
-    "36922",
-    "36925",
-    "36927",
-    "36929",
-    "36932",
-    "36934",
-    "36937",
-    "36938",
-    "36964",
-    "36965",
-    "36970",
-    "36987",
-    "36989",
-    "36990",
-    "36998",
-    "37012",
-    "37028",
-    "37049",
-    "37078",
-    "37116",
-    "37117",
-    "37124",
-    "37127",
-    "37130",
-    "37137",
-    "37145",
-    "37151",
-    "37156",
-    "37160",
-    "37163",
-    "37167",
-    "37183",
-    "37217",
-    "37242",
-    "37245",
-    "37247",
-    "37252",
-    "37254",
-    "37273",
-    "37359",
-    "37370",
-    "37381",
-    "37449",
-    "37453",
-    "37460",
-    "37471",
-    "37571",
-    "37588",
-    "37615",
-    "37627",
-    "37647",
-    "37651",
-    "37724",
-    "37729",
-    "37753",
-    "37758",
-    "37765",
-    "37780",
     "37781",
     "37817",
     "37874",
@@ -92426,40 +92516,35 @@
       "message": "No unambiguous API-Football team match.",
       "updatedAt": "2026-07-07T12:44:53.191628+00:00"
     },
-    "7397": {
-      "name": "Como 1907",
-      "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-27T10:40:44.904859+00:00"
-    },
     "1076": {
       "name": "Coventry City",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-27T10:40:51.902991+00:00"
+      "updatedAt": "2026-07-08T10:52:46.705589+00:00"
     },
     "342": {
       "name": "Derby County",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-28T11:16:36.828161+00:00"
+      "updatedAt": "2026-07-08T10:53:14.721135+00:00"
     },
     "5531": {
       "name": "Famalicão",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-06-28T11:19:45.800951+00:00"
+      "updatedAt": "2026-07-08T10:54:10.671847+00:00"
     },
     "675": {
       "name": "Feyenoord",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-28T11:19:52.829482+00:00"
+      "updatedAt": "2026-07-08T10:54:17.676839+00:00"
     },
     "10601": {
       "name": "FK Kairat",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-28T11:20:34.850193+00:00"
+      "updatedAt": "2026-07-08T10:54:31.718774+00:00"
     },
     "19": {
       "name": "Frankfurt",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-28T11:20:41.825696+00:00"
+      "updatedAt": "2026-07-08T10:54:38.725854+00:00"
     },
     "44": {
       "name": "Heidenheim",
@@ -92469,42 +92554,42 @@
     "2": {
       "name": "Hoffenheim",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-29T16:48:32.210009+00:00"
+      "updatedAt": "2026-07-08T10:55:55.718580+00:00"
     },
     "7": {
       "name": "HSV",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-29T16:48:39.229393+00:00"
+      "updatedAt": "2026-07-08T10:56:02.825070+00:00"
     },
     "349": {
       "name": "Ipswich Town",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-30T12:01:36.161064+00:00"
+      "updatedAt": "2026-07-08T10:56:23.702836+00:00"
     },
     "1876": {
       "name": "København",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-06-30T12:02:18.121304+00:00"
+      "updatedAt": "2026-07-08T10:56:37.677462+00:00"
     },
     "341": {
       "name": "Leeds United",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-30T12:04:45.126882+00:00"
+      "updatedAt": "2026-07-08T10:57:12.854053+00:00"
     },
     "3": {
       "name": "Leverkusen",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-30T12:05:27.150495+00:00"
+      "updatedAt": "2026-07-08T10:57:26.711181+00:00"
     },
     "1126": {
       "name": "Lincoln City",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-30T12:06:09.151027+00:00"
+      "updatedAt": "2026-07-08T10:57:40.710565+00:00"
     },
     "64": {
       "name": "Liverpool",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-06-30T12:06:16.123754+00:00"
+      "updatedAt": "2026-07-08T10:57:47.680829+00:00"
     },
     "18": {
       "name": "M'gladbach",
@@ -92595,6 +92680,16 @@
       "name": "Acad. Viseu",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
       "updatedAt": "2026-07-07T12:40:48.185329+00:00"
+    },
+    "560": {
+      "name": "Deportivo",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-07-08T10:53:07.711264+00:00"
+    },
+    "719": {
+      "name": "Elversberg",
+      "message": "No unambiguous API-Football team match.",
+      "updatedAt": "2026-07-08T10:53:35.700528+00:00"
     }
   },
   "lastFullSquadCycleAt": "2026-07-07T12:40:34.207766+00:00",
@@ -92796,9 +92891,23 @@
       "footballDataTeamId": 582,
       "apiFootballTeamId": 24458,
       "message": "Squad response was empty."
+    },
+    {
+      "at": "2026-07-08T10:52:39.673161+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 7397,
+      "apiFootballTeamId": 27960,
+      "message": "Squad response was empty."
+    },
+    {
+      "at": "2026-07-08T10:53:49.670880+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 582,
+      "apiFootballTeamId": 24458,
+      "message": "Squad response was empty."
     }
   ],
-  "updatedAt": "2026-07-07T12:47:13.198342+00:00",
+  "updatedAt": "2026-07-08T11:00:14.693002+00:00",
   "migratedFromVersion": 2,
   "migratedAt": "2026-06-25T12:08:58.646468+00:00"
 }
