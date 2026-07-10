@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-08T11:00:14.695969+00:00",
+  "updatedAt": "2026-07-10T12:44:56.251714+00:00",
   "source": "API-Football",
-  "teamCount": 16,
+  "teamCount": 15,
   "playerCount": 18,
   "coverage": {
     "totalClubTeams": 166,
     "mappedTeams": 121,
     "teamsWithSquads": 119,
     "historyCompleteTeams": 119,
-    "unresolvedTeamCount": 45,
-    "pendingProfileCount": 2444,
-    "unknownProfileCount": 1042,
+    "unresolvedTeamCount": 46,
+    "pendingProfileCount": 2382,
+    "unknownProfileCount": 1023,
     "lastFullSquadCycleAt": "2026-07-07T12:40:34.207766+00:00",
     "isComplete": false
   },
@@ -187,73 +187,79 @@
       "teamId": 18,
       "name": "M'gladbach",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-01T13:27:38.560303+00:00"
+      "updatedAt": "2026-07-10T12:36:53.427709+00:00"
     },
     {
       "teamId": 15,
       "name": "Mainz",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-01T13:27:45.605265+00:00"
+      "updatedAt": "2026-07-10T12:37:00.274665+00:00"
+    },
+    {
+      "teamId": 5575,
+      "name": "Marítimo",
+      "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
+      "updatedAt": "2026-07-10T12:37:28.240349+00:00"
     },
     {
       "teamId": 84,
       "name": "Málaga",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-01T13:32:53.567302+00:00"
+      "updatedAt": "2026-07-10T12:38:17.241766+00:00"
     },
     {
       "teamId": 68,
       "name": "Norwich",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-02T11:57:24.074726+00:00"
+      "updatedAt": "2026-07-10T12:38:52.274003+00:00"
     },
     {
       "teamId": 11034,
       "name": "Paphos FC",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-02T11:59:37.099988+00:00"
+      "updatedAt": "2026-07-10T12:39:27.303465+00:00"
     },
     {
       "teamId": 1081,
       "name": "Preston NE",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-03T11:54:53.926070+00:00"
+      "updatedAt": "2026-07-10T12:40:02.317683+00:00"
     },
     {
       "teamId": 524,
       "name": "PSG",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-03T11:55:00.907571+00:00"
+      "updatedAt": "2026-07-10T12:40:09.252958+00:00"
     },
     {
       "teamId": 674,
       "name": "PSV",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-03T11:55:07.908776+00:00"
+      "updatedAt": "2026-07-10T12:40:16.282527+00:00"
     },
     {
       "teamId": 611,
       "name": "Qarabağ Ağdam",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-03T11:55:14.904580+00:00"
+      "updatedAt": "2026-07-10T12:40:23.239914+00:00"
     },
     {
       "teamId": 546,
       "name": "RC Lens",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-03T11:57:06.942456+00:00"
+      "updatedAt": "2026-07-10T12:40:51.274292+00:00"
     },
     {
       "teamId": 5335,
       "name": "Santander",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-04T10:36:09.056236+00:00"
+      "updatedAt": "2026-07-10T12:41:40.322304+00:00"
     },
     {
       "teamId": 559,
       "name": "Sevilla FC",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-04T10:38:01.181632+00:00"
+      "updatedAt": "2026-07-10T12:42:08.320550+00:00"
     },
     {
       "teamId": 529,
@@ -296,6 +302,15 @@
         "DED"
       ],
       "players": [
+        {
+          "id": 38114,
+          "name": "Ko Itakura",
+          "nameJa": null,
+          "position": "Defender",
+          "number": 4,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/38114.png"
+        },
         {
           "id": 2597,
           "name": "Takehiro Tomiyasu",
@@ -488,27 +503,6 @@
       "checkedAt": "2026-07-08T10:56:51.676706+00:00"
     },
     {
-      "teamId": 548,
-      "teamName": "Monaco",
-      "apiFootballTeamId": 91,
-      "competitionCodes": [
-        "CL",
-        "FL1"
-      ],
-      "players": [
-        {
-          "id": 1101,
-          "name": "Takumi Minamino",
-          "nameJa": null,
-          "position": "Attacker",
-          "number": 8,
-          "nationality": "Japan",
-          "photo": "https://media.api-sports.io/football/players/1101.png"
-        }
-      ],
-      "checkedAt": "2026-07-01T13:31:15.570906+00:00"
-    },
-    {
       "teamId": 112,
       "teamName": "Parma",
       "apiFootballTeamId": 523,
@@ -526,7 +520,7 @@
           "photo": "https://media.api-sports.io/football/players/199578.png"
         }
       ],
-      "checkedAt": "2026-07-02T12:00:26.087290+00:00"
+      "checkedAt": "2026-07-10T12:39:41.242180+00:00"
     },
     {
       "teamId": 69,
@@ -546,7 +540,7 @@
           "photo": "https://media.api-sports.io/football/players/33838.png"
         }
       ],
-      "checkedAt": "2026-07-03T11:55:28.904606+00:00"
+      "checkedAt": "2026-07-10T12:40:30.248337+00:00"
     },
     {
       "teamId": 92,
@@ -566,7 +560,7 @@
           "photo": "https://media.api-sports.io/football/players/32862.png"
         }
       ],
-      "checkedAt": "2026-07-03T11:58:30.915570+00:00"
+      "checkedAt": "2026-07-10T12:41:12.256023+00:00"
     },
     {
       "teamId": 6806,
