@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-07-13T12:50:29.325437+00:00",
+  "updatedAt": "2026-07-14T09:39:13.626557+00:00",
   "source": "API-Football",
-  "teamCount": 15,
+  "teamCount": 16,
   "playerCount": 18,
   "coverage": {
     "totalClubTeams": 166,
@@ -9,9 +9,9 @@
     "teamsWithSquads": 119,
     "historyCompleteTeams": 119,
     "unresolvedTeamCount": 46,
-    "pendingProfileCount": 2109,
-    "unknownProfileCount": 957,
-    "lastFullSquadCycleAt": "2026-07-11T09:12:25.485436+00:00",
+    "pendingProfileCount": 2090,
+    "unknownProfileCount": 953,
+    "lastFullSquadCycleAt": "2026-07-14T09:36:25.629421+00:00",
     "isComplete": false
   },
   "unresolvedTeams": [
@@ -19,19 +19,19 @@
       "teamId": 1,
       "name": "1. FC Köln",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-11T09:12:32.481186+00:00"
+      "updatedAt": "2026-07-14T09:36:32.619925+00:00"
     },
     {
       "teamId": 5527,
       "name": "Acad. Viseu",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-11T09:12:39.485585+00:00"
+      "updatedAt": "2026-07-14T09:36:39.622053+00:00"
     },
     {
       "teamId": 263,
       "name": "Alavés",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-11T09:12:53.482532+00:00"
+      "updatedAt": "2026-07-14T09:36:53.626524+00:00"
     },
     {
       "teamId": 9136,
@@ -247,49 +247,49 @@
       "teamId": 546,
       "name": "RC Lens",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-10T12:40:51.274292+00:00"
+      "updatedAt": "2026-07-14T09:31:10.808291+00:00"
     },
     {
       "teamId": 5335,
       "name": "Santander",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-10T12:41:40.322304+00:00"
+      "updatedAt": "2026-07-14T09:31:59.639198+00:00"
     },
     {
       "teamId": 559,
       "name": "Sevilla FC",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-10T12:42:08.320550+00:00"
+      "updatedAt": "2026-07-14T09:32:27.642804+00:00"
     },
     {
       "teamId": 529,
       "name": "Stade Rennais",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-11T09:09:23.520003+00:00"
+      "updatedAt": "2026-07-14T09:33:23.642725+00:00"
     },
     {
       "teamId": 531,
       "name": "Troyes",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-11T09:10:33.533124+00:00"
+      "updatedAt": "2026-07-14T09:34:33.658702+00:00"
     },
     {
       "teamId": 454,
       "name": "Venezia FC",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-11T09:11:22.509410+00:00"
+      "updatedAt": "2026-07-14T09:35:22.655291+00:00"
     },
     {
       "teamId": 5543,
       "name": "Vitória SC",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-11T09:11:36.490783+00:00"
+      "updatedAt": "2026-07-14T09:35:36.615766+00:00"
     },
     {
       "teamId": 76,
       "name": "Wolverhampton",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-11T09:12:11.543058+00:00"
+      "updatedAt": "2026-07-14T09:36:11.691383+00:00"
     }
   ],
   "teams": [
@@ -310,18 +310,9 @@
           "number": 4,
           "nationality": "Japan",
           "photo": "https://media.api-sports.io/football/players/38114.png"
-        },
-        {
-          "id": 2597,
-          "name": "Takehiro Tomiyasu",
-          "nameJa": null,
-          "position": "Defender",
-          "number": 32,
-          "nationality": "Japan",
-          "photo": "https://media.api-sports.io/football/players/2597.png"
         }
       ],
-      "checkedAt": "2026-07-11T09:12:46.484938+00:00"
+      "checkedAt": "2026-07-14T09:36:46.624223+00:00"
     },
     {
       "teamId": 712,
@@ -560,7 +551,27 @@
           "photo": "https://media.api-sports.io/football/players/32862.png"
         }
       ],
-      "checkedAt": "2026-07-10T12:41:12.256023+00:00"
+      "checkedAt": "2026-07-14T09:31:31.615788+00:00"
+    },
+    {
+      "teamId": 6,
+      "teamName": "Schalke",
+      "apiFootballTeamId": 174,
+      "competitionCodes": [
+        "BL1"
+      ],
+      "players": [
+        {
+          "id": 33142,
+          "name": "Satoshi Tanaka",
+          "nameJa": null,
+          "position": "Midfielder",
+          "number": 16,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/33142.png"
+        }
+      ],
+      "checkedAt": "2026-07-14T09:32:20.613860+00:00"
     },
     {
       "teamId": 6806,
@@ -580,7 +591,7 @@
           "photo": "https://media.api-sports.io/football/players/237131.png"
         }
       ],
-      "checkedAt": "2026-07-11T09:09:09.481184+00:00"
+      "checkedAt": "2026-07-14T09:33:09.648835+00:00"
     },
     {
       "teamId": 498,
@@ -601,7 +612,7 @@
           "photo": "https://media.api-sports.io/football/players/32960.png"
         }
       ],
-      "checkedAt": "2026-07-11T09:09:16.476881+00:00"
+      "checkedAt": "2026-07-14T09:33:16.622038+00:00"
     },
     {
       "teamId": 70,
@@ -621,7 +632,7 @@
           "photo": "https://media.api-sports.io/football/players/153321.png"
         }
       ],
-      "checkedAt": "2026-07-11T09:09:30.480208+00:00"
+      "checkedAt": "2026-07-14T09:33:30.617606+00:00"
     }
   ]
 }
