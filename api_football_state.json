@@ -1,7 +1,7 @@
 {
   "version": 3,
   "cycleNumber": 4,
-  "clubCursor": 4,
+  "clubCursor": 54,
   "teamMap": {
     "58": 66,
     "402": 55,
@@ -1172,7 +1172,7 @@
       "competitionCodes": [
         "PPL"
       ],
-      "checkedAt": "2026-07-11T09:13:00.502232+00:00",
+      "checkedAt": "2026-07-15T10:22:21.752658+00:00",
       "players": [
         {
           "id": 350337,
@@ -1387,7 +1387,7 @@
       "competitionCodes": [
         "FL1"
       ],
-      "checkedAt": "2026-07-11T09:13:14.492978+00:00",
+      "checkedAt": "2026-07-15T10:22:35.617904+00:00",
       "players": [
         {
           "id": 437175,
@@ -1770,7 +1770,7 @@
       "competitionCodes": [
         "PPL"
       ],
-      "checkedAt": "2026-07-11T09:13:21.495614+00:00",
+      "checkedAt": "2026-07-15T10:22:42.616639+00:00",
       "players": [
         {
           "id": 51762,
@@ -1986,7 +1986,7 @@
         "CL",
         "PL"
       ],
-      "checkedAt": "2026-07-11T09:13:28.486461+00:00",
+      "checkedAt": "2026-07-15T10:22:49.604034+00:00",
       "players": [
         {
           "id": 2273,
@@ -1994,6 +1994,13 @@
           "number": 13,
           "position": "Goalkeeper",
           "photo": "https://media.api-sports.io/football/players/2273.png"
+        },
+        {
+          "id": 20619,
+          "name": "I. Meslier",
+          "number": 1,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/20619.png"
         },
         {
           "id": 416697,
@@ -2129,6 +2136,13 @@
           "photo": "https://media.api-sports.io/football/players/30407.png"
         },
         {
+          "id": 313236,
+          "name": "E. Nwaneri",
+          "number": 11,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/313236.png"
+        },
+        {
           "id": 37127,
           "name": "M. Ødegaard",
           "number": 8,
@@ -2222,7 +2236,7 @@
       "competitionCodes": [
         "PL"
       ],
-      "checkedAt": "2026-07-11T09:13:35.489835+00:00",
+      "checkedAt": "2026-07-15T10:22:56.611341+00:00",
       "players": [
         {
           "id": 36878,
@@ -2265,6 +2279,13 @@
           "number": 2,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/19298.png"
+        },
+        {
+          "id": 478441,
+          "name": "M. Cissé",
+          "number": 48,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/478441.png"
         },
         {
           "id": 2724,
@@ -2316,13 +2337,6 @@
           "photo": "https://media.api-sports.io/football/players/415107.png"
         },
         {
-          "id": 482915,
-          "name": "L. Routh",
-          "number": 5,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/482915.png"
-        },
-        {
           "id": 46815,
           "name": "Pau Torres",
           "number": 14,
@@ -2358,27 +2372,6 @@
           "photo": "https://media.api-sports.io/football/players/416250.png"
         },
         {
-          "id": 661146,
-          "name": "Theodore Carroll",
-          "number": 71,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/661146.png"
-        },
-        {
-          "id": 47522,
-          "name": "Douglas Luiz",
-          "number": 21,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/47522.png"
-        },
-        {
-          "id": 19035,
-          "name": "H. Elliott",
-          "number": 9,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/19035.png"
-        },
-        {
           "id": 364566,
           "name": "George Hemmings",
           "number": 53,
@@ -2386,11 +2379,11 @@
           "photo": "https://media.api-sports.io/football/players/364566.png"
         },
         {
-          "id": 1904,
-          "name": "B. Kamara",
-          "number": 44,
+          "id": 360268,
+          "name": "J. Jimoh",
+          "number": 18,
           "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/1904.png"
+          "photo": "https://media.api-sports.io/football/players/360268.png"
         },
         {
           "id": 553420,
@@ -2449,6 +2442,13 @@
           "photo": "https://media.api-sports.io/football/players/983.png"
         },
         {
+          "id": 137303,
+          "name": "E. Guessand",
+          "number": 29,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/137303.png"
+        },
+        {
           "id": 514519,
           "name": "Brian Madjo",
           "number": 24,
@@ -2468,13 +2468,6 @@
           "number": 11,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/19366.png"
-        },
-        {
-          "id": 312260,
-          "name": "K. Young",
-          "number": 19,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/312260.png"
         }
       ]
     },
@@ -2487,7 +2480,7 @@
         "CL",
         "SA"
       ],
-      "checkedAt": "2026-07-11T09:13:42.485549+00:00",
+      "checkedAt": "2026-07-15T10:23:03.613098+00:00",
       "players": [
         {
           "id": 30417,
@@ -2530,13 +2523,6 @@
           "number": 5,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/530.png"
-        },
-        {
-          "id": 436251,
-          "name": "P. Comi",
-          "number": 6,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/436251.png"
         },
         {
           "id": 30421,
@@ -2616,6 +2602,13 @@
           "photo": "https://media.api-sports.io/football/players/10097.png"
         },
         {
+          "id": 325,
+          "name": "G. Gaetano",
+          "number": 10,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/325.png"
+        },
+        {
           "id": 412893,
           "name": "S. Levak",
           "number": 47,
@@ -2623,11 +2616,11 @@
           "photo": "https://media.api-sports.io/football/players/412893.png"
         },
         {
-          "id": 162106,
-          "name": "Y. Musah",
-          "number": 6,
+          "id": 134926,
+          "name": "D. Maldini",
+          "number": 27,
           "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/162106.png"
+          "photo": "https://media.api-sports.io/football/players/134926.png"
         },
         {
           "id": 2763,
@@ -2642,6 +2635,13 @@
           "number": 10,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/178749.png"
+        },
+        {
+          "id": 353609,
+          "name": "I. Sulemana",
+          "number": 25,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/353609.png"
         },
         {
           "id": 203474,
@@ -2710,7 +2710,7 @@
         "CL",
         "PD"
       ],
-      "checkedAt": "2026-07-11T09:13:49.485364+00:00",
+      "checkedAt": "2026-07-15T10:23:10.613263+00:00",
       "players": [
         {
           "id": 312468,
@@ -2760,13 +2760,6 @@
           "number": 19,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/336998.png"
-        },
-        {
-          "id": 384262,
-          "name": "Aimar Duñabeitia",
-          "number": 4,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/384262.png"
         },
         {
           "id": 332305,
@@ -2832,13 +2825,6 @@
           "photo": "https://media.api-sports.io/football/players/560981.png"
         },
         {
-          "id": 332308,
-          "name": "Unai Gómez",
-          "number": 20,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/332308.png"
-        },
-        {
           "id": 383780,
           "name": "Mikel Jauregizar",
           "number": 18,
@@ -2881,13 +2867,6 @@
           "photo": "https://media.api-sports.io/football/players/128398.png"
         },
         {
-          "id": 384267,
-          "name": "Ibon Sánchez",
-          "number": 10,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/384267.png"
-        },
-        {
           "id": 568156,
           "name": "S. Sanchez",
           "number": 33,
@@ -2909,13 +2888,6 @@
           "photo": "https://media.api-sports.io/football/players/30510.png"
         },
         {
-          "id": 560978,
-          "name": "E. Garcia",
-          "number": 18,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/560978.png"
-        },
-        {
           "id": 47291,
           "name": "Gorka Guruzeta",
           "number": 11,
@@ -2928,13 +2900,6 @@
           "number": 7,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/560954.png"
-        },
-        {
-          "id": 183776,
-          "name": "Urko Izeta",
-          "number": 25,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/183776.png"
         },
         {
           "id": 287680,
@@ -2975,7 +2940,7 @@
         "CL",
         "PD"
       ],
-      "checkedAt": "2026-07-11T09:13:56.488378+00:00",
+      "checkedAt": "2026-07-15T10:23:17.609086+00:00",
       "players": [
         {
           "id": 393198,
@@ -3246,7 +3211,7 @@
       "competitionCodes": [
         "BL1"
       ],
-      "checkedAt": "2026-07-11T09:14:03.499619+00:00",
+      "checkedAt": "2026-07-15T10:23:24.615083+00:00",
       "players": [
         {
           "id": 25903,
@@ -3256,13 +3221,6 @@
           "photo": "https://media.api-sports.io/football/players/25903.png"
         },
         {
-          "id": 163064,
-          "name": "D. Klein",
-          "number": 25,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/163064.png"
-        },
-        {
           "id": 14553,
           "name": "N. Labrović",
           "number": 22,
@@ -3270,18 +3228,18 @@
           "photo": "https://media.api-sports.io/football/players/14553.png"
         },
         {
-          "id": 304686,
-          "name": "Arthur Chaves",
-          "number": 34,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/304686.png"
-        },
-        {
           "id": 413065,
           "name": "Noahkai Kai Daniel Banks",
           "number": 40,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/413065.png"
+        },
+        {
+          "id": 178403,
+          "name": "C. Brackelmann",
+          "number": 4,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/178403.png"
         },
         {
           "id": 2360,
@@ -3333,25 +3291,11 @@
           "photo": "https://media.api-sports.io/football/players/26.png"
         },
         {
-          "id": 48574,
-          "name": "C. Zesiger",
-          "number": 16,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/48574.png"
-        },
-        {
           "id": 143831,
           "name": "R. Fellhauer",
           "number": 19,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/143831.png"
-        },
-        {
-          "id": 310196,
-          "name": "Ismaël Gharbi",
-          "number": 11,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/310196.png"
         },
         {
           "id": 14395,
@@ -3382,11 +3326,18 @@
           "photo": "https://media.api-sports.io/football/players/110.png"
         },
         {
-          "id": 25413,
-          "name": "E. Rexhbeçaj",
-          "number": 8,
+          "id": 479269,
+          "name": "F. Sakar",
+          "number": 31,
           "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/25413.png"
+          "photo": "https://media.api-sports.io/football/players/479269.png"
+        },
+        {
+          "id": 343159,
+          "name": "K. Suso",
+          "number": 46,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/343159.png"
         },
         {
           "id": 20634,
@@ -3440,7 +3391,7 @@
       "competitionCodes": [
         "FL1"
       ],
-      "checkedAt": "2026-07-11T09:14:10.494273+00:00",
+      "checkedAt": "2026-07-15T10:23:31.639044+00:00",
       "players": [
         {
           "id": 193681,
@@ -3450,18 +3401,18 @@
           "photo": "https://media.api-sports.io/football/players/193681.png"
         },
         {
+          "id": 134264,
+          "name": "M. Diop",
+          "number": 13,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/134264.png"
+        },
+        {
           "id": 20542,
           "name": "D. Léon",
           "number": 16,
           "position": "Goalkeeper",
           "photo": "https://media.api-sports.io/football/players/20542.png"
-        },
-        {
-          "id": 275368,
-          "name": "T. Negrel",
-          "number": 30,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/275368.png"
         },
         {
           "id": 191189,
@@ -3478,11 +3429,11 @@
           "photo": "https://media.api-sports.io/football/players/162466.png"
         },
         {
-          "id": 7578,
-          "name": "G. Mensah",
-          "number": 14,
+          "id": 193505,
+          "name": "Sekou Fofana",
+          "number": 93,
           "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/7578.png"
+          "photo": "https://media.api-sports.io/football/players/193505.png"
         },
         {
           "id": 115588,
@@ -3497,6 +3448,13 @@
           "number": 22,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/215827.png"
+        },
+        {
+          "id": 371950,
+          "name": "A. Piedfort",
+          "number": 46,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/371950.png"
         },
         {
           "id": 191240,
@@ -3518,13 +3476,6 @@
           "number": 13,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/402542.png"
-        },
-        {
-          "id": 661087,
-          "name": "Evan Soumare",
-          "number": 18,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/661087.png"
         },
         {
           "id": 193953,
@@ -3562,20 +3513,6 @@
           "photo": "https://media.api-sports.io/football/players/30748.png"
         },
         {
-          "id": 319919,
-          "name": "O. El Azzouzi",
-          "number": 17,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/319919.png"
-        },
-        {
-          "id": 84082,
-          "name": "R. Faivre",
-          "number": 28,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/84082.png"
-        },
-        {
           "id": 21010,
           "name": "E. Owusu",
           "number": 42,
@@ -3604,13 +3541,6 @@
           "photo": "https://media.api-sports.io/football/players/322595.png"
         },
         {
-          "id": 190686,
-          "name": "S. Mara",
-          "number": 9,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/190686.png"
-        },
-        {
           "id": 19625,
           "name": "D. Namaso",
           "number": 19,
@@ -3630,6 +3560,13 @@
           "number": 10,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/90617.png"
+        },
+        {
+          "id": 511151,
+          "name": "Wei Xiangxin",
+          "number": 11,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/511151.png"
         },
         {
           "id": 613216,
@@ -3843,7 +3780,7 @@
         "BL1",
         "CL"
       ],
-      "checkedAt": "2026-07-11T09:14:31.486298+00:00",
+      "checkedAt": "2026-07-15T10:23:52.610799+00:00",
       "players": [
         {
           "id": 432595,
@@ -3881,18 +3818,25 @@
           "photo": "https://media.api-sports.io/football/players/203376.png"
         },
         {
+          "id": 2195,
+          "name": "S. Boey",
+          "number": 93,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/2195.png"
+        },
+        {
+          "id": 280074,
+          "name": "N. Brown",
+          "number": 21,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/280074.png"
+        },
+        {
           "id": 509,
           "name": "A. Davies",
           "number": 19,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/509.png"
-        },
-        {
-          "id": 8,
-          "name": "Raphaël Guerreiro",
-          "number": 22,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/8.png"
         },
         {
           "id": 32893,
@@ -3921,13 +3865,6 @@
           "number": 41,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/610483.png"
-        },
-        {
-          "id": 567867,
-          "name": "D. Ofli",
-          "number": 34,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/567867.png"
         },
         {
           "id": 628356,
@@ -3972,6 +3909,13 @@
           "photo": "https://media.api-sports.io/football/players/568042.png"
         },
         {
+          "id": 414474,
+          "name": "F. Chávez",
+          "number": 27,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/414474.png"
+        },
+        {
           "id": 449689,
           "name": "David Daiber",
           "number": 47,
@@ -3984,13 +3928,6 @@
           "number": 31,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/568043.png"
-        },
-        {
-          "id": 511,
-          "name": "L. Goretzka",
-          "number": 8,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/511.png"
         },
         {
           "id": 494131,
@@ -4049,11 +3986,11 @@
           "photo": "https://media.api-sports.io/football/players/328033.png"
         },
         {
-          "id": 630895,
-          "name": "Bara Ndiaye",
-          "number": 39,
+          "id": 161897,
+          "name": "I. Saibari",
+          "number": 34,
           "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/630895.png"
+          "photo": "https://media.api-sports.io/football/players/161897.png"
         },
         {
           "id": 657672,
@@ -4077,11 +4014,11 @@
           "photo": "https://media.api-sports.io/football/players/510.png"
         },
         {
-          "id": 283058,
-          "name": "N. Jackson",
-          "number": 11,
+          "id": 327897,
+          "name": "A. Ibrahimović",
+          "number": 22,
           "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/283058.png"
+          "photo": "https://media.api-sports.io/football/players/327897.png"
         },
         {
           "id": 184,
@@ -4089,6 +4026,13 @@
           "number": 9,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/184.png"
+        },
+        {
+          "id": 280339,
+          "name": "A. Sieb",
+          "number": 11,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/280339.png"
         }
       ]
     },
@@ -4100,7 +4044,7 @@
       "competitionCodes": [
         "ELC"
       ],
-      "checkedAt": "2026-07-11T09:14:38.490415+00:00",
+      "checkedAt": "2026-07-15T10:23:59.619791+00:00",
       "players": [
         {
           "id": 20258,
@@ -4322,7 +4266,7 @@
       "competitionCodes": [
         "ELC"
       ],
-      "checkedAt": "2026-07-11T09:14:45.502128+00:00",
+      "checkedAt": "2026-07-15T10:24:06.622892+00:00",
       "players": [
         {
           "id": 329366,
@@ -4586,7 +4530,7 @@
       "competitionCodes": [
         "SA"
       ],
-      "checkedAt": "2026-07-12T09:33:39.236919+00:00",
+      "checkedAt": "2026-07-15T10:24:20.609322+00:00",
       "players": [
         {
           "id": 616142,
@@ -4815,7 +4759,7 @@
       "competitionCodes": [
         "ELC"
       ],
-      "checkedAt": "2026-07-12T09:33:46.235657+00:00",
+      "checkedAt": "2026-07-15T10:24:27.608567+00:00",
       "players": [
         {
           "id": 20194,
@@ -4853,25 +4797,25 @@
           "photo": "https://media.api-sports.io/football/players/283023.png"
         },
         {
+          "id": 19437,
+          "name": "B. Davies",
+          "number": 29,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/19437.png"
+        },
+        {
+          "id": 19064,
+          "name": "A. Famewo",
+          "number": 23,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/19064.png"
+        },
+        {
           "id": 320843,
           "name": "C. Forino-Joseph",
           "number": 3,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/320843.png"
-        },
-        {
-          "id": 127369,
-          "name": "G. Johnston",
-          "number": 6,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/127369.png"
-        },
-        {
-          "id": 1449,
-          "name": "J. Osei-Tutu",
-          "number": 14,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/1449.png"
         },
         {
           "id": 133631,
@@ -4895,13 +4839,6 @@
           "photo": "https://media.api-sports.io/football/players/69319.png"
         },
         {
-          "id": 19965,
-          "name": "K. Dempsey",
-          "number": 22,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/19965.png"
-        },
-        {
           "id": 45007,
           "name": "E. Erhahon",
           "number": 21,
@@ -4923,18 +4860,18 @@
           "photo": "https://media.api-sports.io/football/players/152952.png"
         },
         {
-          "id": 331563,
-          "name": "Mason Paul James Burstow",
-          "number": 48,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/331563.png"
+          "id": 284367,
+          "name": "Luca Stephenson",
+          "number": 21,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/284367.png"
         },
         {
-          "id": 322929,
-          "name": "I. Cissoko",
-          "number": 20,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/322929.png"
+          "id": 332738,
+          "name": "D. Watson",
+          "number": 12,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/332738.png"
         },
         {
           "id": 17878,
@@ -4944,18 +4881,18 @@
           "photo": "https://media.api-sports.io/football/players/17878.png"
         },
         {
+          "id": 343710,
+          "name": "K. Dong",
+          "number": 9,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/343710.png"
+        },
+        {
           "id": 123610,
           "name": "T. Gale",
           "number": 11,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/123610.png"
-        },
-        {
-          "id": 308868,
-          "name": "J. Kenny",
-          "number": 9,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/308868.png"
         },
         {
           "id": 584063,
@@ -4988,7 +4925,7 @@
       "competitionCodes": [
         "PL"
       ],
-      "checkedAt": "2026-07-12T09:33:53.237400+00:00",
+      "checkedAt": "2026-07-15T10:24:34.608228+00:00",
       "players": [
         {
           "id": 151756,
@@ -5203,14 +5140,14 @@
       "competitionCodes": [
         "PPL"
       ],
-      "checkedAt": "2026-07-12T09:34:00.240089+00:00",
+      "checkedAt": "2026-07-15T10:24:41.612544+00:00",
       "players": [
         {
-          "id": 284795,
-          "name": "A. Bellaarouch",
-          "number": 36,
+          "id": 359001,
+          "name": "Bernardo Fontes",
+          "number": 31,
           "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/284795.png"
+          "photo": "https://media.api-sports.io/football/players/359001.png"
         },
         {
           "id": 361433,
@@ -5239,6 +5176,13 @@
           "number": 26,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/162535.png"
+        },
+        {
+          "id": 180320,
+          "name": "A. Bajrami",
+          "number": 4,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/180320.png"
         },
         {
           "id": 68090,
@@ -5297,6 +5241,13 @@
           "photo": "https://media.api-sports.io/football/players/47383.png"
         },
         {
+          "id": 182857,
+          "name": "Sergio Barcia",
+          "number": 6,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/182857.png"
+        },
+        {
           "id": 620093,
           "name": "A. Sousa",
           "number": 96,
@@ -5304,18 +5255,18 @@
           "photo": "https://media.api-sports.io/football/players/620093.png"
         },
         {
+          "id": 336575,
+          "name": "Diogo Travassos",
+          "number": 2,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/336575.png"
+        },
+        {
           "id": 380434,
           "name": "M. Dorgeles",
           "number": 20,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/380434.png"
-        },
-        {
-          "id": 415089,
-          "name": "Gabriel Moscardo",
-          "number": 17,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/415089.png"
         },
         {
           "id": 566821,
@@ -5332,11 +5283,11 @@
           "photo": "https://media.api-sports.io/football/players/330722.png"
         },
         {
-          "id": 719,
-          "name": "F. Grillitsch",
-          "number": 27,
+          "id": 202838,
+          "name": "D. Huseinbašić",
+          "number": 8,
           "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/719.png"
+          "photo": "https://media.api-sports.io/football/players/202838.png"
         },
         {
           "id": 628439,
@@ -5381,13 +5332,6 @@
           "photo": "https://media.api-sports.io/football/players/9355.png"
         },
         {
-          "id": 108563,
-          "name": "R. Zalazar",
-          "number": 10,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/108563.png"
-        },
-        {
           "id": 406848,
           "name": "Yanis da Rocha",
           "number": 41,
@@ -5407,6 +5351,13 @@
           "number": 9,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/193188.png"
+        },
+        {
+          "id": 266630,
+          "name": "Gabriel Silva",
+          "number": 10,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/266630.png"
         },
         {
           "id": 41103,
@@ -5456,6 +5407,13 @@
           "number": 95,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/496703.png"
+        },
+        {
+          "id": 1302,
+          "name": "J. Wind",
+          "number": 23,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/1302.png"
         }
       ]
     },
@@ -5467,7 +5425,7 @@
       "competitionCodes": [
         "PL"
       ],
-      "checkedAt": "2026-07-12T09:34:14.235608+00:00",
+      "checkedAt": "2026-07-15T10:24:55.607225+00:00",
       "players": [
         {
           "id": 19340,
@@ -5475,13 +5433,6 @@
           "number": 31,
           "position": "Goalkeeper",
           "photo": "https://media.api-sports.io/football/players/19340.png"
-        },
-        {
-          "id": 389579,
-          "name": "J. Eyestone",
-          "number": 41,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/389579.png"
         },
         {
           "id": 281,
@@ -5596,13 +5547,6 @@
           "photo": "https://media.api-sports.io/football/players/47438.png"
         },
         {
-          "id": 430734,
-          "name": "Y. Konak",
-          "number": 5,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/430734.png"
-        },
-        {
           "id": 106725,
           "name": "K. Lewis-Potter",
           "number": 23,
@@ -5624,6 +5568,13 @@
           "photo": "https://media.api-sports.io/football/players/178077.png"
         },
         {
+          "id": 441271,
+          "name": "Jannik Schuster",
+          "number": 44,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/441271.png"
+        },
+        {
           "id": 263538,
           "name": "Y. Yarmolyuk",
           "number": 18,
@@ -5631,11 +5582,11 @@
           "photo": "https://media.api-sports.io/football/players/263538.png"
         },
         {
-          "id": 402317,
-          "name": "R. Donovan",
-          "number": 45,
+          "id": 196855,
+          "name": "J. Anthony",
+          "number": 11,
           "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/402317.png"
+          "photo": "https://media.api-sports.io/football/players/196855.png"
         },
         {
           "id": 393193,
@@ -5643,13 +5594,6 @@
           "number": 47,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/393193.png"
-        },
-        {
-          "id": 727,
-          "name": "R. Nelson",
-          "number": 11,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/727.png"
         },
         {
           "id": 284797,
@@ -5671,6 +5615,13 @@
           "number": 9,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/196156.png"
+        },
+        {
+          "id": 2939,
+          "name": "C. Wilson",
+          "number": 9,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/2939.png"
         }
       ]
     },
@@ -5682,7 +5633,7 @@
       "competitionCodes": [
         "FL1"
       ],
-      "checkedAt": "2026-07-12T09:34:21.235844+00:00",
+      "checkedAt": "2026-07-15T10:25:02.611464+00:00",
       "players": [
         {
           "id": 21248,
@@ -5706,32 +5657,18 @@
           "photo": "https://media.api-sports.io/football/players/40384.png"
         },
         {
+          "id": 667330,
+          "name": "Noe Poillion",
+          "number": null,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/667330.png"
+        },
+        {
           "id": 20546,
           "name": "B. Chardonnet",
           "number": 5,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/20546.png"
-        },
-        {
-          "id": 162568,
-          "name": "S. Coulibaly",
-          "number": 44,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/162568.png"
-        },
-        {
-          "id": 365742,
-          "name": "M. Diaz",
-          "number": 4,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/365742.png"
-        },
-        {
-          "id": 302868,
-          "name": "D. Guindo",
-          "number": 27,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/302868.png"
         },
         {
           "id": 22247,
@@ -5767,13 +5704,6 @@
           "number": 13,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/128287.png"
-        },
-        {
-          "id": 90594,
-          "name": "J. Dina Ebimbe",
-          "number": 7,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/90594.png"
         },
         {
           "id": 326068,
@@ -5825,25 +5755,11 @@
           "photo": "https://media.api-sports.io/football/players/2214.png"
         },
         {
-          "id": 485957,
-          "name": "Serigne Diop",
-          "number": 29,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/485957.png"
-        },
-        {
           "id": 554352,
           "name": "Ibrahim Yayiya Kante",
           "number": 21,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/554352.png"
-        },
-        {
-          "id": 326073,
-          "name": "R. Labeau Lascary",
-          "number": 14,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/326073.png"
         },
         {
           "id": 375990,
@@ -5862,7 +5778,7 @@
       "competitionCodes": [
         "ELC"
       ],
-      "checkedAt": "2026-07-12T09:34:35.238962+00:00",
+      "checkedAt": "2026-07-15T10:25:16.615262+00:00",
       "players": [
         {
           "id": 19573,
@@ -6091,22 +6007,8 @@
       "competitionCodes": [
         "ELC"
       ],
-      "checkedAt": "2026-07-12T09:34:42.238814+00:00",
+      "checkedAt": "2026-07-15T10:25:23.613887+00:00",
       "players": [
-        {
-          "id": 18886,
-          "name": "M. Dúbravka",
-          "number": 1,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/18886.png"
-        },
-        {
-          "id": 44994,
-          "name": "V. Hladký",
-          "number": 32,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/44994.png"
-        },
         {
           "id": 328273,
           "name": "M. Weiß",
@@ -6127,13 +6029,6 @@
           "number": 5,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/179400.png"
-        },
-        {
-          "id": 375915,
-          "name": "Q. Hartman",
-          "number": 3,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/375915.png"
         },
         {
           "id": 181797,
@@ -6157,6 +6052,13 @@
           "photo": "https://media.api-sports.io/football/players/19331.png"
         },
         {
+          "id": 128895,
+          "name": "O. Sonne",
+          "number": 17,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/128895.png"
+        },
+        {
           "id": 19182,
           "name": "A. Tuanzebe",
           "number": 6,
@@ -6176,6 +6078,13 @@
           "number": 4,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/1746.png"
+        },
+        {
+          "id": 363479,
+          "name": "O. Adewumi",
+          "number": 17,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/363479.png"
         },
         {
           "id": 361388,
@@ -6199,11 +6108,11 @@
           "photo": "https://media.api-sports.io/football/players/22.png"
         },
         {
-          "id": 19827,
-          "name": "J. Cullen",
-          "number": 24,
+          "id": 527616,
+          "name": "E. Clark",
+          "number": 8,
           "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/19827.png"
+          "photo": "https://media.api-sports.io/football/players/527616.png"
         },
         {
           "id": 36927,
@@ -6227,6 +6136,13 @@
           "photo": "https://media.api-sports.io/football/players/20303.png"
         },
         {
+          "id": 459224,
+          "name": "Vernon Masara",
+          "number": 9,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/459224.png"
+        },
+        {
           "id": 557387,
           "name": "K. M. Brown",
           "number": 52,
@@ -6248,6 +6164,13 @@
           "photo": "https://media.api-sports.io/football/players/456637.png"
         },
         {
+          "id": 278079,
+          "name": "A. Ramsey",
+          "number": 30,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/278079.png"
+        },
+        {
           "id": 270508,
           "name": "L. Ugochukwu",
           "number": 8,
@@ -6262,16 +6185,9 @@
           "photo": "https://media.api-sports.io/football/players/123469.png"
         },
         {
-          "id": 196855,
-          "name": "J. Anthony",
-          "number": 11,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/196855.png"
-        },
-        {
           "id": 336578,
           "name": "J. Banel",
-          "number": 34,
+          "number": 11,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/336578.png"
         },
@@ -6290,6 +6206,13 @@
           "photo": "https://media.api-sports.io/football/players/138822.png"
         },
         {
+          "id": 549458,
+          "name": "L. Castell",
+          "number": 32,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/549458.png"
+        },
+        {
           "id": 37882,
           "name": "M. Edwards",
           "number": 10,
@@ -6304,11 +6227,32 @@
           "photo": "https://media.api-sports.io/football/players/98936.png"
         },
         {
-          "id": 161621,
-          "name": "L. Tchaouna",
+          "id": 178921,
+          "name": "A. Hountondji",
+          "number": 18,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/178921.png"
+        },
+        {
+          "id": 359603,
+          "name": "L. Koleosho",
           "number": 17,
           "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/161621.png"
+          "photo": "https://media.api-sports.io/football/players/359603.png"
+        },
+        {
+          "id": 18957,
+          "name": "M. Obafemi",
+          "number": 21,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/18957.png"
+        },
+        {
+          "id": 446948,
+          "name": "B. Pouri-Siewe",
+          "number": 11,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/446948.png"
         },
         {
           "id": 37381,
@@ -6327,7 +6271,7 @@
       "competitionCodes": [
         "SA"
       ],
-      "checkedAt": "2026-07-12T09:34:49.240534+00:00",
+      "checkedAt": "2026-07-15T10:25:30.611085+00:00",
       "players": [
         {
           "id": 30731,
@@ -6570,7 +6514,7 @@
       "competitionCodes": [
         "DED"
       ],
-      "checkedAt": "2026-07-12T09:34:56.238415+00:00",
+      "checkedAt": "2026-07-15T10:25:37.611041+00:00",
       "players": [
         {
           "id": 289583,
@@ -6601,6 +6545,13 @@
           "photo": "https://media.api-sports.io/football/players/277752.png"
         },
         {
+          "id": 502293,
+          "name": "Amar Bakkati",
+          "number": 43,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/502293.png"
+        },
+        {
           "id": 396198,
           "name": "I. Baouf",
           "number": 4,
@@ -6615,25 +6566,18 @@
           "photo": "https://media.api-sports.io/football/players/272691.png"
         },
         {
-          "id": 328120,
-          "name": "Tomas Galvez",
-          "number": 22,
+          "id": 437767,
+          "name": "M. Costarelli",
+          "number": 28,
           "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/328120.png"
+          "photo": "https://media.api-sports.io/football/players/437767.png"
         },
         {
-          "id": 336672,
-          "name": "D. Jermoumi",
-          "number": 2,
+          "id": 453708,
+          "name": "L. Jetten",
+          "number": 5,
           "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/336672.png"
-        },
-        {
-          "id": 546743,
-          "name": "T. Jonker",
-          "number": 24,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/546743.png"
+          "photo": "https://media.api-sports.io/football/players/453708.png"
         },
         {
           "id": 516008,
@@ -6641,13 +6585,6 @@
           "number": 15,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/516008.png"
-        },
-        {
-          "id": 455049,
-          "name": "Bram Marsman",
-          "number": 25,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/455049.png"
         },
         {
           "id": 135748,
@@ -6664,6 +6601,13 @@
           "photo": "https://media.api-sports.io/football/players/489933.png"
         },
         {
+          "id": 492300,
+          "name": "R. van de Pavert",
+          "number": 14,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/492300.png"
+        },
+        {
           "id": 633612,
           "name": "Ethan Apkakou",
           "number": 17,
@@ -6671,25 +6615,11 @@
           "photo": "https://media.api-sports.io/football/players/633612.png"
         },
         {
-          "id": 37012,
-          "name": "M. Diemers",
-          "number": 10,
+          "id": 576358,
+          "name": "Y. Bruinsma",
+          "number": 38,
           "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/37012.png"
-        },
-        {
-          "id": 551155,
-          "name": "J. Nap",
-          "number": 46,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/551155.png"
-        },
-        {
-          "id": 279878,
-          "name": "T. Rölke",
-          "number": 18,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/279878.png"
+          "photo": "https://media.api-sports.io/football/players/576358.png"
         },
         {
           "id": 37078,
@@ -6697,6 +6627,20 @@
           "number": 8,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/37078.png"
+        },
+        {
+          "id": 666941,
+          "name": "L. Vanderbruggen",
+          "number": null,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/666941.png"
+        },
+        {
+          "id": 666945,
+          "name": "D. Westerhof",
+          "number": null,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/666945.png"
         },
         {
           "id": 656187,
@@ -6708,16 +6652,9 @@
         {
           "id": 628510,
           "name": "Wiebe van der Heide",
-          "number": 18,
+          "number": 48,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/628510.png"
-        },
-        {
-          "id": 207226,
-          "name": "R. Balk",
-          "number": 7,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/207226.png"
         },
         {
           "id": 169446,
@@ -6727,16 +6664,16 @@
           "photo": "https://media.api-sports.io/football/players/169446.png"
         },
         {
-          "id": 361445,
-          "name": "I. Ferrah",
-          "number": 26,
+          "id": 323581,
+          "name": "I. Hamache",
+          "number": 11,
           "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/361445.png"
+          "photo": "https://media.api-sports.io/football/players/323581.png"
         },
         {
           "id": 438749,
           "name": "Iwan Henstra",
-          "number": 19,
+          "number": 29,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/438749.png"
         },
@@ -6755,25 +6692,11 @@
           "photo": "https://media.api-sports.io/football/players/629313.png"
         },
         {
-          "id": 451720,
-          "name": "S. Veldhuis",
-          "number": 40,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/451720.png"
-        },
-        {
-          "id": 272346,
-          "name": "K. Visser",
+          "id": 386825,
+          "name": "S. Vink",
           "number": 9,
           "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/272346.png"
-        },
-        {
-          "id": 37471,
-          "name": "J. van der Sande",
-          "number": 14,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/37471.png"
+          "photo": "https://media.api-sports.io/football/players/386825.png"
         }
       ]
     },
@@ -6785,7 +6708,7 @@
       "competitionCodes": [
         "ELC"
       ],
-      "checkedAt": "2026-07-12T09:35:03.242620+00:00",
+      "checkedAt": "2026-07-15T10:25:44.626079+00:00",
       "players": [
         {
           "id": 90494,
@@ -6993,7 +6916,7 @@
       "competitionCodes": [
         "PPL"
       ],
-      "checkedAt": "2026-07-12T09:35:10.241436+00:00",
+      "checkedAt": "2026-07-15T10:25:51.613290+00:00",
       "players": [
         {
           "id": 43147,
@@ -7208,7 +7131,7 @@
       "competitionCodes": [
         "ELC"
       ],
-      "checkedAt": "2026-07-12T09:35:31.238569+00:00",
+      "checkedAt": "2026-07-15T10:26:12.620084+00:00",
       "players": [
         {
           "id": 282727,
@@ -7410,7 +7333,7 @@
         "CL",
         "PL"
       ],
-      "checkedAt": "2026-07-12T09:35:38.243681+00:00",
+      "checkedAt": "2026-07-15T10:26:19.614955+00:00",
       "players": [
         {
           "id": 286616,
@@ -7462,6 +7385,13 @@
           "photo": "https://media.api-sports.io/football/players/19145.png"
         },
         {
+          "id": 609590,
+          "name": "Denner",
+          "number": null,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/609590.png"
+        },
+        {
           "id": 95,
           "name": "B. Badiashile",
           "number": 5,
@@ -7481,13 +7411,6 @@
           "number": 6,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/152953.png"
-        },
-        {
-          "id": 47380,
-          "name": "Marc Cucurella",
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/47380.png"
         },
         {
           "id": 22094,
@@ -7518,6 +7441,13 @@
           "photo": "https://media.api-sports.io/football/players/19545.png"
         },
         {
+          "id": 383018,
+          "name": "M. Palestra",
+          "number": null,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/383018.png"
+        },
+        {
           "id": 276184,
           "name": "M. Sarr",
           "number": 19,
@@ -7539,18 +7469,18 @@
           "photo": "https://media.api-sports.io/football/players/116117.png"
         },
         {
-          "id": 417653,
-          "name": "J. Derry",
-          "number": 55,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/417653.png"
-        },
-        {
           "id": 568066,
           "name": "M. Eboue",
           "number": 72,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/568066.png"
+        },
+        {
+          "id": 454935,
+          "name": "L. Emenalo",
+          "number": 5,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/454935.png"
         },
         {
           "id": 308678,
@@ -7609,6 +7539,13 @@
           "photo": "https://media.api-sports.io/football/players/161948.png"
         },
         {
+          "id": 203762,
+          "name": "E. Emegha",
+          "number": 10,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/203762.png"
+        },
+        {
           "id": 425733,
           "name": "Estêvão",
           "number": 41,
@@ -7621,13 +7558,6 @@
           "number": 49,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/284324.png"
-        },
-        {
-          "id": 334037,
-          "name": "Tyrique George",
-          "number": 19,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/334037.png"
         },
         {
           "id": 286894,
@@ -7663,6 +7593,13 @@
           "number": 7,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/1864.png"
+        },
+        {
+          "id": 419582,
+          "name": "Geovany Tcherno Quenda",
+          "number": null,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/419582.png"
         }
       ]
     },
@@ -7674,7 +7611,7 @@
       "competitionCodes": [
         "CL"
       ],
-      "checkedAt": "2026-07-12T09:35:45.240801+00:00",
+      "checkedAt": "2026-07-15T10:26:26.614440+00:00",
       "players": [
         {
           "id": 395891,
@@ -7889,7 +7826,7 @@
       "competitionCodes": [
         "PL"
       ],
-      "checkedAt": "2026-07-12T09:36:06.241680+00:00",
+      "checkedAt": "2026-07-15T10:26:47.619065+00:00",
       "players": [
         {
           "id": 22157,
@@ -7911,13 +7848,6 @@
           "number": 31,
           "position": "Goalkeeper",
           "photo": "https://media.api-sports.io/football/players/19684.png"
-        },
-        {
-          "id": 557414,
-          "name": "D. Benamar",
-          "number": 3,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/557414.png"
         },
         {
           "id": 412759,
@@ -7948,18 +7878,18 @@
           "photo": "https://media.api-sports.io/football/players/196856.png"
         },
         {
-          "id": 557584,
-          "name": "G. King",
-          "number": 8,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/557584.png"
-        },
-        {
           "id": 20995,
           "name": "M. Lacroix",
           "number": 5,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/20995.png"
+        },
+        {
+          "id": 162712,
+          "name": "Óscar Mingueza",
+          "number": 3,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/162712.png"
         },
         {
           "id": 182201,
@@ -8011,13 +7941,6 @@
           "photo": "https://media.api-sports.io/football/players/557413.png"
         },
         {
-          "id": 402640,
-          "name": "R. Esse",
-          "number": 14,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/402640.png"
-        },
-        {
           "id": 18806,
           "name": "W. Hughes",
           "number": 19,
@@ -8039,39 +7962,11 @@
           "photo": "https://media.api-sports.io/football/players/2490.png"
         },
         {
-          "id": 301295,
-          "name": "K. Rodney",
-          "number": 42,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/301295.png"
-        },
-        {
-          "id": 403554,
-          "name": "Christantus Uche",
-          "number": 12,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/403554.png"
-        },
-        {
           "id": 288102,
           "name": "A. Wharton",
           "number": 20,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/288102.png"
-        },
-        {
-          "id": 557475,
-          "name": "B. Casey",
-          "number": 18,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/557475.png"
-        },
-        {
-          "id": 137303,
-          "name": "E. Guessand",
-          "number": 29,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/137303.png"
         },
         {
           "id": 129711,
@@ -8102,13 +7997,6 @@
           "photo": "https://media.api-sports.io/football/players/25927.png"
         },
         {
-          "id": 1468,
-          "name": "E. Nketiah",
-          "number": 9,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/1468.png"
-        },
-        {
           "id": 184226,
           "name": "Yeremy Pino",
           "number": 10,
@@ -8132,7 +8020,7 @@
       "competitionCodes": [
         "DED"
       ],
-      "checkedAt": "2026-07-12T09:36:13.242865+00:00",
+      "checkedAt": "2026-07-15T10:26:54.615093+00:00",
       "players": [
         {
           "id": 452387,
@@ -8147,13 +8035,6 @@
           "number": 29,
           "position": "Goalkeeper",
           "photo": "https://media.api-sports.io/football/players/526725.png"
-        },
-        {
-          "id": 8889,
-          "name": "A. Lejoly",
-          "number": 24,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/8889.png"
         },
         {
           "id": 140946,
@@ -8177,13 +8058,6 @@
           "photo": "https://media.api-sports.io/football/players/361886.png"
         },
         {
-          "id": 163184,
-          "name": "M. Kreekels",
-          "number": 5,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/163184.png"
-        },
-        {
           "id": 272857,
           "name": "P. Mulder",
           "number": 3,
@@ -8191,25 +8065,11 @@
           "photo": "https://media.api-sports.io/football/players/272857.png"
         },
         {
-          "id": 551169,
-          "name": "D. Payne",
-          "number": 31,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/551169.png"
-        },
-        {
           "id": 37960,
           "name": "S. Sylla",
           "number": 18,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/37960.png"
-        },
-        {
-          "id": 55311,
-          "name": "D. Tomas",
-          "number": 45,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/55311.png"
         },
         {
           "id": 275581,
@@ -8224,20 +8084,6 @@
           "number": 26,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/497112.png"
-        },
-        {
-          "id": 161882,
-          "name": "S. van der Sloot",
-          "number": 2,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/161882.png"
-        },
-        {
-          "id": 503095,
-          "name": "Joey Brandt",
-          "number": 30,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/503095.png"
         },
         {
           "id": 309764,
@@ -8261,13 +8107,6 @@
           "photo": "https://media.api-sports.io/football/players/216809.png"
         },
         {
-          "id": 37753,
-          "name": "J. Vlak",
-          "number": 8,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/37753.png"
-        },
-        {
           "id": 551127,
           "name": "F. de Bruin",
           "number": 16,
@@ -8282,32 +8121,11 @@
           "photo": "https://media.api-sports.io/football/players/546527.png"
         },
         {
-          "id": 125675,
-          "name": "B. Fiabema",
-          "number": 9,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/125675.png"
-        },
-        {
           "id": 202745,
           "name": "J. Hawkins",
           "number": 77,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/202745.png"
-        },
-        {
-          "id": 452388,
-          "name": "Maikey Houwaart",
-          "number": 12,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/452388.png"
-        },
-        {
-          "id": 480394,
-          "name": "Lorenzo Maasland",
-          "number": 20,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/480394.png"
         },
         {
           "id": 271562,
@@ -8355,7 +8173,7 @@
         "BL1",
         "CL"
       ],
-      "checkedAt": "2026-07-12T09:36:34.241713+00:00",
+      "checkedAt": "2026-07-15T10:27:15.618925+00:00",
       "players": [
         {
           "id": 26395,
@@ -8414,6 +8232,13 @@
           "photo": "https://media.api-sports.io/football/players/197448.png"
         },
         {
+          "id": 409215,
+          "name": "Kouakou Joane Gadou",
+          "number": 23,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/409215.png"
+        },
+        {
           "id": 394667,
           "name": "Almugera Raouf Mohammed Kabar",
           "number": 42,
@@ -8449,25 +8274,11 @@
           "photo": "https://media.api-sports.io/football/players/26243.png"
         },
         {
-          "id": 506,
-          "name": "N. Süle",
-          "number": 25,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/506.png"
-        },
-        {
           "id": 326757,
           "name": "J. Bellingham",
           "number": 7,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/326757.png"
-        },
-        {
-          "id": 984,
-          "name": "J. Brandt",
-          "number": 10,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/984.png"
         },
         {
           "id": 864,
@@ -8491,11 +8302,11 @@
           "photo": "https://media.api-sports.io/football/players/478991.png"
         },
         {
-          "id": 592218,
-          "name": "Mussa Kaba",
-          "number": 48,
+          "id": 568733,
+          "name": "J. Lerma",
+          "number": 53,
           "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/592218.png"
+          "photo": "https://media.api-sports.io/football/players/568733.png"
         },
         {
           "id": 637,
@@ -8503,13 +8314,6 @@
           "number": 8,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/637.png"
-        },
-        {
-          "id": 24807,
-          "name": "S. Özcan",
-          "number": 6,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/24807.png"
         },
         {
           "id": 1159,
@@ -8570,7 +8374,7 @@
       "competitionCodes": [
         "PD"
       ],
-      "checkedAt": "2026-07-12T09:36:41.243092+00:00",
+      "checkedAt": "2026-07-15T10:27:22.663670+00:00",
       "players": [
         {
           "id": 11346,
@@ -8778,7 +8582,7 @@
       "competitionCodes": [
         "PD"
       ],
-      "checkedAt": "2026-07-12T09:36:55.243494+00:00",
+      "checkedAt": "2026-07-15T10:27:36.623088+00:00",
       "players": [
         {
           "id": 2813,
@@ -8814,6 +8618,13 @@
           "number": 23,
           "position": "Defender",
           "photo": "https://media.api-sports.io/football/players/286601.png"
+        },
+        {
+          "id": 375915,
+          "name": "Q. Hartman",
+          "number": 3,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/375915.png"
         },
         {
           "id": 282054,
@@ -8858,6 +8669,13 @@
           "photo": "https://media.api-sports.io/football/players/46799.png"
         },
         {
+          "id": 415089,
+          "name": "Gabriel Moscardo",
+          "number": 17,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/415089.png"
+        },
+        {
           "id": 601891,
           "name": "F. Gomez",
           "number": 28,
@@ -8884,13 +8702,6 @@
           "number": 33,
           "position": "Attacker",
           "photo": "https://media.api-sports.io/football/players/656722.png"
-        },
-        {
-          "id": 549458,
-          "name": "L. Castell",
-          "number": 32,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/549458.png"
         },
         {
           "id": 273732,
@@ -8928,13 +8739,6 @@
           "photo": "https://media.api-sports.io/football/players/47398.png"
         },
         {
-          "id": 47349,
-          "name": "Javi Puado",
-          "number": 7,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/47349.png"
-        },
-        {
           "id": 297742,
           "name": "Antoniu Roca",
           "number": 20,
@@ -8951,7 +8755,7 @@
       "competitionCodes": [
         "PL"
       ],
-      "checkedAt": "2026-07-12T09:37:09.244138+00:00",
+      "checkedAt": "2026-07-15T10:27:50.624142+00:00",
       "players": [
         {
           "id": 82855,
@@ -8989,18 +8793,11 @@
           "photo": "https://media.api-sports.io/football/players/17661.png"
         },
         {
-          "id": 18758,
-          "name": "S. Coleman",
-          "number": 23,
+          "id": 284385,
+          "name": "Elijah Xavier Campbell",
+          "number": 27,
           "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/18758.png"
-        },
-        {
-          "id": 2934,
-          "name": "M. Keane",
-          "number": 5,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/2934.png"
+          "photo": "https://media.api-sports.io/football/players/284385.png"
         },
         {
           "id": 2165,
@@ -9052,13 +8849,6 @@
           "photo": "https://media.api-sports.io/football/players/405360.png"
         },
         {
-          "id": 546654,
-          "name": "C. Bates",
-          "number": 10,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/546654.png"
-        },
-        {
           "id": 148099,
           "name": "K. Dewsbury-Hall",
           "number": 22,
@@ -9073,18 +8863,11 @@
           "photo": "https://media.api-sports.io/football/players/895.png"
         },
         {
-          "id": 19187,
-          "name": "J. Grealish",
-          "number": 18,
+          "id": 179685,
+          "name": "H. Hackney",
+          "number": 7,
           "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/19187.png"
-        },
-        {
-          "id": 2990,
-          "name": "I. Gueye",
-          "number": 27,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/2990.png"
+          "photo": "https://media.api-sports.io/football/players/179685.png"
         },
         {
           "id": 284500,
@@ -9099,13 +8882,6 @@
           "number": 7,
           "position": "Midfielder",
           "photo": "https://media.api-sports.io/football/players/18929.png"
-        },
-        {
-          "id": 588468,
-          "name": "Malik Olayiwola",
-          "number": 14,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/588468.png"
         },
         {
           "id": 202854,
@@ -9136,11 +8912,11 @@
           "photo": "https://media.api-sports.io/football/players/304317.png"
         },
         {
-          "id": 413034,
-          "name": "B. Graham",
-          "number": 11,
+          "id": 334037,
+          "name": "Tyrique George",
+          "number": 19,
           "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/413034.png"
+          "photo": "https://media.api-sports.io/football/players/334037.png"
         },
         {
           "id": 18592,
@@ -9159,7 +8935,7 @@
       "competitionCodes": [
         "DED"
       ],
-      "checkedAt": "2026-07-12T09:37:16.243371+00:00",
+      "checkedAt": "2026-07-15T10:27:57.619648+00:00",
       "players": [
         {
           "id": 498931,
@@ -89277,6 +89053,206 @@
       "birthDate": "2002-01-09",
       "photo": "https://media.api-sports.io/football/players/127817.png",
       "updatedAt": "2026-07-14T09:39:13.623489+00:00"
+    },
+    "1302": {
+      "id": 1302,
+      "name": "J. Wind",
+      "firstname": "Jonas Older",
+      "lastname": "Wind",
+      "nationality": "Denmark",
+      "birthDate": "1999-02-07",
+      "photo": "https://media.api-sports.io/football/players/1302.png",
+      "updatedAt": "2026-07-15T10:28:11.620883+00:00"
+    },
+    "20619": {
+      "id": 20619,
+      "name": "I. Meslier",
+      "firstname": "Illan Stéphane",
+      "lastname": "Meslier",
+      "nationality": "France",
+      "birthDate": "2000-03-02",
+      "photo": "https://media.api-sports.io/football/players/20619.png",
+      "updatedAt": "2026-07-15T10:28:18.623983+00:00"
+    },
+    "128287": {
+      "id": 128287,
+      "name": "J. Chotard",
+      "firstname": "Joris",
+      "lastname": "Chotard",
+      "nationality": "France",
+      "birthDate": "2001-09-24",
+      "photo": "https://media.api-sports.io/football/players/128287.png",
+      "updatedAt": "2026-07-15T10:28:25.621483+00:00"
+    },
+    "128793": {
+      "id": 128793,
+      "name": "D. Jurásek",
+      "firstname": "David",
+      "lastname": "Jurásek",
+      "nationality": "Czechia",
+      "birthDate": "2000-08-07",
+      "photo": "https://media.api-sports.io/football/players/128793.png",
+      "updatedAt": "2026-07-15T10:28:32.631708+00:00"
+    },
+    "128853": {
+      "id": 128853,
+      "name": "D. Köhn",
+      "firstname": "Derrick Arthur",
+      "lastname": "Köhn",
+      "nationality": "Germany",
+      "birthDate": "1999-02-04",
+      "photo": "https://media.api-sports.io/football/players/128853.png",
+      "updatedAt": "2026-07-15T10:28:39.624982+00:00"
+    },
+    "129047": {
+      "id": 129047,
+      "name": "R. Zerrouki",
+      "firstname": "Ramiz Larbi",
+      "lastname": "Zerrouki",
+      "nationality": "Algeria",
+      "birthDate": "1998-05-26",
+      "photo": "https://media.api-sports.io/football/players/129047.png",
+      "updatedAt": "2026-07-15T10:28:46.615162+00:00"
+    },
+    "129097": {
+      "id": 129097,
+      "name": "H. Knibbs",
+      "firstname": "Harvey Andrew",
+      "lastname": "Knibbs",
+      "nationality": "England",
+      "birthDate": "1999-04-26",
+      "photo": "https://media.api-sports.io/football/players/129097.png",
+      "updatedAt": "2026-07-15T10:28:53.615949+00:00"
+    },
+    "129672": {
+      "id": 129672,
+      "name": "T. Vermot",
+      "firstname": "Théo",
+      "lastname": "Vermot",
+      "nationality": "France",
+      "birthDate": "1997-01-27",
+      "photo": "https://media.api-sports.io/football/players/129672.png",
+      "updatedAt": "2026-07-15T10:29:00.618856+00:00"
+    },
+    "129682": {
+      "id": 129682,
+      "name": "A. Adli",
+      "firstname": "Amine",
+      "lastname": "Adli",
+      "nationality": "Morocco",
+      "birthDate": "2000-05-10",
+      "photo": "https://media.api-sports.io/football/players/129682.png",
+      "updatedAt": "2026-07-15T10:29:07.636920+00:00"
+    },
+    "129791": {
+      "id": 129791,
+      "name": "Fábio Silva",
+      "firstname": "Fábio Daniel",
+      "lastname": "Soares Silva",
+      "nationality": "Portugal",
+      "birthDate": "2002-07-19",
+      "photo": "https://media.api-sports.io/football/players/129791.png",
+      "updatedAt": "2026-07-15T10:29:14.624639+00:00"
+    },
+    "130417": {
+      "id": 130417,
+      "name": "A. Idah",
+      "firstname": "Adam Uche",
+      "lastname": "Idah",
+      "nationality": "Republic of Ireland",
+      "birthDate": "2001-02-11",
+      "photo": "https://media.api-sports.io/football/players/130417.png",
+      "updatedAt": "2026-07-15T10:29:21.622856+00:00"
+    },
+    "130856": {
+      "id": 130856,
+      "name": "H. Kyprianou",
+      "firstname": "Hector Matthew",
+      "lastname": "Kyprianou",
+      "nationality": "Cyprus",
+      "birthDate": "2001-05-27",
+      "photo": "https://media.api-sports.io/football/players/130856.png",
+      "updatedAt": "2026-07-15T10:29:28.625879+00:00"
+    },
+    "133198": {
+      "id": 133198,
+      "name": "Welinton Torrão",
+      "firstname": "Welinton",
+      "lastname": "Macedo dos Santos",
+      "nationality": "Brazil",
+      "birthDate": "1999-06-30",
+      "photo": "https://media.api-sports.io/football/players/133198.png",
+      "updatedAt": "2026-07-15T10:29:35.623206+00:00"
+    },
+    "133453": {
+      "id": 133453,
+      "name": "Borja Sainz",
+      "firstname": "Borja",
+      "lastname": "Sainz Eguskiza",
+      "nationality": "Spain",
+      "birthDate": "2001-02-01",
+      "photo": "https://media.api-sports.io/football/players/133453.png",
+      "updatedAt": "2026-07-15T10:29:42.622582+00:00"
+    },
+    "133602": {
+      "id": 133602,
+      "name": "S. Sigurðarson",
+      "firstname": "Stefán Ingi",
+      "lastname": "Sigurðarson",
+      "nationality": "Iceland",
+      "birthDate": "2001-01-27",
+      "photo": "https://media.api-sports.io/football/players/133602.png",
+      "updatedAt": "2026-07-15T10:29:49.617214+00:00"
+    },
+    "133631": {
+      "id": 133631,
+      "name": "R. Taylor",
+      "firstname": "Richard",
+      "lastname": "Akinfolarin Taylor",
+      "nationality": "England",
+      "birthDate": "2000-10-02",
+      "photo": "https://media.api-sports.io/football/players/133631.png",
+      "updatedAt": "2026-07-15T10:29:56.624350+00:00"
+    },
+    "133634": {
+      "id": 133634,
+      "name": "K. Poku",
+      "firstname": "Kwame Afriyie Adubofour",
+      "lastname": "Poku",
+      "nationality": "England",
+      "birthDate": "2001-08-11",
+      "photo": "https://media.api-sports.io/football/players/133634.png",
+      "updatedAt": "2026-07-15T10:30:03.627256+00:00"
+    },
+    "133916": {
+      "id": 133916,
+      "name": "A. Heggebø",
+      "firstname": "Aune",
+      "lastname": "Selland Heggebø",
+      "nationality": "Norway",
+      "birthDate": "2001-07-29",
+      "photo": "https://media.api-sports.io/football/players/133916.png",
+      "updatedAt": "2026-07-15T10:30:10.627686+00:00"
+    },
+    "134264": {
+      "id": 134264,
+      "name": "M. Diop",
+      "firstname": "Mamadou",
+      "lastname": "Diop",
+      "nationality": "Senegal",
+      "birthDate": "2000-01-03",
+      "photo": "https://media.api-sports.io/football/players/134264.png",
+      "updatedAt": "2026-07-15T10:30:17.639759+00:00"
+    },
+    "134756": {
+      "id": 134756,
+      "name": "N. Kasanwirjo",
+      "firstname": "Neraysho Meritchio",
+      "lastname": "Kasanwirjo",
+      "nationality": "Netherlands",
+      "birthDate": "2002-02-18",
+      "photo": "https://media.api-sports.io/football/players/134756.png",
+      "updatedAt": "2026-07-15T10:30:24.622498+00:00"
     }
   },
   "teamProgress": {
@@ -89302,8 +89278,8 @@
     "7822": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-11T09:13:00.502271+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:22:21.752703+00:00",
       "historyTotalPagesUsed": 3
     },
     "9136": {
@@ -89315,64 +89291,64 @@
     "532": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-11T09:13:14.493029+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:22:35.617954+00:00",
       "historyTotalPagesUsed": 3
     },
     "712": {
       "historyPage": 2,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-11T09:13:21.495654+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:22:42.616673+00:00",
       "historyTotalPagesUsed": 2
     },
     "57": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-11T09:13:28.486501+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:22:49.604070+00:00",
       "historyTotalPagesUsed": 3
     },
     "58": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-11T09:13:35.489881+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:22:56.611379+00:00",
       "historyTotalPagesUsed": 3
     },
     "102": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-11T09:13:42.485588+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:23:03.613135+00:00",
       "historyTotalPagesUsed": 3
     },
     "77": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-11T09:13:49.485405+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:23:10.613301+00:00",
       "historyTotalPagesUsed": 3
     },
     "78": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-11T09:13:56.488423+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:23:17.609132+00:00",
       "historyTotalPagesUsed": 3
     },
     "16": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-11T09:14:03.499656+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:23:24.615119+00:00",
       "historyTotalPagesUsed": 3
     },
     "519": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-11T09:14:10.494311+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:23:31.639080+00:00",
       "historyTotalPagesUsed": 3
     },
     "10340": {
@@ -89397,22 +89373,22 @@
     "5": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-11T09:14:31.486338+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:23:52.610839+00:00",
       "historyTotalPagesUsed": 3
     },
     "332": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-11T09:14:38.490453+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:23:59.619831+00:00",
       "historyTotalPagesUsed": 3
     },
     "59": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-11T09:14:45.502192+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:24:06.622931+00:00",
       "historyTotalPagesUsed": 3
     },
     "5721": {
@@ -89424,22 +89400,22 @@
     "103": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:33:39.236966+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:24:20.609363+00:00",
       "historyTotalPagesUsed": 3
     },
     "1044": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:33:53.237440+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:24:34.608265+00:00",
       "historyTotalPagesUsed": 3
     },
     "5613": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:34:00.240137+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:24:41.612583+00:00",
       "historyTotalPagesUsed": 3
     },
     "12": {
@@ -89451,15 +89427,15 @@
     "402": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:34:14.235656+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:24:55.607265+00:00",
       "historyTotalPagesUsed": 3
     },
     "512": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:34:21.235883+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:25:02.611497+00:00",
       "historyTotalPagesUsed": 3
     },
     "397": {
@@ -89471,29 +89447,29 @@
     "387": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:34:35.239007+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:25:16.615300+00:00",
       "historyTotalPagesUsed": 3
     },
     "104": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:34:49.240577+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:25:30.611120+00:00",
       "historyTotalPagesUsed": 3
     },
     "1909": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:34:56.238458+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:25:37.611076+00:00",
       "historyTotalPagesUsed": 3
     },
     "6618": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:35:10.241482+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:25:51.613325+00:00",
       "historyTotalPagesUsed": 3
     },
     "5529": {
@@ -89511,22 +89487,22 @@
     "348": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:35:31.238611+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:26:12.620119+00:00",
       "historyTotalPagesUsed": 3
     },
     "61": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:35:38.243727+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:26:19.614996+00:00",
       "historyTotalPagesUsed": 3
     },
     "851": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:35:45.240847+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:26:26.614475+00:00",
       "historyTotalPagesUsed": 3
     },
     "7397": {
@@ -89544,15 +89520,15 @@
     "354": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:36:06.241723+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:26:47.619102+00:00",
       "historyTotalPagesUsed": 3
     },
     "680": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:36:13.242907+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:26:54.615128+00:00",
       "historyTotalPagesUsed": 3
     },
     "342": {
@@ -89564,22 +89540,22 @@
     "4": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:36:34.241756+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:27:15.618962+00:00",
       "historyTotalPagesUsed": 3
     },
     "285": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:36:41.243132+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:27:22.663701+00:00",
       "historyTotalPagesUsed": 3
     },
     "80": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:36:55.243532+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:27:36.623121+00:00",
       "historyTotalPagesUsed": 3
     },
     "582": {
@@ -89591,15 +89567,15 @@
     "62": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:37:09.244185+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:27:50.624179+00:00",
       "historyTotalPagesUsed": 3
     },
     "670": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:37:16.243410+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:27:57.619680+00:00",
       "historyTotalPagesUsed": 3
     },
     "5531": {
@@ -89636,22 +89612,22 @@
     "60": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:33:46.235695+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:24:27.608600+00:00",
       "historyTotalPagesUsed": 3
     },
     "328": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:34:42.238862+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:25:23.613925+00:00",
       "historyTotalPagesUsed": 3
     },
     "715": {
       "historyPage": 3,
       "historyComplete": true,
-      "squadCycle": 3,
-      "updatedAt": "2026-07-12T09:35:03.242661+00:00",
+      "squadCycle": 4,
+      "updatedAt": "2026-07-15T10:25:44.626113+00:00",
       "historyTotalPagesUsed": 3
     },
     "17": {
@@ -90424,52 +90400,6 @@
     }
   },
   "pendingProfileIds": [
-    "128287",
-    "128311",
-    "128342",
-    "128365",
-    "128398",
-    "128533",
-    "128582",
-    "128765",
-    "128768",
-    "128772",
-    "128793",
-    "128853",
-    "128985",
-    "128987",
-    "129033",
-    "129047",
-    "129097",
-    "129125",
-    "129643",
-    "129672",
-    "129678",
-    "129682",
-    "129692",
-    "129695",
-    "129709",
-    "129711",
-    "129713",
-    "129718",
-    "129791",
-    "130417",
-    "130421",
-    "130423",
-    "130856",
-    "130861",
-    "131258",
-    "131546",
-    "133185",
-    "133198",
-    "133453",
-    "133602",
-    "133631",
-    "133634",
-    "133729",
-    "133916",
-    "134432",
-    "134756",
     "134822",
     "135013",
     "135148",
@@ -90575,6 +90505,7 @@
     "161882",
     "161884",
     "161893",
+    "161897",
     "161898",
     "161907",
     "161933",
@@ -90615,6 +90546,7 @@
     "162568",
     "162585",
     "162687",
+    "162712",
     "162714",
     "162761",
     "162762",
@@ -90674,6 +90606,7 @@
     "179685",
     "179843",
     "179862",
+    "180320",
     "180560",
     "180586",
     "180731",
@@ -90704,6 +90637,7 @@
     "182674",
     "182735",
     "182770",
+    "182857",
     "183699",
     "183744",
     "183748",
@@ -90740,6 +90674,7 @@
     "193270",
     "193296",
     "193501",
+    "193505",
     "193617",
     "193681",
     "193953",
@@ -90784,6 +90719,7 @@
     "202579",
     "202696",
     "202745",
+    "202838",
     "202854",
     "202919",
     "203015",
@@ -90919,6 +90855,7 @@
     "279868",
     "279878",
     "279993",
+    "280074",
     "280090",
     "280431",
     "280463",
@@ -90964,6 +90901,7 @@
     "284356",
     "284359",
     "284361",
+    "284367",
     "284374",
     "284390",
     "284400",
@@ -91209,6 +91147,7 @@
     "332305",
     "332308",
     "332309",
+    "332738",
     "332788",
     "333116",
     "333137",
@@ -91301,6 +91240,7 @@
     "342243",
     "342660",
     "342967",
+    "343159",
     "343189",
     "343202",
     "343205",
@@ -91311,6 +91251,7 @@
     "343562",
     "343576",
     "343684",
+    "343710",
     "343894",
     "344229",
     "344816",
@@ -91454,6 +91395,7 @@
     "371913",
     "371916",
     "371927",
+    "371950",
     "372605",
     "373443",
     "374058",
@@ -91664,6 +91606,7 @@
     "408618",
     "408675",
     "408853",
+    "409215",
     "409704",
     "409750",
     "409794",
@@ -91691,6 +91634,7 @@
     "414385",
     "414448",
     "414455",
+    "414474",
     "414529",
     "415064",
     "415075",
@@ -91806,6 +91750,7 @@
     "440136",
     "440159",
     "441231",
+    "441271",
     "441280",
     "441290",
     "441497",
@@ -91836,6 +91781,7 @@
     "446089",
     "446138",
     "446829",
+    "446948",
     "447068",
     "447409",
     "448968",
@@ -91884,6 +91830,7 @@
     "454064",
     "454358",
     "454545",
+    "454935",
     "455049",
     "455083",
     "455243",
@@ -91946,6 +91893,7 @@
     "477992",
     "478243",
     "478244",
+    "478441",
     "478610",
     "478991",
     "480304",
@@ -92033,6 +91981,7 @@
     "509470",
     "510831",
     "510832",
+    "511151",
     "511370",
     "512859",
     "513316",
@@ -92078,6 +92027,7 @@
     "526670",
     "526725",
     "527187",
+    "527616",
     "527685",
     "528730",
     "529100",
@@ -92263,6 +92213,7 @@
     "568469",
     "568470",
     "568471",
+    "568733",
     "568933",
     "568961",
     "569001",
@@ -92280,6 +92231,7 @@
     "575057",
     "575272",
     "575285",
+    "576358",
     "576948",
     "577002",
     "577975",
@@ -92373,6 +92325,7 @@
     "607082",
     "608028",
     "608142",
+    "609590",
     "609740",
     "610483",
     "610563",
@@ -92513,7 +92466,10 @@
     "662304",
     "662305",
     "662934",
-    "663096"
+    "663096",
+    "666941",
+    "666945",
+    "667330"
   ],
   "unresolvedTeams": {
     "1": {
@@ -92529,57 +92485,57 @@
     "9136": {
       "name": "Amadora",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-11T09:13:07.520585+00:00"
+      "updatedAt": "2026-07-15T10:22:28.641634+00:00"
     },
     "682": {
       "name": "AZ",
       "message": "API error: search: The Search field must be at least 3 characters in length.",
-      "updatedAt": "2026-07-11T09:14:17.487598+00:00"
+      "updatedAt": "2026-07-15T10:23:38.629505+00:00"
     },
     "81": {
       "name": "Barça",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-11T09:14:24.486487+00:00"
+      "updatedAt": "2026-07-15T10:23:45.612371+00:00"
     },
     "5721": {
       "name": "Bodø/Glimt",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-12T09:33:32.365150+00:00"
+      "updatedAt": "2026-07-15T10:24:13.616216+00:00"
     },
     "12": {
       "name": "Bremen",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-12T09:34:07.270916+00:00"
+      "updatedAt": "2026-07-15T10:24:48.642424+00:00"
     },
     "397": {
       "name": "Brighton Hove",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-12T09:34:28.263199+00:00"
+      "updatedAt": "2026-07-15T10:25:09.663582+00:00"
     },
     "5529": {
       "name": "CD Nacional",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-12T09:35:17.291937+00:00"
+      "updatedAt": "2026-07-15T10:25:58.639032+00:00"
     },
     "558": {
       "name": "Celta",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-12T09:35:24.266441+00:00"
+      "updatedAt": "2026-07-15T10:26:05.643495+00:00"
     },
     "1076": {
       "name": "Coventry City",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-12T09:35:59.265795+00:00"
+      "updatedAt": "2026-07-15T10:26:40.609753+00:00"
     },
     "342": {
       "name": "Derby County",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-12T09:36:27.269368+00:00"
+      "updatedAt": "2026-07-15T10:27:08.644579+00:00"
     },
     "5531": {
       "name": "Famalicão",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-12T09:37:23.242542+00:00"
+      "updatedAt": "2026-07-15T10:28:04.620488+00:00"
     },
     "675": {
       "name": "Feyenoord",
@@ -92734,12 +92690,12 @@
     "560": {
       "name": "Deportivo",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-12T09:36:20.287116+00:00"
+      "updatedAt": "2026-07-15T10:27:01.651366+00:00"
     },
     "719": {
       "name": "Elversberg",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-12T09:36:48.270659+00:00"
+      "updatedAt": "2026-07-15T10:27:29.667139+00:00"
     },
     "5575": {
       "name": "Marítimo",
@@ -92974,9 +92930,23 @@
       "footballDataTeamId": 582,
       "apiFootballTeamId": 24458,
       "message": "Squad response was empty."
+    },
+    {
+      "at": "2026-07-15T10:26:33.609650+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 7397,
+      "apiFootballTeamId": 27960,
+      "message": "Squad response was empty."
+    },
+    {
+      "at": "2026-07-15T10:27:43.615202+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 582,
+      "apiFootballTeamId": 24458,
+      "message": "Squad response was empty."
     }
   ],
-  "updatedAt": "2026-07-14T09:39:13.623661+00:00",
+  "updatedAt": "2026-07-15T10:30:24.622611+00:00",
   "migratedFromVersion": 2,
   "migratedAt": "2026-06-25T12:08:58.646468+00:00"
 }
