@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T10:40:07.191812+00:00",
+  "updatedAt": "2026-07-17T09:39:28.890833+00:00",
   "source": "API-Football",
   "teamCount": 15,
   "playerCount": 18,
@@ -9,8 +9,8 @@
     "teamsWithSquads": 119,
     "historyCompleteTeams": 119,
     "unresolvedTeamCount": 46,
-    "pendingProfileCount": 2035,
-    "unknownProfileCount": 933,
+    "pendingProfileCount": 2044,
+    "unknownProfileCount": 943,
     "lastFullSquadCycleAt": "2026-07-14T09:36:25.629421+00:00",
     "isComplete": false
   },
@@ -217,61 +217,61 @@
       "teamId": 11034,
       "name": "Paphos FC",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-13T12:46:52.314720+00:00"
+      "updatedAt": "2026-07-17T09:31:53.908665+00:00"
     },
     {
       "teamId": 1081,
       "name": "Preston NE",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-13T12:47:27.421133+00:00"
+      "updatedAt": "2026-07-17T09:32:28.921788+00:00"
     },
     {
       "teamId": 524,
       "name": "PSG",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-13T12:47:34.271418+00:00"
+      "updatedAt": "2026-07-17T09:32:35.897130+00:00"
     },
     {
       "teamId": 674,
       "name": "PSV",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-13T12:47:41.298977+00:00"
+      "updatedAt": "2026-07-17T09:32:42.895542+00:00"
     },
     {
       "teamId": 611,
       "name": "Qarabağ Ağdam",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-13T12:47:48.266666+00:00"
+      "updatedAt": "2026-07-17T09:32:49.871588+00:00"
     },
     {
       "teamId": 546,
       "name": "RC Lens",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-14T09:31:10.808291+00:00"
+      "updatedAt": "2026-07-17T09:33:17.916255+00:00"
     },
     {
       "teamId": 5335,
       "name": "Santander",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-14T09:31:59.639198+00:00"
+      "updatedAt": "2026-07-17T09:34:06.907266+00:00"
     },
     {
       "teamId": 559,
       "name": "Sevilla FC",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-14T09:32:27.642804+00:00"
+      "updatedAt": "2026-07-17T09:34:34.902204+00:00"
     },
     {
       "teamId": 529,
       "name": "Stade Rennais",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-14T09:33:23.642725+00:00"
+      "updatedAt": "2026-07-17T09:35:30.906892+00:00"
     },
     {
       "teamId": 531,
       "name": "Troyes",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-14T09:34:33.658702+00:00"
+      "updatedAt": "2026-07-17T09:36:40.907796+00:00"
     },
     {
       "teamId": 454,
@@ -500,7 +500,7 @@
           "photo": "https://media.api-sports.io/football/players/199578.png"
         }
       ],
-      "checkedAt": "2026-07-13T12:47:06.269770+00:00"
+      "checkedAt": "2026-07-17T09:32:07.883494+00:00"
     },
     {
       "teamId": 69,
@@ -520,7 +520,7 @@
           "photo": "https://media.api-sports.io/football/players/33838.png"
         }
       ],
-      "checkedAt": "2026-07-13T12:47:55.274219+00:00"
+      "checkedAt": "2026-07-17T09:32:56.872153+00:00"
     },
     {
       "teamId": 92,
@@ -540,7 +540,7 @@
           "photo": "https://media.api-sports.io/football/players/32862.png"
         }
       ],
-      "checkedAt": "2026-07-14T09:31:31.615788+00:00"
+      "checkedAt": "2026-07-17T09:33:38.876796+00:00"
     },
     {
       "teamId": 6,
@@ -560,7 +560,27 @@
           "photo": "https://media.api-sports.io/football/players/33142.png"
         }
       ],
-      "checkedAt": "2026-07-14T09:32:20.613860+00:00"
+      "checkedAt": "2026-07-17T09:34:27.874710+00:00"
+    },
+    {
+      "teamId": 930,
+      "teamName": "Slavia Praha",
+      "apiFootballTeamId": 560,
+      "competitionCodes": [
+        "CL"
+      ],
+      "players": [
+        {
+          "id": 33095,
+          "name": "Daiki Hashioka",
+          "nameJa": null,
+          "position": "Defender",
+          "number": 4,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/33095.png"
+        }
+      ],
+      "checkedAt": "2026-07-17T09:35:02.968410+00:00"
     },
     {
       "teamId": 6806,
@@ -580,28 +600,7 @@
           "photo": "https://media.api-sports.io/football/players/237131.png"
         }
       ],
-      "checkedAt": "2026-07-14T09:33:09.648835+00:00"
-    },
-    {
-      "teamId": 498,
-      "teamName": "Sporting CP",
-      "apiFootballTeamId": 228,
-      "competitionCodes": [
-        "CL",
-        "PPL"
-      ],
-      "players": [
-        {
-          "id": 32960,
-          "name": "Hidemasa Morita",
-          "nameJa": null,
-          "position": "Midfielder",
-          "number": 5,
-          "nationality": "Japan",
-          "photo": "https://media.api-sports.io/football/players/32960.png"
-        }
-      ],
-      "checkedAt": "2026-07-14T09:33:16.622038+00:00"
+      "checkedAt": "2026-07-17T09:35:16.882282+00:00"
     },
     {
       "teamId": 70,
@@ -621,7 +620,7 @@
           "photo": "https://media.api-sports.io/football/players/153321.png"
         }
       ],
-      "checkedAt": "2026-07-14T09:33:30.617606+00:00"
+      "checkedAt": "2026-07-17T09:35:37.891992+00:00"
     }
   ]
 }
