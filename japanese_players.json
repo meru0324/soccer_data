@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-17T09:39:28.890833+00:00",
+  "updatedAt": "2026-07-18T09:18:17.693643+00:00",
   "source": "API-Football",
-  "teamCount": 15,
-  "playerCount": 18,
+  "teamCount": 16,
+  "playerCount": 19,
   "coverage": {
     "totalClubTeams": 166,
     "mappedTeams": 121,
     "teamsWithSquads": 119,
     "historyCompleteTeams": 119,
     "unresolvedTeamCount": 46,
-    "pendingProfileCount": 2044,
-    "unknownProfileCount": 943,
-    "lastFullSquadCycleAt": "2026-07-14T09:36:25.629421+00:00",
+    "pendingProfileCount": 2026,
+    "unknownProfileCount": 942,
+    "lastFullSquadCycleAt": "2026-07-18T09:11:31.695876+00:00",
     "isComplete": false
   },
   "unresolvedTeams": [
@@ -19,67 +19,67 @@
       "teamId": 1,
       "name": "1. FC Köln",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-14T09:36:32.619925+00:00"
+      "updatedAt": "2026-07-18T09:11:38.672149+00:00"
     },
     {
       "teamId": 5527,
       "name": "Acad. Viseu",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-14T09:36:39.622053+00:00"
+      "updatedAt": "2026-07-18T09:11:45.681016+00:00"
     },
     {
       "teamId": 263,
       "name": "Alavés",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-14T09:36:53.626524+00:00"
+      "updatedAt": "2026-07-18T09:11:59.674228+00:00"
     },
     {
       "teamId": 9136,
       "name": "Amadora",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-15T10:22:28.641634+00:00"
+      "updatedAt": "2026-07-18T09:12:13.759984+00:00"
     },
     {
       "teamId": 682,
       "name": "AZ",
       "message": "API error: search: The Search field must be at least 3 characters in length.",
-      "updatedAt": "2026-07-15T10:23:38.629505+00:00"
+      "updatedAt": "2026-07-18T09:13:23.675746+00:00"
     },
     {
       "teamId": 81,
       "name": "Barça",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-15T10:23:45.612371+00:00"
+      "updatedAt": "2026-07-18T09:13:30.673934+00:00"
     },
     {
       "teamId": 5721,
       "name": "Bodø/Glimt",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-15T10:24:13.616216+00:00"
+      "updatedAt": "2026-07-18T09:13:58.677363+00:00"
     },
     {
       "teamId": 12,
       "name": "Bremen",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-15T10:24:48.642424+00:00"
+      "updatedAt": "2026-07-18T09:14:33.730742+00:00"
     },
     {
       "teamId": 397,
       "name": "Brighton Hove",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-15T10:25:09.663582+00:00"
+      "updatedAt": "2026-07-18T09:14:54.705192+00:00"
     },
     {
       "teamId": 5529,
       "name": "CD Nacional",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-15T10:25:58.639032+00:00"
+      "updatedAt": "2026-07-18T09:15:43.711125+00:00"
     },
     {
       "teamId": 558,
       "name": "Celta",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-15T10:26:05.643495+00:00"
+      "updatedAt": "2026-07-18T09:15:50.688692+00:00"
     },
     {
       "teamId": 1076,
@@ -277,19 +277,19 @@
       "teamId": 454,
       "name": "Venezia FC",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-14T09:35:22.655291+00:00"
+      "updatedAt": "2026-07-18T09:10:28.735514+00:00"
     },
     {
       "teamId": 5543,
       "name": "Vitória SC",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-14T09:35:36.615766+00:00"
+      "updatedAt": "2026-07-18T09:10:42.689071+00:00"
     },
     {
       "teamId": 76,
       "name": "Wolverhampton",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-14T09:36:11.691383+00:00"
+      "updatedAt": "2026-07-18T09:11:17.799663+00:00"
     }
   ],
   "teams": [
@@ -312,7 +312,7 @@
           "photo": "https://media.api-sports.io/football/players/38114.png"
         }
       ],
-      "checkedAt": "2026-07-14T09:36:46.624223+00:00"
+      "checkedAt": "2026-07-18T09:11:52.674376+00:00"
     },
     {
       "teamId": 712,
@@ -332,7 +332,7 @@
           "photo": "https://media.api-sports.io/football/players/306615.png"
         }
       ],
-      "checkedAt": "2026-07-15T10:22:42.616639+00:00"
+      "checkedAt": "2026-07-18T09:12:27.675503+00:00"
     },
     {
       "teamId": 5,
@@ -353,7 +353,7 @@
           "photo": "https://media.api-sports.io/football/players/32893.png"
         }
       ],
-      "checkedAt": "2026-07-15T10:23:52.610799+00:00"
+      "checkedAt": "2026-07-18T09:13:37.679928+00:00"
     },
     {
       "teamId": 332,
@@ -391,7 +391,7 @@
           "photo": "https://media.api-sports.io/football/players/32938.png"
         }
       ],
-      "checkedAt": "2026-07-15T10:23:59.619791+00:00"
+      "checkedAt": "2026-07-18T09:13:44.677075+00:00"
     },
     {
       "teamId": 59,
@@ -411,7 +411,27 @@
           "photo": "https://media.api-sports.io/football/players/33147.png"
         }
       ],
-      "checkedAt": "2026-07-15T10:24:06.622892+00:00"
+      "checkedAt": "2026-07-18T09:13:51.698047+00:00"
+    },
+    {
+      "teamId": 387,
+      "teamName": "Bristol City",
+      "apiFootballTeamId": 56,
+      "competitionCodes": [
+        "ELC"
+      ],
+      "players": [
+        {
+          "id": 348800,
+          "name": "Yu Hirakawa",
+          "nameJa": null,
+          "position": "Attacker",
+          "number": 13,
+          "nationality": "Japan",
+          "photo": "https://media.api-sports.io/football/players/348800.png"
+        }
+      ],
+      "checkedAt": "2026-07-18T09:15:01.727395+00:00"
     },
     {
       "teamId": 354,
