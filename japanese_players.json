@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T09:18:17.693643+00:00",
+  "updatedAt": "2026-07-19T06:18:45.455526+00:00",
   "source": "API-Football",
   "teamCount": 16,
   "playerCount": 19,
@@ -9,8 +9,8 @@
     "teamsWithSquads": 119,
     "historyCompleteTeams": 119,
     "unresolvedTeamCount": 46,
-    "pendingProfileCount": 2026,
-    "unknownProfileCount": 942,
+    "pendingProfileCount": 1979,
+    "unknownProfileCount": 936,
     "lastFullSquadCycleAt": "2026-07-18T09:11:31.695876+00:00",
     "isComplete": false
   },
@@ -85,49 +85,49 @@
       "teamId": 1076,
       "name": "Coventry City",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-15T10:26:40.609753+00:00"
+      "updatedAt": "2026-07-19T06:11:03.470074+00:00"
     },
     {
       "teamId": 560,
       "name": "Deportivo",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-15T10:27:01.651366+00:00"
+      "updatedAt": "2026-07-19T06:11:24.448521+00:00"
     },
     {
       "teamId": 342,
       "name": "Derby County",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-15T10:27:08.644579+00:00"
+      "updatedAt": "2026-07-19T06:11:31.438504+00:00"
     },
     {
       "teamId": 719,
       "name": "Elversberg",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-15T10:27:29.667139+00:00"
+      "updatedAt": "2026-07-19T06:11:52.470512+00:00"
     },
     {
       "teamId": 5531,
       "name": "Famalicão",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-15T10:28:04.620488+00:00"
+      "updatedAt": "2026-07-19T06:12:27.436586+00:00"
     },
     {
       "teamId": 675,
       "name": "Feyenoord",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-16T10:32:04.217791+00:00"
+      "updatedAt": "2026-07-19T06:12:34.443584+00:00"
     },
     {
       "teamId": 10601,
       "name": "FK Kairat",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-16T10:32:18.208850+00:00"
+      "updatedAt": "2026-07-19T06:12:48.460251+00:00"
     },
     {
       "teamId": 19,
       "name": "Frankfurt",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-16T10:32:25.186542+00:00"
+      "updatedAt": "2026-07-19T06:12:55.490977+00:00"
     },
     {
       "teamId": 44,
@@ -139,61 +139,61 @@
       "teamId": 2,
       "name": "Hoffenheim",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-16T10:33:42.202901+00:00"
+      "updatedAt": "2026-07-19T06:14:12.490884+00:00"
     },
     {
       "teamId": 7,
       "name": "HSV",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-16T10:33:49.188458+00:00"
+      "updatedAt": "2026-07-19T06:14:19.480523+00:00"
     },
     {
       "teamId": 349,
       "name": "Ipswich Town",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-16T10:34:10.194855+00:00"
+      "updatedAt": "2026-07-19T06:14:40.470263+00:00"
     },
     {
       "teamId": 1876,
       "name": "København",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-16T10:34:24.171338+00:00"
+      "updatedAt": "2026-07-19T06:14:54.449479+00:00"
     },
     {
       "teamId": 341,
       "name": "Leeds United",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-16T10:34:59.202110+00:00"
+      "updatedAt": "2026-07-19T06:15:29.444997+00:00"
     },
     {
       "teamId": 3,
       "name": "Leverkusen",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-16T10:35:13.197986+00:00"
+      "updatedAt": "2026-07-19T06:15:43.526012+00:00"
     },
     {
       "teamId": 1126,
       "name": "Lincoln City",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-16T10:35:27.194699+00:00"
+      "updatedAt": "2026-07-19T06:15:57.480095+00:00"
     },
     {
       "teamId": 64,
       "name": "Liverpool",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-16T10:35:34.171707+00:00"
+      "updatedAt": "2026-07-19T06:16:04.459232+00:00"
     },
     {
       "teamId": 18,
       "name": "M'gladbach",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-16T10:35:48.162226+00:00"
+      "updatedAt": "2026-07-19T06:16:18.455583+00:00"
     },
     {
       "teamId": 15,
       "name": "Mainz",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-16T10:35:55.197231+00:00"
+      "updatedAt": "2026-07-19T06:16:25.478598+00:00"
     },
     {
       "teamId": 5575,
@@ -451,7 +451,7 @@
           "photo": "https://media.api-sports.io/football/players/2601.png"
         }
       ],
-      "checkedAt": "2026-07-15T10:26:47.619065+00:00"
+      "checkedAt": "2026-07-19T06:11:10.451565+00:00"
     },
     {
       "teamId": 17,
@@ -480,7 +480,7 @@
           "photo": "https://media.api-sports.io/football/players/199143.png"
         }
       ],
-      "checkedAt": "2026-07-16T10:32:32.162581+00:00"
+      "checkedAt": "2026-07-19T06:13:02.496984+00:00"
     },
     {
       "teamId": 533,
@@ -500,7 +500,7 @@
           "photo": "https://media.api-sports.io/football/players/33165.png"
         }
       ],
-      "checkedAt": "2026-07-16T10:34:38.168383+00:00"
+      "checkedAt": "2026-07-19T06:15:08.454077+00:00"
     },
     {
       "teamId": 112,
