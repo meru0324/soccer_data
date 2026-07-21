@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T06:36:25.120356+00:00",
+  "updatedAt": "2026-07-21T06:16:14.350185+00:00",
   "source": "API-Football",
   "teamCount": 16,
   "playerCount": 20,
@@ -9,9 +9,9 @@
     "teamsWithSquads": 119,
     "historyCompleteTeams": 119,
     "unresolvedTeamCount": 46,
-    "pendingProfileCount": 1876,
+    "pendingProfileCount": 1841,
     "unknownProfileCount": 918,
-    "lastFullSquadCycleAt": "2026-07-18T09:11:31.695876+00:00",
+    "lastFullSquadCycleAt": "2026-07-21T06:11:20.333929+00:00",
     "isComplete": false
   },
   "unresolvedTeams": [
@@ -19,43 +19,43 @@
       "teamId": 1,
       "name": "1. FC Köln",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-18T09:11:38.672149+00:00"
+      "updatedAt": "2026-07-21T06:11:27.319245+00:00"
     },
     {
       "teamId": 5527,
       "name": "Acad. Viseu",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-18T09:11:45.681016+00:00"
+      "updatedAt": "2026-07-21T06:11:34.318788+00:00"
     },
     {
       "teamId": 263,
       "name": "Alavés",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-18T09:11:59.674228+00:00"
+      "updatedAt": "2026-07-21T06:11:48.312870+00:00"
     },
     {
       "teamId": 9136,
       "name": "Amadora",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-18T09:12:13.759984+00:00"
+      "updatedAt": "2026-07-21T06:12:02.460004+00:00"
     },
     {
       "teamId": 682,
       "name": "AZ",
       "message": "API error: search: The Search field must be at least 3 characters in length.",
-      "updatedAt": "2026-07-18T09:13:23.675746+00:00"
+      "updatedAt": "2026-07-21T06:13:12.344059+00:00"
     },
     {
       "teamId": 81,
       "name": "Barça",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-18T09:13:30.673934+00:00"
+      "updatedAt": "2026-07-21T06:13:19.323434+00:00"
     },
     {
       "teamId": 5721,
       "name": "Bodø/Glimt",
-      "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-18T09:13:58.677363+00:00"
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
+      "updatedAt": "2026-07-21T06:13:47.315285+00:00"
     },
     {
       "teamId": 12,
@@ -265,31 +265,31 @@
       "teamId": 529,
       "name": "Stade Rennais",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-17T09:35:30.906892+00:00"
+      "updatedAt": "2026-07-21T06:08:18.358061+00:00"
     },
     {
       "teamId": 531,
       "name": "Troyes",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-17T09:36:40.907796+00:00"
+      "updatedAt": "2026-07-21T06:09:28.353513+00:00"
     },
     {
       "teamId": 454,
       "name": "Venezia FC",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-18T09:10:28.735514+00:00"
+      "updatedAt": "2026-07-21T06:10:17.420512+00:00"
     },
     {
       "teamId": 5543,
       "name": "Vitória SC",
       "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-18T09:10:42.689071+00:00"
+      "updatedAt": "2026-07-21T06:10:31.316040+00:00"
     },
     {
       "teamId": 76,
       "name": "Wolverhampton",
       "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-18T09:11:17.799663+00:00"
+      "updatedAt": "2026-07-21T06:11:06.313487+00:00"
     }
   ],
   "teams": [
@@ -312,7 +312,7 @@
           "photo": "https://media.api-sports.io/football/players/38114.png"
         }
       ],
-      "checkedAt": "2026-07-18T09:11:52.674376+00:00"
+      "checkedAt": "2026-07-21T06:11:41.315926+00:00"
     },
     {
       "teamId": 712,
@@ -332,7 +332,7 @@
           "photo": "https://media.api-sports.io/football/players/306615.png"
         }
       ],
-      "checkedAt": "2026-07-18T09:12:27.675503+00:00"
+      "checkedAt": "2026-07-21T06:12:16.344596+00:00"
     },
     {
       "teamId": 5,
@@ -649,7 +649,7 @@
           "photo": "https://media.api-sports.io/football/players/153321.png"
         }
       ],
-      "checkedAt": "2026-07-17T09:35:37.891992+00:00"
+      "checkedAt": "2026-07-21T06:08:25.305059+00:00"
     }
   ]
 }
