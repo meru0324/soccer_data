@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T06:20:56.518020+00:00",
+  "updatedAt": "2026-07-24T06:14:26.749631+00:00",
   "source": "API-Football",
   "teamCount": 16,
   "playerCount": 20,
@@ -11,33 +11,33 @@
     "unresolvedTeamCount": 46,
     "pendingProfileCount": 1841,
     "unknownProfileCount": 918,
-    "lastFullSquadCycleAt": "2026-07-21T06:11:20.333929+00:00",
+    "lastFullSquadCycleAt": "2026-07-24T06:11:24.895655+00:00",
     "isComplete": false
   },
   "unresolvedTeams": [
     {
       "teamId": 1,
       "name": "1. FC Köln",
-      "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-21T06:11:27.319245+00:00"
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
+      "updatedAt": "2026-07-24T06:11:31.739795+00:00"
     },
     {
       "teamId": 5527,
       "name": "Acad. Viseu",
-      "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-21T06:11:34.318788+00:00"
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
+      "updatedAt": "2026-07-24T06:11:38.743598+00:00"
     },
     {
       "teamId": 263,
       "name": "Alavés",
-      "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-21T06:11:48.312870+00:00"
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
+      "updatedAt": "2026-07-24T06:11:52.743651+00:00"
     },
     {
       "teamId": 9136,
       "name": "Amadora",
-      "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-21T06:12:02.460004+00:00"
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
+      "updatedAt": "2026-07-24T06:12:06.742067+00:00"
     },
     {
       "teamId": 682,
@@ -252,44 +252,44 @@
     {
       "teamId": 5335,
       "name": "Santander",
-      "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-20T06:32:55.151797+00:00"
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
+      "updatedAt": "2026-07-24T06:06:58.729048+00:00"
     },
     {
       "teamId": 559,
       "name": "Sevilla FC",
-      "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-20T06:33:23.264569+00:00"
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
+      "updatedAt": "2026-07-24T06:07:26.735803+00:00"
     },
     {
       "teamId": 529,
       "name": "Stade Rennais",
-      "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-21T06:08:18.358061+00:00"
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
+      "updatedAt": "2026-07-24T06:08:22.732732+00:00"
     },
     {
       "teamId": 531,
       "name": "Troyes",
-      "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-21T06:09:28.353513+00:00"
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
+      "updatedAt": "2026-07-24T06:09:32.733838+00:00"
     },
     {
       "teamId": 454,
       "name": "Venezia FC",
-      "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-21T06:10:17.420512+00:00"
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
+      "updatedAt": "2026-07-24T06:10:21.737040+00:00"
     },
     {
       "teamId": 5543,
       "name": "Vitória SC",
-      "message": "API error: search: The Search field may only contain alpha-numeric characters and spaces.",
-      "updatedAt": "2026-07-21T06:10:31.316040+00:00"
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
+      "updatedAt": "2026-07-24T06:10:35.739606+00:00"
     },
     {
       "teamId": 76,
       "name": "Wolverhampton",
-      "message": "No unambiguous API-Football team match.",
-      "updatedAt": "2026-07-21T06:11:06.313487+00:00"
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
+      "updatedAt": "2026-07-24T06:11:10.739885+00:00"
     }
   ],
   "teams": [
