@@ -1,7 +1,7 @@
 {
   "version": 3,
   "cycleNumber": 12,
-  "clubCursor": 26,
+  "clubCursor": 76,
   "teamMap": {
     "58": 66,
     "402": 55,
@@ -91741,47 +91741,47 @@
     "397": {
       "name": "Brighton Hove",
       "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
-      "updatedAt": "2026-08-07T05:10:54.845382+00:00"
+      "updatedAt": "2026-08-11T04:44:07.110099+00:00"
     },
     "5529": {
       "name": "CD Nacional",
       "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
-      "updatedAt": "2026-08-07T05:11:43.865690+00:00"
+      "updatedAt": "2026-08-11T04:44:56.107865+00:00"
     },
     "558": {
       "name": "Celta",
       "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
-      "updatedAt": "2026-08-07T05:11:50.827670+00:00"
+      "updatedAt": "2026-08-11T04:45:03.113475+00:00"
     },
     "1076": {
       "name": "Coventry City",
       "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
-      "updatedAt": "2026-08-07T05:12:25.848029+00:00"
+      "updatedAt": "2026-08-11T04:45:38.122409+00:00"
     },
     "342": {
       "name": "Derby County",
       "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
-      "updatedAt": "2026-08-08T04:31:23.203709+00:00"
+      "updatedAt": "2026-08-11T04:46:06.116985+00:00"
     },
     "5531": {
       "name": "Famalicão",
       "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
-      "updatedAt": "2026-08-08T04:32:19.199327+00:00"
+      "updatedAt": "2026-08-11T04:47:02.115233+00:00"
     },
     "675": {
       "name": "Feyenoord",
       "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
-      "updatedAt": "2026-08-08T04:32:26.207494+00:00"
+      "updatedAt": "2026-08-11T04:47:09.107629+00:00"
     },
     "10601": {
       "name": "FK Kairat",
       "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
-      "updatedAt": "2026-08-08T04:32:40.195462+00:00"
+      "updatedAt": "2026-08-11T04:47:23.120308+00:00"
     },
     "19": {
       "name": "Frankfurt",
       "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
-      "updatedAt": "2026-08-08T04:32:47.214841+00:00"
+      "updatedAt": "2026-08-11T04:47:30.123599+00:00"
     },
     "44": {
       "name": "Heidenheim",
@@ -91791,22 +91791,22 @@
     "2": {
       "name": "Hoffenheim",
       "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
-      "updatedAt": "2026-08-08T04:34:04.200208+00:00"
+      "updatedAt": "2026-08-11T04:48:47.123522+00:00"
     },
     "7": {
       "name": "HSV",
       "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
-      "updatedAt": "2026-08-08T04:34:11.223088+00:00"
+      "updatedAt": "2026-08-11T04:48:54.138669+00:00"
     },
     "349": {
       "name": "Ipswich Town",
       "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
-      "updatedAt": "2026-08-08T04:34:32.207377+00:00"
+      "updatedAt": "2026-08-11T04:49:15.113766+00:00"
     },
     "1876": {
       "name": "København",
       "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
-      "updatedAt": "2026-08-08T04:34:46.202856+00:00"
+      "updatedAt": "2026-08-11T04:49:29.117141+00:00"
     },
     "341": {
       "name": "Leeds United",
@@ -91921,12 +91921,12 @@
     "560": {
       "name": "Deportivo",
       "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
-      "updatedAt": "2026-08-08T04:31:16.486233+00:00"
+      "updatedAt": "2026-08-11T04:45:59.120624+00:00"
     },
     "719": {
       "name": "Elversberg",
       "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com.",
-      "updatedAt": "2026-08-08T04:31:44.205685+00:00"
+      "updatedAt": "2026-08-11T04:46:27.115958+00:00"
     },
     "5575": {
       "name": "Marítimo",
@@ -91936,371 +91936,6 @@
   },
   "lastFullSquadCycleAt": "2026-08-10T05:00:53.361079+00:00",
   "recentErrors": [
-    {
-      "at": "2026-08-09T04:42:06.038975+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 325,
-      "apiFootballTeamId": 1355,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:42:41.036241+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 69,
-      "apiFootballTeamId": 72,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:42:48.032118+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 87,
-      "apiFootballTeamId": 728,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:42:55.037223+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 721,
-      "apiFootballTeamId": 173,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:43:09.033658+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 90,
-      "apiFootballTeamId": 543,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:43:16.041534+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 86,
-      "apiFootballTeamId": 541,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:43:23.035550+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 92,
-      "apiFootballTeamId": 548,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:43:30.038230+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 496,
-      "apiFootballTeamId": 226,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:43:37.035630+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 100,
-      "apiFootballTeamId": 497,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:43:44.034073+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 5530,
-      "apiFootballTeamId": 227,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:43:58.034509+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 471,
-      "apiFootballTeamId": 488,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:44:05.038899+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 29,
-      "apiFootballTeamId": 185,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:44:12.037536+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 6,
-      "apiFootballTeamId": 174,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:44:26.039042+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 356,
-      "apiFootballTeamId": 62,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:44:33.034870+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 1920,
-      "apiFootballTeamId": 205,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:44:40.037537+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 1903,
-      "apiFootballTeamId": 15495,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:44:47.065870+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 930,
-      "apiFootballTeamId": 560,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:44:54.040106+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 340,
-      "apiFootballTeamId": 41,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:45:01.042633+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 6806,
-      "apiFootballTeamId": 426,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:45:08.039253+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 498,
-      "apiFootballTeamId": 228,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:45:22.042638+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 70,
-      "apiFootballTeamId": 75,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:45:29.042082+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 576,
-      "apiFootballTeamId": 95,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:45:36.036518+00:00",
-      "phase": "profiles",
-      "playerId": 203007,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:45:43.041764+00:00",
-      "phase": "profiles",
-      "playerId": 203132,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:45:50.041672+00:00",
-      "phase": "profiles",
-      "playerId": 203219,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:45:57.042511+00:00",
-      "phase": "profiles",
-      "playerId": 203329,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:46:04.049711+00:00",
-      "phase": "profiles",
-      "playerId": 203428,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:46:11.042293+00:00",
-      "phase": "profiles",
-      "playerId": 203769,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:46:18.038955+00:00",
-      "phase": "profiles",
-      "playerId": 204033,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:46:25.043180+00:00",
-      "phase": "profiles",
-      "playerId": 204109,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:46:32.037922+00:00",
-      "phase": "profiles",
-      "playerId": 206478,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:46:39.081661+00:00",
-      "phase": "profiles",
-      "playerId": 207200,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:46:46.041790+00:00",
-      "phase": "profiles",
-      "playerId": 213050,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:46:53.042533+00:00",
-      "phase": "profiles",
-      "playerId": 213142,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:47:00.038803+00:00",
-      "phase": "profiles",
-      "playerId": 237085,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:47:07.041853+00:00",
-      "phase": "profiles",
-      "playerId": 237115,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:47:14.043348+00:00",
-      "phase": "profiles",
-      "playerId": 237819,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:47:21.040397+00:00",
-      "phase": "profiles",
-      "playerId": 260780,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:47:28.041734+00:00",
-      "phase": "profiles",
-      "playerId": 262846,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:47:35.045737+00:00",
-      "phase": "profiles",
-      "playerId": 263530,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:47:42.040349+00:00",
-      "phase": "profiles",
-      "playerId": 263699,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-09T04:47:49.040104+00:00",
-      "phase": "profiles",
-      "playerId": 264118,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-10T04:58:12.624470+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 10,
-      "apiFootballTeamId": 172,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-10T04:58:19.361509+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 71,
-      "apiFootballTeamId": 746,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-10T04:58:26.354301+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 72,
-      "apiFootballTeamId": 76,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-10T04:58:33.354500+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 1912,
-      "apiFootballTeamId": 427,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-10T04:58:40.353113+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 586,
-      "apiFootballTeamId": 503,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-10T04:58:47.375353+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 73,
-      "apiFootballTeamId": 47,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-10T04:58:54.351835+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 511,
-      "apiFootballTeamId": 96,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-10T04:59:08.365903+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 666,
-      "apiFootballTeamId": 415,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-10T04:59:15.369468+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 115,
-      "apiFootballTeamId": 494,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-10T04:59:22.443540+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 28,
-      "apiFootballTeamId": 182,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-10T04:59:29.380723+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 3929,
-      "apiFootballTeamId": 26625,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-10T04:59:36.356456+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 676,
-      "apiFootballTeamId": 207,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
-    {
-      "at": "2026-08-10T04:59:43.362817+00:00",
-      "phase": "squads",
-      "footballDataTeamId": 95,
-      "apiFootballTeamId": 532,
-      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
-    },
     {
       "at": "2026-08-10T04:59:57.354381+00:00",
       "phase": "squads",
@@ -92595,9 +92230,374 @@
       "phase": "profiles",
       "playerId": 264118,
       "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:43:53.157126+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 402,
+      "apiFootballTeamId": 55,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:44:00.106492+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 512,
+      "apiFootballTeamId": 106,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:44:14.119296+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 387,
+      "apiFootballTeamId": 56,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:44:21.109515+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 328,
+      "apiFootballTeamId": 44,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:44:28.123411+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 104,
+      "apiFootballTeamId": 490,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:44:35.112906+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 1909,
+      "apiFootballTeamId": 420,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:44:42.117199+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 715,
+      "apiFootballTeamId": 43,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:44:49.112891+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 6618,
+      "apiFootballTeamId": 4716,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:45:10.115292+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 348,
+      "apiFootballTeamId": 1335,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:45:17.110010+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 61,
+      "apiFootballTeamId": 49,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:45:24.114807+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 851,
+      "apiFootballTeamId": 569,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:45:31.115162+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 7397,
+      "apiFootballTeamId": 27960,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:45:45.113338+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 354,
+      "apiFootballTeamId": 52,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:45:52.115674+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 680,
+      "apiFootballTeamId": 198,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:46:13.118200+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 4,
+      "apiFootballTeamId": 165,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:46:20.110908+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 285,
+      "apiFootballTeamId": 797,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:46:34.111030+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 80,
+      "apiFootballTeamId": 540,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:46:41.106105+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 582,
+      "apiFootballTeamId": 24458,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:46:48.113054+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 62,
+      "apiFootballTeamId": 45,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:46:55.106211+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 670,
+      "apiFootballTeamId": 196,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:47:16.120851+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 99,
+      "apiFootballTeamId": 502,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:47:37.130444+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 17,
+      "apiFootballTeamId": 160,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:47:44.114321+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 470,
+      "apiFootballTeamId": 512,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:47:51.108831+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 63,
+      "apiFootballTeamId": 36,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:47:58.116981+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 610,
+      "apiFootballTeamId": 645,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:48:05.123894+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 107,
+      "apiFootballTeamId": 495,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:48:12.113805+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 82,
+      "apiFootballTeamId": 546,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:48:19.120051+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 5533,
+      "apiFootballTeamId": 762,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:48:26.123919+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 718,
+      "apiFootballTeamId": 410,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:48:33.122429+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 677,
+      "apiFootballTeamId": 202,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:48:40.117298+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 673,
+      "apiFootballTeamId": 210,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:49:01.120123+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 322,
+      "apiFootballTeamId": 64,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:49:08.119783+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 108,
+      "apiFootballTeamId": 505,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:49:22.120367+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 109,
+      "apiFootballTeamId": 496,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:49:36.112863+00:00",
+      "phase": "squads",
+      "footballDataTeamId": 110,
+      "apiFootballTeamId": 487,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:49:43.120771+00:00",
+      "phase": "profiles",
+      "playerId": 203007,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:49:50.121336+00:00",
+      "phase": "profiles",
+      "playerId": 203132,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:49:57.123648+00:00",
+      "phase": "profiles",
+      "playerId": 203219,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:50:04.119622+00:00",
+      "phase": "profiles",
+      "playerId": 203329,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:50:11.123987+00:00",
+      "phase": "profiles",
+      "playerId": 203428,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:50:18.122694+00:00",
+      "phase": "profiles",
+      "playerId": 203769,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:50:25.119972+00:00",
+      "phase": "profiles",
+      "playerId": 204033,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:50:32.115089+00:00",
+      "phase": "profiles",
+      "playerId": 204109,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:50:39.118447+00:00",
+      "phase": "profiles",
+      "playerId": 206478,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:50:46.117381+00:00",
+      "phase": "profiles",
+      "playerId": 207200,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:50:53.123522+00:00",
+      "phase": "profiles",
+      "playerId": 213050,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:51:00.129258+00:00",
+      "phase": "profiles",
+      "playerId": 213142,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:51:07.125647+00:00",
+      "phase": "profiles",
+      "playerId": 237085,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:51:14.123398+00:00",
+      "phase": "profiles",
+      "playerId": 237115,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:51:21.122818+00:00",
+      "phase": "profiles",
+      "playerId": 237819,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:51:28.121298+00:00",
+      "phase": "profiles",
+      "playerId": 260780,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:51:35.126228+00:00",
+      "phase": "profiles",
+      "playerId": 262846,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:51:42.122764+00:00",
+      "phase": "profiles",
+      "playerId": 263530,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:51:49.116360+00:00",
+      "phase": "profiles",
+      "playerId": 263699,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
+    },
+    {
+      "at": "2026-08-11T04:51:56.125885+00:00",
+      "phase": "profiles",
+      "playerId": 264118,
+      "message": "API error: access: Your account is suspended, check on https://dashboard.api-football.com."
     }
   ],
-  "updatedAt": "2026-08-10T05:06:15.365475+00:00",
+  "updatedAt": "2026-08-11T04:51:56.126121+00:00",
   "migratedFromVersion": 2,
   "migratedAt": "2026-06-25T12:08:58.646468+00:00"
 }
