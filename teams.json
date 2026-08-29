@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T04:53:15.879469+00:00",
+  "updatedAt": "2026-08-29T15:59:48.665705+00:00",
   "competitions": [
     "WC",
     "CL",
@@ -12,7 +12,7 @@
     "DED",
     "PPL"
   ],
-  "count": 214,
+  "count": 215,
   "errors": [],
   "teams": [
     {
@@ -60,7 +60,6 @@
         "flag": "https://crests.football-data.org/8601.svg"
       },
       "competitionCodes": [
-        "CL",
         "DED"
       ]
     },
@@ -206,6 +205,7 @@
         "flag": "https://crests.football-data.org/770.svg"
       },
       "competitionCodes": [
+        "CL",
         "PL"
       ]
     },
@@ -222,7 +222,6 @@
         "flag": "https://crests.football-data.org/784.svg"
       },
       "competitionCodes": [
-        "CL",
         "SA"
       ]
     },
@@ -239,7 +238,6 @@
         "flag": "https://crests.football-data.org/760.svg"
       },
       "competitionCodes": [
-        "CL",
         "PD"
       ]
     },
@@ -787,7 +785,6 @@
         "flag": "https://crests.football-data.org/770.svg"
       },
       "competitionCodes": [
-        "CL",
         "PL"
       ]
     },
@@ -836,6 +833,7 @@
         "flag": "https://crests.football-data.org/784.svg"
       },
       "competitionCodes": [
+        "CL",
         "SA"
       ]
     },
@@ -1161,6 +1159,22 @@
       ]
     },
     {
+      "id": 613,
+      "name": "Fenerbahçe SK",
+      "shortName": "Fenerbahçe",
+      "tla": "FEN",
+      "crest": "https://crests.football-data.org/613.png",
+      "area": {
+        "id": 2247,
+        "name": "Turkey",
+        "code": "TUR",
+        "flag": "https://crests.football-data.org/803.svg"
+      },
+      "competitionCodes": [
+        "CL"
+      ]
+    },
+    {
       "id": 675,
       "name": "Feyenoord Rotterdam",
       "shortName": "Feyenoord",
@@ -1173,6 +1187,7 @@
         "flag": "https://crests.football-data.org/8601.svg"
       },
       "competitionCodes": [
+        "CL",
         "DED"
       ]
     },
@@ -1190,22 +1205,6 @@
       },
       "competitionCodes": [
         "SA"
-      ]
-    },
-    {
-      "id": 10601,
-      "name": "FK Kairat",
-      "shortName": "FK Kairat",
-      "tla": "KAI",
-      "crest": "https://crests.football-data.org/10601.png",
-      "area": {
-        "id": 2119,
-        "name": "Kazakhstan",
-        "code": "KAZ",
-        "flag": null
-      },
-      "competitionCodes": [
-        "CL"
       ]
     },
     {
@@ -1237,8 +1236,7 @@
         "flag": "https://crests.football-data.org/759.svg"
       },
       "competitionCodes": [
-        "BL1",
-        "CL"
+        "BL1"
       ]
     },
     {
@@ -1623,7 +1621,6 @@
         "flag": "https://crests.football-data.org/784.svg"
       },
       "competitionCodes": [
-        "CL",
         "SA"
       ]
     },
@@ -1644,16 +1641,16 @@
       ]
     },
     {
-      "id": 1876,
-      "name": "FC København",
-      "shortName": "København",
-      "tla": "KOB",
-      "crest": "https://crests.football-data.org/1876.png",
+      "id": 2016,
+      "name": "LASK Linz",
+      "shortName": "LASK",
+      "tla": "LIN",
+      "crest": "https://crests.football-data.org/2016.png",
       "area": {
-        "id": 2065,
-        "name": "Denmark",
-        "code": "DNK",
-        "flag": "https://crests.football-data.org/782.svg"
+        "id": 2016,
+        "name": "Austria",
+        "code": "AUT",
+        "flag": "https://crests.football-data.org/816.svg"
       },
       "competitionCodes": [
         "CL"
@@ -1768,8 +1765,7 @@
         "flag": "https://crests.football-data.org/759.svg"
       },
       "competitionCodes": [
-        "BL1",
-        "CL"
+        "BL1"
       ]
     },
     {
@@ -1785,6 +1781,7 @@
         "flag": "https://crests.football-data.org/773.svg"
       },
       "competitionCodes": [
+        "CL",
         "FL1"
       ]
     },
@@ -1899,6 +1896,7 @@
         "flag": "https://crests.football-data.org/770.svg"
       },
       "competitionCodes": [
+        "CL",
         "PL"
       ]
     },
@@ -1915,7 +1913,6 @@
         "flag": "https://crests.football-data.org/773.svg"
       },
       "competitionCodes": [
-        "CL",
         "FL1"
       ]
     },
@@ -2012,7 +2009,6 @@
         "flag": null
       },
       "competitionCodes": [
-        "CL",
         "FL1"
       ]
     },
@@ -2158,7 +2154,6 @@
         "flag": "https://crests.football-data.org/770.svg"
       },
       "competitionCodes": [
-        "CL",
         "PL"
       ]
     },
@@ -2227,22 +2222,6 @@
       ]
     },
     {
-      "id": 654,
-      "name": "PAE Olympiakos SFP",
-      "shortName": "Olympiakos",
-      "tla": "OLY",
-      "crest": "https://crests.football-data.org/654.png",
-      "area": {
-        "id": 2093,
-        "name": "Greece",
-        "code": "GRC",
-        "flag": "https://crests.football-data.org/775.svg"
-      },
-      "competitionCodes": [
-        "CL"
-      ]
-    },
-    {
       "id": 523,
       "name": "Olympique Lyonnais",
       "shortName": "Olympique Lyon",
@@ -2275,6 +2254,22 @@
       ]
     },
     {
+      "id": 1899,
+      "name": "PAE AEK",
+      "shortName": "PAE AEK",
+      "tla": "AEK",
+      "crest": "https://crests.football-data.org/1899.png",
+      "area": {
+        "id": 2093,
+        "name": "Greece",
+        "code": "GRC",
+        "flag": "https://crests.football-data.org/775.svg"
+      },
+      "competitionCodes": [
+        "CL"
+      ]
+    },
+    {
       "id": 1836,
       "name": "Panama",
       "shortName": "Panama",
@@ -2288,22 +2283,6 @@
       },
       "competitionCodes": [
         "WC"
-      ]
-    },
-    {
-      "id": 11034,
-      "name": "Paphos FC",
-      "shortName": "Paphos FC",
-      "tla": "AEP",
-      "crest": "https://crests.football-data.org/11034.png",
-      "area": {
-        "id": 2061,
-        "name": "Cyprus",
-        "code": "CYP",
-        "flag": null
-      },
-      "competitionCodes": [
-        "CL"
       ]
     },
     {
@@ -2367,6 +2346,7 @@
         "flag": "https://crests.football-data.org/765.svg"
       },
       "competitionCodes": [
+        "CL",
         "PPL"
       ]
     },
@@ -2453,22 +2433,6 @@
       ]
     },
     {
-      "id": 611,
-      "name": "Qarabağ Ağdam FK",
-      "shortName": "Qarabağ Ağdam",
-      "tla": "QAR",
-      "crest": "https://crests.football-data.org/611.png",
-      "area": {
-        "id": 2017,
-        "name": "Azerbaijan",
-        "code": "AZE",
-        "flag": null
-      },
-      "competitionCodes": [
-        "CL"
-      ]
-    },
-    {
       "id": 8030,
       "name": "Qatar",
       "shortName": "Qatar",
@@ -2529,7 +2493,8 @@
         "flag": "https://crests.football-data.org/759.svg"
       },
       "competitionCodes": [
-        "BL1"
+        "BL1",
+        "CL"
       ]
     },
     {
@@ -2545,6 +2510,7 @@
         "flag": "https://crests.football-data.org/773.svg"
       },
       "competitionCodes": [
+        "CL",
         "FL1"
       ]
     },
@@ -2561,6 +2527,7 @@
         "flag": "https://crests.football-data.org/760.svg"
       },
       "competitionCodes": [
+        "CL",
         "PD"
       ]
     },
@@ -2626,7 +2593,24 @@
         "flag": "https://crests.football-data.org/784.svg"
       },
       "competitionCodes": [
+        "CL",
         "SA"
+      ]
+    },
+    {
+      "id": 10233,
+      "name": "Sabah FK",
+      "shortName": "Sabah FK",
+      "tla": "SAB",
+      "crest": "https://crests.football-data.org/10233.png",
+      "area": {
+        "id": 2017,
+        "name": "Azerbaijan",
+        "code": "AZE",
+        "flag": null
+      },
+      "competitionCodes": [
+        "CL"
       ]
     },
     {
@@ -2774,6 +2758,22 @@
       ]
     },
     {
+      "id": 1887,
+      "name": "FK Shakhtar Donetsk",
+      "shortName": "Shaktar",
+      "tla": "SHD",
+      "crest": "https://crests.football-data.org/1887.png",
+      "area": {
+        "id": 2253,
+        "name": "Ukraine",
+        "code": "UKR",
+        "flag": "https://crests.football-data.org/790.svg"
+      },
+      "competitionCodes": [
+        "CL"
+      ]
+    },
+    {
       "id": 356,
       "name": "Sheffield United FC",
       "shortName": "Sheffield Utd",
@@ -2818,8 +2818,23 @@
         "flag": "https://crests.football-data.org/765.svg"
       },
       "competitionCodes": [
-        "CL",
         "PPL"
+      ]
+    },
+    {
+      "id": 7509,
+      "name": "ŠK Slovan Bratislava",
+      "shortName": "Sl. Bratislava",
+      "tla": "SBA",
+      "crest": "https://crests.football-data.org/7509.png",
+      "area": {
+        "id": 2214,
+        "name": "Slovakia",
+        "code": "SVK",
+        "flag": "https://crests.football-data.org/768.svg"
+      },
+      "competitionCodes": [
+        "CL"
       ]
     },
     {
@@ -2980,7 +2995,8 @@
         "flag": "https://crests.football-data.org/759.svg"
       },
       "competitionCodes": [
-        "BL1"
+        "BL1",
+        "CL"
       ]
     },
     {
@@ -3092,7 +3108,6 @@
         "flag": "https://crests.football-data.org/770.svg"
       },
       "competitionCodes": [
-        "CL",
         "PL"
       ]
     },
@@ -3209,22 +3224,6 @@
       ]
     },
     {
-      "id": 3929,
-      "name": "Royale Union Saint-Gilloise",
-      "shortName": "Union SG",
-      "tla": "USG",
-      "crest": "https://crests.football-data.org/3929.png",
-      "area": {
-        "id": 2023,
-        "name": "Belgium",
-        "code": "BEL",
-        "flag": "https://crests.football-data.org/805.svg"
-      },
-      "competitionCodes": [
-        "CL"
-      ]
-    },
-    {
       "id": 758,
       "name": "Uruguay",
       "shortName": "Uruguay",
@@ -3318,6 +3317,22 @@
       },
       "competitionCodes": [
         "SA"
+      ]
+    },
+    {
+      "id": 5720,
+      "name": "Viking FK",
+      "shortName": "Viking",
+      "tla": "VIK",
+      "crest": "https://crests.football-data.org/5720.png",
+      "area": {
+        "id": 2173,
+        "name": "Norway",
+        "code": "NOR",
+        "flag": "https://crests.football-data.org/813.svg"
+      },
+      "competitionCodes": [
+        "CL"
       ]
     },
     {
